@@ -1,0 +1,55 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Event/CustomSphere-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Event/CustomSphere.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
+
+Portrait-portrait-clip-region = 70,0,343,320
+CustomSphere-portrait-clip-region = 320,270,40,40
+BodyIcon-portrait-clip-region = 145,350,124,124
+
+ResourceCost-region = 41,41,50,35
+
+Name-region = 55,84,23,180
+Body-region = 56,331,301,164
+Type-region = 139,500,135,19
+
+Subtype-region = 146,301,124,14
+
+Neutral-template = TheLordOfTheRingsLCG/Event/Neutral-lr.jp2
+Neutral-template-hires = TheLordOfTheRingsLCG/Event/Neutral.jp2
+
+CustomSphere-template = TheLordOfTheRingsLCG/Event/CustomSphere-lr.jp2
+CustomSphere-template-hires = TheLordOfTheRingsLCG/Event/CustomSphere.jp2
+CustomSphere-Body-tintable = TheLordOfTheRingsLCG/Event/CustomSphere-Body.jp2
+CustomSphere-Sphere-tintable = TheLordOfTheRingsLCG/Event/CustomSphere-Sphere.jp2
+
+Leadership-template = TheLordOfTheRingsLCG/Event/Leadership-lr.jp2
+Leadership-template-hires = TheLordOfTheRingsLCG/Event/Leadership.jp2
+
+Spirit-template = TheLordOfTheRingsLCG/Event/Spirit-lr.jp2
+Spirit-template-hires = TheLordOfTheRingsLCG/Event/Spirit.jp2
+
+Tactics-template = TheLordOfTheRingsLCG/Event/Tactics-lr.jp2
+Tactics-template-hires = TheLordOfTheRingsLCG/Event/Tactics.jp2
+
+Lore-template = TheLordOfTheRingsLCG/Event/Lore-lr.jp2
+Lore-template-hires = TheLordOfTheRingsLCG/Event/Lore.jp2
+
+Baggins-template = TheLordOfTheRingsLCG/Event/Baggins-lr.jp2
+Baggins-template-hires = TheLordOfTheRingsLCG/Event/Baggins.jp2
+
+Fellowship-template = TheLordOfTheRingsLCG/Event/Fellowship-lr.jp2
+Fellowship-template-hires = TheLordOfTheRingsLCG/Event/Fellowship.jp2
+
+Mastery-template = TheLordOfTheRingsLCG/Event/Mastery-lr.jp2
+Mastery-template-hires = TheLordOfTheRingsLCG/Event/Mastery.jp2
+
+Boon-template = TheLordOfTheRingsLCG/Event/Boon-lr.jp2
+Boon-template-hires = TheLordOfTheRingsLCG/Event/Boon.jp2
+Boon-Name-region = 104,166,50,364
+Boon-ResourceCost-region = 82,82,100,70

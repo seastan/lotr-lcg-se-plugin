@@ -1,0 +1,58 @@
+id = CATALOGUEID{6a986b9f-11a6-4e6e-bec9-c9f60455b979:2021-1-1-17-44-2-78}
+
+priority = EXPANSION
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, player
+catalog-name_es_ES = El Señor de los Anillos LCG, jugador
+catalog-name_it_IT = Il Signore degli Anelli LCG, giocatore
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.\n<p>This \
+    expansion includes these player cards:</p>\n<ul>\n<li><b>Hero:</b> Custom \
+    sphere, Neutral, Leadership, Lore, Spirit, Tactics, Baggins, Fellowship, \
+    Mastery\n<li><b>Ally:</b> Custom sphere, Neutral, Leadership, Lore, Spirit, \
+    Tactics, Baggins, Fellowship, Mastery\n<li><b>Attachment:</b> Custom sphere, \
+    Neutral, Leadership, Lore, Spirit, Tactics, Baggins, Fellowship, Mastery, \
+    Boon\n<li><b>Event:</b> Custom sphere, Neutral, Leadership, Lore, Spirit, \
+    Tactics, Baggins, Fellowship, Mastery, Boon\n<li><b>Contract</b>\n<li><b>Player \
+    Side Quest</b>\n<li><b>Treasure</b>\n</ul>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p>\n<p>Esta expansión incluye las siguientes cartas de \
+    jugador:</p>\n<ul>\n<li><b>Héroe:</b> Personalizada, Neutral, Liderazgo, Saber, \
+    Espíritu, Táctica, Bolsón, Comunidad, Maestría\n<li><b>Aiado:</b> Personalizada, \
+    Neutral, Liderazgo, Saber, Espíritu, Táctica, Bolsón, Comunidad, \
+    Maestría\n<li><b>Vinculada:</b> Personalizada, Neutral, Liderazgo, Saber, \
+    Espíritu, Táctica, Bolsón, Comunidad, Maestría, Ayuda\n<li><b>Evento:</b> \
+    Personalizada, Neutral, Liderazgo, Saber, Espíritu, Táctica, Bolsón, Comunidad, \
+    Maestría\n<li><b>Tesoro</b>\n</ul>\n<p>Y las siguientes cartas de jugador no \
+    oficiales:</p>\n<ul>\n<li><b>Don:</b> Personalizada, Neutral, Liderazgo, Saber, \
+    Espíritu, Táctica, Bolsón, Comunidad, Maestría\n<li><b>Refugio</b>\n</ul>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questa espansione include le seguenti carte per il mazzo del \
+    giocatore:</p>\n<ul>\n<li><b>Eroe:</b> Sfera d'influenza personalizzata, \
+    Neutrale, Comando, Sapere, Spirito, Tattica, Baggins, Compagnia, \
+    Mastery\n<li><b>Alleato:</b> Sfera d'influenza personalizzata, Neutrale, \
+    Comando, Sapere, Spirito, Tattica, Baggins, Compagnia, \
+    Mastery\n<li><b>Aggregato:</b> Sfera d'influenza personalizzata, Neutrale, \
+    Comando, Sapere, Spirito, Tattica, Baggins, Compagnia, Mastery, \
+    Boon\n<li><b>Evento:</b> Sfera d'influenza personalizzata, Neutrale, Comando, \
+    Sapere, Spirito, Tattica, Baggins, Compagnia, Mastery, \
+    Boon\n<li><b>Tesoro</b>\n<li><b>Side Quest Giocatore</b>\n</ul>\n<p>Questo \
+    add-on include inoltre, le seguenti carte non \
+    ufficiali:</p>\n<ul>\n<li><b>Dono:</b> Sfera d'influenza personalizzata, \
+    Neutrale, Comando, Sapere, Spirito, Tattica, Baggins, Compagnia, \
+    Mastery\n<li><b>Paradiso</b> (work in progress)\n</ul>
+
+catalog-game = LRL
+catalog-tags = beta, component
+catalog-minver = 3970
+catalog-replaces = \
+    CATALOGUEID{6d7fa14a-dfe5-4ca3-8c98-2668500aefd9:2018-8-17-16-18-1-324}
+
+res://TheLordOfTheRingsLCG/LRL-P.js

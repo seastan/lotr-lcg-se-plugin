@@ -1,0 +1,12 @@
+Template = Lore
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Michael C Hayes - Galadriel.jpg
+Portrait-portrait-pany = 50
+CustomSphere-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+BodyIcon-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+Unique = true
+ResourceCost = 3
+Willpower = 1
+Attack = 0
+Defense = 0
+HitPoints = 2
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

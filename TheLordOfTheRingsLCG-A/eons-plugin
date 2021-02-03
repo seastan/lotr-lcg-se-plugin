@@ -1,0 +1,43 @@
+id = CATALOGUEID{df0d64b1-bbb6-4fa7-afbe-acff34d0e402:2021-1-1-17-43-42-221}
+
+priority = EXPANSION
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, accesories
+catalog-name_es_ES = El Señor de los Anillos LCG, accesorios
+catalog-name_it_IT = Il Signore degli Anelli LCG, accessori
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>This \
+    expansion includes non-gaming accesories:</p>\n<ul>\n<li><b>Presentation:</b> \
+    Standard, Nightmare\n<li><b>Quest sheet</b>\n</ul>\n<p>Also these unofficial \
+    accesories are included:</p>\n<ul>\n<li><b>Rules card</b>\n<li><b>Scenario \
+    rules</b>\n<li><b>Encounter Set list</b>\n<li><b>Box divider:</b> Horizontal, \
+    Vertical\n<li><b>Card sized divider</b>\n</ul>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p>\n<p>Esta expansión incluye accesorios que no influyen en el \
+    juego.</p>\n<ul>\n<li><b>Presentación:</b> Estándar, Pesadilla\n<li><b>Hoja de \
+    reglas</b>\n</ul>\n<p>Y estos accesorios no oficiales:</p>\n<ul>\n<li><b>Reglas \
+    de Escenario</b>\n<li><b>Carta de Reglas</b>\n<li><b>List de conjunto de \
+    Encuentros</b>\n<li><b>Separador para cajas:</b> Horizontal, \
+    Vertical\n<li><b>Separador tamaño carta</b>\n</ul>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questa espansione non include accessori da \
+    gioco.</p>\n<ul>\n<li><b>Presentazione:</b> Standard, Nightmare\n<li><b>Foglio \
+    Quest</b>\n</ul>\n<p>Sono inoltre inclusi questi accessori non \
+    ufficiali:</p>\n<ul>\n<li><b>Regole dello Scenario</b>\n<li><b>Regole delle \
+    Carte</b>\n<li><b>Lista Mazzo Incontri</b>\n<li><b>Divisori per Carte: \
+    Orizzontali, Verticali</b>\n</ul>
+
+catalog-game = LRL
+catalog-tags = beta, component
+catalog-minver = 3970
+catalog-replaces = \
+    CATALOGUEID{1221fe8f-c7f1-4244-b3a3-ef05e2daf95c:2018-3-24-18-44-22-917}
+
+res://TheLordOfTheRingsLCG/LRL-A.js

@@ -1,0 +1,172 @@
+# Game icons used in the components
+# 
+# To simplify adding new icons, avoiding the need to touch the plugin scripts too much,
+# all icons are refered through settings. A three level tree structure is used:
+# 	Top: release type, game variant or other type of relation. This is the only list
+#		that is included in the plugin code (in LRL.js), and it references the 
+# 		"$xxx-Collection-list"s
+#		TheLordOfTheRingsLCG: Core set and deluxe boxes, plus their dependant cycles
+#		SagaBox: Saga boxes
+#		PrintOnDemand: Print on Demand releases
+#		OtherOfficial: OtherOfficial releases
+#		TalesFromTheCards: blogs' First Age releases. These are unofficial expansions.
+#		OtherUnofficial: Unofficial releases
+# 	Middle: Collection icons refered by the Top relations
+# 	Low: Encounter Set icons refered by the Middle relations
+# Thus, when creating the Collection icon list, GameObject's GameCollectionList is checked for each
+# $refered-Collection-list.
+# To create the Encounter Set icon list, each $refered-Collection-list list is checked for each
+# $refered-EncounterSet-list.
+#
+# For each Collection, there are 2 tint settings. They are used in the CardDivider
+# component, and resemble the colors used in their product package.
+
+TheLordOfTheRingsLCG-ProductGroup-list = TheLordOfTheRingsLCG,SagaBox,PrintOnDemand,CustomScenarioKit,OtherOfficial,TalesFromTheCards,OtherUnofficial
+TheLordOfTheRingsLCG-Sphere-list = 	Leadership,Lore,Spirit,Tactics,Neutral,Baggins,Fellowship,Mastery
+
+TheLordOfTheRingsLCG-Collection-list = CoreSet,ShadowsOfMirkwood,KhazadDum,Dwarrowdelf,HeirsOfNumenor,AgainstTheShadow,TheVoiceOfIsengard,TheRingMaker,TheLostRealm,AngmarAwakened,TheGreyHavens,DreamChaser,TheSandsOfHarad,TheHaradrim
+CoreSet-EncounterSet-list = DolGuldurOrcs,EscapeFromDolGuldur,JourneyDownTheAnduin,PassageThroughMirkwood,SauronsReach,SpidersOfMirkwood,Wilderlands
+CoreSet-tint = 10.0,1.0,0.6
+CoreSet-out-tint = 0.0,0.9,0.8
+ShadowsOfMirkwood-EncounterSet-list = AJourneyToRhosgobel,ConflictAtTheCarrock,TheHuntForGollum,ReturnToMirkwood,TheDeadMarshes,TheHillsOfEmynMuil
+ShadowsOfMirkwood-tint = 150.0,0.7,0.35
+ShadowsOfMirkwood-out-tint = 30.0,0.3,0.3
+KhazadDum-EncounterSet-list = DeepsOfMoria,FlightFromMoria,GoblinsOfTheDeep,HazardsOfThePit,IntoThePit,MistyMountains,PlunderingGoblins,TheSeventhLevel,TwistsAndTurns
+KhazadDum-tint = 25.0,0.6,0.5
+KhazadDum-out-tint = 180.0,0.1,0.2
+Dwarrowdelf-EncounterSet-list = FoundationsOfStone,TheRedhornGate,RoadToRivendell,ShadowAndFlame,TheLongDark,TheWatcherInTheWater
+Dwarrowdelf-tint = 20.0,0.6,0.5
+Dwarrowdelf-out-tint = 20.0,0.1,0.35
+HeirsOfNumenor-EncounterSet-list = Brigands,BroodingForest,CreaturesOfTheForest,IntoIthilien,MordorElite,PerilInPelargir,RavagingOrcs,Southrons,StreetsOfGondor,TheSiegeOfCairAndros
+HeirsOfNumenor-tint = 15.0,0.2,0.7
+HeirsOfNumenor-out-tint = -145.0,0.3,0.8
+AgainstTheShadow-EncounterSet-list = TheStewardsFear,TheDruadanForest,EncounterAtAmonDin,TheAssaultOnOsgiliath,TheBloodOfGondor,TheMorgulVale
+AgainstTheShadow-tint = 15.0,0.2,0.7
+AgainstTheShadow-out-tint = -145.0,0.3,0.8
+TheVoiceOfIsengard-EncounterSet-list = TheFordsOfIsen,ToCatchAnOrc,IntoFangorn,DunlandRaiders,DunlandWarriors,MistyMountainOrcs,BrokenLands,AncientForest,WearyTravellers
+TheVoiceOfIsengard-tint = -70.0,0.35,0.5
+TheVoiceOfIsengard-out-tint = -10.0,0.1,0.9
+TheRingMaker-EncounterSet-list = TheDunlandTrap,TheThreeTrials,TroubleInTharbad,TheNinInEilph,CelebrimborsSecret,TheAntleredCrown
+TheRingMaker-tint = -70.0,0.35,0.5
+TheRingMaker-out-tint = -10.0,0.1,0.9
+TheLostRealm-EncounterSet-list = IntrudersInChetwood,Iarion,EriadorWilds,AngmarOrcs,TheWeatherHills,FoulWeather,RuinsOfArnor,DeadmensDike,DarkSorcery,CursedDead
+TheLostRealm-tint = -120.0,0.1,0.25
+TheLostRealm-out-tint = 10.0,0.25,0.35
+AngmarAwakened-EncounterSet-list = TheWastesOfEriador,EscapeFromMountGram,AcrossTheEttenmoors,TheTreacheryOfRhudaur,TheBattleOfCarnDum,TheDreadRealm
+AngmarAwakened-tint = -120.0,0.1,0.25
+AngmarAwakened-out-tint = 10.0,0.25,0.35
+TheGreyHavens-EncounterSet-list = VoyageAcrossBelegaer,TheFateOfNumenor,RaidOnTheGreyHavens,VastOceans,StormyWeather,UmbarFleet,CorsairPirates,TheDreamChasersFleet,DrownedDead,RuinsOfNumenor,CorsairRaiders,TheStormcallerElite
+TheGreyHavens-tint = -150,0.6,0.4
+TheGreyHavens-out-tint = -10,0.1,0.7
+DreamChaser-EncounterSet-list = FlightOfTheStormcaller,TheThingInTheDepths,TheStormcaller,TempleOfTheDeceived,TheDrownedRuins,AStormOnCobasHaven,TheCityOfCorsairs,CoastOfUmbar
+DreamChaser-tint = -150,0.6,0.4
+DreamChaser-out-tint = -10,0.1,0.7
+TheSandsOfHarad-EncounterSet-list = EscapeFromUmbar,DesertCrossing,TheLongArmOfMordor,HaradSoldiers,HaradTerritory,DesertCreatures,DesertSands,MordorOrcs,JungleForest
+TheSandsOfHarad-tint = 5,0.75,0.55
+TheSandsOfHarad-out-tint = 40,0.4,1
+TheHaradrim-EncounterSet-list =	TheMumakil,RaceAcrossHarad,BeneathTheSands,TheBlackSerpent,TheDungeonsOfCirithGurat,TheCrossingsOfPoros
+TheHaradrim-tint = 5,0.75,0.55
+TheHaradrim-out-tint = 40,0.4,1
+TheWildsOfRhovanion-EncounterSet-list =	JourneyUpTheAnduin,LostInMirkwood,TheKingsQuest,GreyMountainGoblins,HillsOfWilderland,LostInWilderland,DarkWoods,GatheringGloom,FellBeasts,WildCreatures,DeepUnderground,AfraidOfTheDark,DragonMight,LostCaves
+TheWildsOfRhovanion-tint = 10.0,1.0,0.6
+TheWildsOfRhovanion-out-tint = -150,0.6,0.4
+EredMithrin-EncounterSet-list =	TheWitheredHeath,RoamAcrossRhovanion,FireInTheNight,TheGhostOfFramsburg,MountGundabad,TheFateOfWilderland
+EredMithrin-tint = 10.0,1.0,0.6
+EredMithrin-out-tint = -150,0.6,0.4
+AShadowInTheEast-EncounterSet-list = TheRiverRunning,DangerInDorwinion,TempleOfDoom,RidersOfRhun,EasterlingRaiders,RollingPlains,ServantsOfSauron,CityOfRhun,UnderGuard,ThePowerOfMordor,TwistedTunnels,UlchorsGuards
+AShadowInTheEast-tint = -120.0,0.1,0.25
+AShadowInTheEast-out-tint = -150,0.6,0.4
+VengeanceOfMordor-EncounterSet-list = WrathAndRuin,TheCityOfUlfast,ChallengeOfTheWainriders,UnderTheAshMountains,TheLandOfSorrow,TheFortressOfNurn
+VengeanceOfMordor-tint = -120.0,0.1,0.25
+VengeanceOfMordor-out-tint = -150,0.6,0.4
+
+SagaBox-Collection-list = OverHillAndUnderHill,OnTheDoorstep,TheBlackRiders,TheRoadDarkens,TheTreasonOfSaruman,TheLandOfShadow,TheFlameOfTheWest,TheMountainOfFire
+OverHillAndUnderHill-EncounterSet-list = DungeonsDeepAndCavernsDim,MistyMountainGoblins,OverTheMistyMountainsGrim,TheGreatGoblin,WeMustAwayEreBreakOfDay,WesternLands
+OverHillAndUnderHill-tint = 30.0,0.8,0.8
+OverHillAndUnderHill-out-tint = 20.0,0.6,0.4
+OnTheDoorstep-EncounterSet-list = FliesAndSpiders,TheLonelyMountain,TheBattleOfFiveArmies,WilderlandsHobbit
+OnTheDoorstep-tint = 30.0,0.8,0.8
+OnTheDoorstep-out-tint = 20.0,0.6,0.4
+TheBlackRiders-EncounterSet-list = AKnifeInTheDark,AShadowOfThePast,FlightToTheFord,Hunted,TheBlackRidersSet,TheNazgul,TheRing
+TheBlackRiders-tint = 135.0,0.55,0.5
+TheBlackRiders-out-tint = 65.0,0.15,0.3
+TheRoadDarkens-EncounterSet-list = TheRingGoesSouth,JourneyInTheDark,BreakingOfTheFellowship
+TheRoadDarkens-tint = 135.0,0.55,0.5
+TheRoadDarkens-out-tint = 65.0,0.15,0.3
+TheTreasonOfSaruman-EncounterSet-list = TheUrukHai,OrcsOfTheWhiteHand,SnagaOrcs,HelmsDeep,TheRoadToIsengard
+TheTreasonOfSaruman-tint = 15.0,0.85,0.55
+TheTreasonOfSaruman-out-tint = -120.0,0.35,0.3
+TheLandOfShadow-EncounterSet-list = ThePassageOfTheMarshes,Gollum,MorgulNazgul,JourneyToTheCrossroads,MenOfHarad,ShelobsLair,TheGreatSpider
+TheLandOfShadow-tint = 15.0,0.85,0.55
+TheLandOfShadow-out-tint = -120.0,0.35,0.3
+TheFlameOfTheWest-EncounterSet-list = ThePassingOfTheGreyCompany,TheSiegeOfGondor,TheBattleOfThePelennorFields
+TheFlameOfTheWest-tint = 0.0,0.85,0.65
+TheFlameOfTheWest-out-tint = 10.0,0.3,0.3
+TheMountainOfFire-EncounterSet-list = TheTowerOfCirithUngol,TheBlackGateOpens,MountDoom,OrcsOfMordor,DeepShadows,TheMountainOfFireEpic
+TheMountainOfFire-tint = 0.0,0.85,0.65
+TheMountainOfFire-out-tint = 10.0,0.3,0.3
+
+PrintOnDemand-Collection-list = TheBattleOfLakeTown,TheMassingAtOsgiliath,TheStoneOfErech,TheOldForest,FogOnTheBarrowDowns,TheRuinsOfBelegost,MurderAtThePrancingPony,TheSiegeOfAnnuminas,AttackOnDolGuldur,TheHuntForTheDreadnaught
+TheBattleOfLakeTown-EncounterSet-list = TheBattleOfLakeTownSet
+TheBattleOfLakeTown-tint = -160.0,0.4,0.3
+TheBattleOfLakeTown-out-tint = 35.0,0.5,0.5
+TheMassingAtOsgiliath-EncounterSet-list = TheMassingAtOsgiliathSet
+TheMassingAtOsgiliath-tint = -160.0,0.4,0.3
+TheMassingAtOsgiliath-out-tint = 35.0,0.5,0.5
+TheStoneOfErech-EncounterSet-list = TheStoneOfErechSet
+TheStoneOfErech-tint = 180.0,0.4,0.4
+TheStoneOfErech-out-tint = 35.0,0.5,0.5
+TheOldForest-EncounterSet-list = TheOldForestSet
+TheOldForest-tint = 130.0,0.5,0.3
+TheOldForest-out-tint = 35.0,0.5,0.5
+FogOnTheBarrowDowns-EncounterSet-list = FogOnTheBarrowDownsSet
+FogOnTheBarrowDowns-tint = 130.0,0.5,0.3
+FogOnTheBarrowDowns-out-tint = 35.0,0.5,0.5
+MurderAtThePrancingPony-EncounterSet-list = MurderAtThePrancingPonySet
+MurderAtThePrancingPony-tint = -130.0,0.5,0.35
+MurderAtThePrancingPony-out-tint = 35.0,0.5,0.5
+TheRuinsOfBelegost-EncounterSet-list = TheRuinsOfBelegostSet
+TheRuinsOfBelegost-tint = -130.0,0.5,0.35
+TheRuinsOfBelegost-out-tint = 35.0,0.5,0.5
+TheSiegeOfAnnuminas-EncounterSet-list = TheSiegeOfAnnuminasSet
+TheSiegeOfAnnuminas-tint = 0.0,0.8,0.4
+TheSiegeOfAnnuminas-out-tint = 35.0,0.5,0.5
+AttackOnDolGuldur-EncounterSet-list = AttackOnDolGuldurSet
+AttackOnDolGuldur-tint = 0.0,0.8,0.4
+AttackOnDolGuldur-out-tint = 35.0,0.5,0.5
+TheHuntForTheDreadnaught-EncounterSet-list = TheHuntForTheDreadnaughtSet
+TheHuntForTheDreadnaught-tint = 0.0,0.0,0.0
+TheHuntForTheDreadnaught-out-tint = 0.0,0.0,0.0
+
+#Custom Quest Kit
+CustomScenarioKit-Collection-list = TheWoodlandRealm,TheWizardsQuest,TheMinesOfMoria,EscapeFromKhazadDum
+TheWoodlandRealm-EncounterSet-list = TheWoodlandRealmSet
+TheWoodlandRealm-tint = 0.0,0.0,0.0
+TheWoodlandRealm-out-tint = 0.0,0.0,0.0
+TheWizardsQuest-EncounterSet-list = TheWizardsQuestSet
+TheWizardsQuest-tint = 0.0,0.0,0.0
+TheWizardsQuest-out-tint = 0.0,0.0,0.0
+TheMinesOfMoria-EncounterSet-list = TheMinesOfMoriaSet
+TheMinesOfMoria-tint = 0.0,0.0,0.0
+TheMinesOfMoria-out-tint = 0.0,0.0,0.0
+EscapeFromKhazadDum-EncounterSet-list = EscapeFromKhazadDumSet
+EscapeFromKhazadDum-tint = 0.0,0.0,0.0
+EscapeFromKhazadDum-out-tint = 0.0,0.0,0.0
+
+OtherOfficial-Collection-list = TwoPlayerLimitedEditionStarter
+TwoPlayerLimitedEditionStarter-EncounterSet-list = TheOath,TheCavesOfNibinDum,TheGoblins
+TwoPlayerLimitedEditionStarter-tint = 0.0,0.0,0.0
+TwoPlayerLimitedEditionStarter-out-tint = 0.0,0.0,0.0
+
+TalesFromTheCards-Collection-list = FirstAge,DoomMastered
+FirstAge-EncounterSet-list = TheIsleOfWerewolves,TheSeatOfMorgoth,HuntingOfTheWolf
+FirstAge-tint = -160.0,0.6,0.4
+FirstAge-out-tint = -160.0,0.1,0.25
+DoomMastered-EncounterSet-list = TrialUponTheMarches,AmongTheOutlaws,BetrayalOfMim,TheFallOfNargothrond
+DoomMastered-tint = -160.0,0.6,0.4
+DoomMastered-out-tint = -160.0,0.1,0.25
+
+OtherUnofficial-Collection-list = SusurrosDelBosqueViejo
+SusurrosDelBosqueViejo-EncounterSet-list = SusurrosDelBosqueViejo
+SusurrosDelBosqueViejo-tint = 0.0,0.0,0.0
+SusurrosDelBosqueViejo-out-tint = 0.0,0.0,0.0

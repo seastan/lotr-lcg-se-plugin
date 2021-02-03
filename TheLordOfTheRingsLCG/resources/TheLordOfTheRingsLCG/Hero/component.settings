@@ -1,0 +1,53 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Hero/CustomSphere-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Hero/CustomSphere.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
+
+Portrait-portrait-clip-region = 89,0,319,324
+CustomSphere-portrait-clip-region = 46,481,36,36
+BodyIcon-portrait-clip-region = 145,363,124,124
+
+ThreatCost-region = 75,50,36,24
+Willpower-region = 73,118,15,15
+Attack-region = 73,158,15,15
+Defense-region = 73,200,15,15
+HitPoints-region = 67,269,54,40
+
+Name-region = 100,324,224,24
+Body-region = 56,357,301,137
+Type-region = 139,501,135,18
+
+Sphere-Body-shape = 0,0,477,40,0
+
+Neutral-template = TheLordOfTheRingsLCG/Hero/Neutral-lr.jp2
+Neutral-template-hires = TheLordOfTheRingsLCG/Hero/Neutral.jp2
+
+CustomSphere-template = TheLordOfTheRingsLCG/Hero/CustomSphere-lr.jp2
+CustomSphere-template-hires = TheLordOfTheRingsLCG/Hero/CustomSphere.jp2
+CustomSphere-Body-tintable = TheLordOfTheRingsLCG/Hero/CustomSphere-Body.jp2
+
+Leadership-template = TheLordOfTheRingsLCG/Hero/Leadership-lr.jp2
+Leadership-template-hires = TheLordOfTheRingsLCG/Hero/Leadership.jp2
+
+Spirit-template = TheLordOfTheRingsLCG/Hero/Spirit-lr.jp2
+Spirit-template-hires = TheLordOfTheRingsLCG/Hero/Spirit.jp2
+
+Tactics-template = TheLordOfTheRingsLCG/Hero/Tactics-lr.jp2
+Tactics-template-hires = TheLordOfTheRingsLCG/Hero/Tactics.jp2
+
+Lore-template = TheLordOfTheRingsLCG/Hero/Lore-lr.jp2
+Lore-template-hires = TheLordOfTheRingsLCG/Hero/Lore.jp2
+
+Baggins-template = TheLordOfTheRingsLCG/Hero/Baggins-lr.jp2
+Baggins-template-hires = TheLordOfTheRingsLCG/Hero/Baggins.jp2
+
+Fellowship-template = TheLordOfTheRingsLCG/Hero/Fellowship-lr.jp2
+Fellowship-template-hires = TheLordOfTheRingsLCG/Hero/Fellowship.jp2
+
+Mastery-template = TheLordOfTheRingsLCG/Hero/Mastery-lr.jp2
+Mastery-template-hires = TheLordOfTheRingsLCG/Hero/Mastery.jp2

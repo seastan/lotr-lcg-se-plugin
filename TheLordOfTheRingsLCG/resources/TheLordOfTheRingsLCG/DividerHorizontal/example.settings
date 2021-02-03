@@ -1,0 +1,9 @@
+Template = Encounter
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Caspar David Friedrich - Abtei im Eichwald.jpg
+Artist = Caspar David Friedrich
+Collection = CoreSet
+EncounterSet = EscapeFromDolGuldur
+Layout = Title
+IconSwap = false
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

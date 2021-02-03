@@ -1,0 +1,29 @@
+id = CATALOGUEID{550abfcc-2f1c-4493-85cb-b1498c31baf8:2021-1-1-17-43-49-263}
+
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, base
+catalog-name_es_ES = El Señor de los Anillos LCG, base
+catalog-name_it_IT = Il Signore degli Anelli LCG, base
+
+catalog-credit = Karagh
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>This \
+    add-on includes fonts and graphics used in the plug-in.</p>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p>\n<p>Este añadido incluye las fuentes y gráficos utilizados en el \
+    complemento.</p>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questo add-on include i fonts e graphics usati nel plug-in.</p>
+
+catalog-game = LRL
+catalog-tags = beta, tool
+catalog-minver = 3970
+catalog-replaces = \
+    CATALOGUEID{eabe956c-f059-4cbc-9861-562bf8f50e68:2014-7-27-0-34-9-176}
+
+res://TheLordOfTheRingsLCG/LRL-B.js

@@ -1,0 +1,34 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Treachery/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Treachery/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Encounter-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Encounter.jp2
+
+Portrait-portrait-clip-region = 70,0,343,327
+EncounterSet-portrait-clip-region = 324,272,36,36
+
+Difficulty-region = 315,263,52,52
+EncounterSetNumber-region = 330,316,24,12
+
+Name-region = 53,103,23,175
+Body-region = 57,336,299,157
+Type-region = 135,502,144,17
+OptionSpecial-portrait-clip-region = 55,494,24,24
+
+Subtype-region = 159,304,100,13
+
+Burden-Body-region = 63,322,286,169
+Burden-Body-shape = 51,51,344,0,0
+
+Standard-template = TheLordOfTheRingsLCG/Treachery/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Treachery/Standard.jp2
+
+Nightmare-template = TheLordOfTheRingsLCG/Treachery/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/Treachery/Nightmare.jp2
+
+Burden-template = TheLordOfTheRingsLCG/Treachery/Burden-lr.jp2
+Burden-template-hires = TheLordOfTheRingsLCG/Treachery/Burden.jp2

@@ -1,0 +1,22 @@
+Collection-portrait-clip-region = 322,512,12,12
+EncounterSet-portrait-clip-region = 44,58,36,36
+Portrait-portrait-clip-region = 0,0,375,525
+
+Progress-region = 37,268,36,24
+Threat-region = 40,73,16,16
+Body-Title-region = 0,0,0,0
+Body-Small-region = 40,426,294,50
+Body-Medium-region = 40,406,294,70
+Body-Big-region = 40,386,294,90
+OptionLeft-region = 98,1014,118,18
+OptionLeftDecoration-region = 84,1006,145,35
+OptionRight-region = 612,1014,118,18
+OptionRightDecoration-region = 598,1006,145,35
+
+Artist-region = 19,511,109,14
+CollectionInfo-region = 247,511,72,14
+CollectionNumber-region = 337,511,19,14
+Copyright-region = 130,511,115,14
+Deco-region = 37,51,52,52
+Name-region = 82,20,208,24
+Type-region = 118,488,138,18

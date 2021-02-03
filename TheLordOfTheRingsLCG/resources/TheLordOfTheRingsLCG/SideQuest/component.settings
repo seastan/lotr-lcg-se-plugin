@@ -1,0 +1,37 @@
+Template-region = 0,0,563,413
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/SideQuest/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/SideQuest/Standard.jp2
+
+TemplateBack-region = 0,0,563,413
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/EncounterHorizontal-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/EncounterHorizontal.jp2
+
+Portrait-portrait-clip-region = 0,0,563,413
+EncounterSet-portrait-clip-region = 481,189,36,36
+
+Difficulty-region = 473,180,52,52
+EncounterSetNumber-region = 487,229,24,12
+
+Name-region = 90,39,381,27
+Progress-region = 52,203,36,24
+Body-region = 49,244,463,123
+
+Option-Body-shape = 0,0,354,0,58
+
+OptionRight-region = 463,357,59,9
+OptionRightDecoration-region = 456,354,72,17
+
+Artist-region = 38,377,100,12
+Copyright-region = 139,377,287,12
+CollectionInfo-region = 426,377,70,12
+Collection-portrait-clip-region = 497,377,12,12
+CollectionNumber-region = 510,377,15,12
+
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLfont}
+Name-pointsize = 12
+Name-colour = #000000
+
+Standard-template = TheLordOfTheRingsLCG/SideQuest/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/SideQuest/Standard.jp2

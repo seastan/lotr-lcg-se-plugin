@@ -1,0 +1,49 @@
+id = CATALOGUEID{30d37f1e-825a-41da-ace1-50c04616a254:2021-1-1-17-43-55-495}
+
+priority = EXPANSION
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, encounter
+catalog-name_es_ES = El Señor de los Anillos LCG, encuentro
+catalog-name_it_IT = Il Signore degli Anelli LCG, Incontri
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.\n<p>This \
+    expansion includes these Encounter deck components:\n<ul>\n<li><b>Enemy:</b> \
+    Standard, Easy, Nightmare, Ship, custom\n<li><b>Location:</b> Standard, Easy, \
+    Nightmare, custom\n<li><b>Treachery:</b> Standard, Easy, Nightmare, Burden, \
+    custom\n<li><b>Objective:</b> Standard, Easy, Burden, \
+    custom\n<li><b>Objective-Ally:</b> Standard, Easy, Ship, Boon, \
+    custom\n<li><b>Side Quest</b>\n</ul>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p>\n<p>Esta expansión incluye las siguientes cartas de \
+    Encuentro:</p>\n<ul>\n<li><b>Enemigo:</b> Estándar, Pesadilla, Barco, Fácil, \
+    Dificultad personalizada\n<li><b>Lugar:</b> Estándar, Pesadilla, Fácil, \
+    Dificultad personalizada\n<li><b>Traición:</b> Estándar, Pesadilla, Carga, \
+    Fácil, Dificultad personalizada\n<li><b>Objectivo:</b> Estándar, Carga, El \
+    Anillo Único, Fácil, Dificultad personalizada\n<li><b>Objectivo-Aliado:</b> \
+    Estándar, Ayuda, Barco, Fácil, Dificultad personalizada\n<li><b>Misión \
+    alternativa</b>\n</ul>\n<p>Ésta expansión tambien incluye la siguiente carta no \
+    oficial:</p>\n<ul>\n<li><b>Presencia</b>\n</ul>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questa espansione include i seguenti componenti per il Mazzo \
+    Incontri:</p>\n<ul>\n<li><b>Nemico:</b> Standard, Personalizzato, Oro, \
+    Nightmare\n<li><b>Luogo:</b> Standard, Personalizzato, Oro, \
+    Nightmare\n<li><b>Perfidia:</b> Standard, Personalizzato, Oro, Nightmare, \
+    Burden\n<li><b>Obiettivo:</b> Standard, Oro, \
+    Burden\n<li><b>Obiettivo-Alleato:</b> Standard, Boon\n<li><b>Quest Mazzo \
+    Incontri</b>\n</ul>\n<p>Questo add-on include inoltre, le seguenti carte non \
+    ufficiali:</p>\n<ul>\n<li><b>Presenza</b> (work in progress)\n</ul>
+
+catalog-game = LRL
+catalog-tags = component, beta
+catalog-minver = 3970
+catalog-replaces = \
+    CATALOGUEID{3920d77a-0d34-4d61-a4cb-7f6517ce8b60:2018-3-24-18-44-35-158}
+
+res://TheLordOfTheRingsLCG/LRL-E.js

@@ -1,0 +1,37 @@
+Template-region = 0,0,1250,1650
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/QuestSheet/Standard-lr.png
+Template-template-hires = TheLordOfTheRingsLCG/QuestSheet/Standard.png
+
+Collection-portrait-clip-region = 58,176,40,40
+CollectionBis-portrait-clip-region = 1152,176,40,40
+Portrait-portrait-clip-region = 128,1000,1000,524
+
+EncounterSet-portrait-clip-region = 313,468,36,36
+EncounterSet1-portrait-clip-region = 380,468,36,36
+EncounterSet2-portrait-clip-region = 246,468,36,36
+EncounterSet3-portrait-clip-region = 447,468,36,36
+EncounterSet4-portrait-clip-region = 179,468,36,36
+EncounterSet5-portrait-clip-region = 514,468,36,36
+
+Adapter-corrector = 34
+Adapter-region = 130,448,470,78
+GameLogo-region = 90,100,540,320
+Page-odd-region = 1144,1541,54,40
+Page-even-region = 51,1539,54,40
+
+CampaignColourTL-region = 53,58,50,50
+CampaignColourTR-region = 1148,59,50,50
+CampaignColourBL-region = 53,1533,50,50
+CampaignColourBR-region = 1146,1535,50,50
+
+Artist-region = 443,1512,362,28
+BodyLeft-region = 128,120,480,1386
+BodyRight-region = 644,120,480,1386
+GameName-region = 118,204,496,148
+Name-region = 118,396,496,50
+Copyright-region = 120,1512,320,28
+CollectionInfo-region = 808,1512,320,28
+
+QuestSheet-template = TheLordOfTheRingsLCG/QuestSheet/Standard-lr.png
+QuestSheet-template-hires = TheLordOfTheRingsLCG/QuestSheet/Standard.png

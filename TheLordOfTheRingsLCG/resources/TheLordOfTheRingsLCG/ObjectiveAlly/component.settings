@@ -1,0 +1,42 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/ObjectiveAlly/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Encounter-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Encounter.jp2
+
+Portrait-portrait-clip-region = 0,65,413,258
+EncounterSet-portrait-clip-region = 318,263,36,36
+
+Difficulty-region = 309,254,52,52
+EncounterSetNumber-region = 324,307,24,12
+
+Willpower-region = 70,104,15,15
+Attack-region = 70,151,15,15
+Defense-region = 70,195,15,15
+HitPoints-region = 62,263,54,40
+
+Name-region = 59,36,295,25
+Body-region = 64,324,285,169
+Type-region = 135,502,144,17
+OptionSpecial-portrait-clip-region = 75,494,24,24
+
+Adventure-region = 67,71,276,15
+Subtype-region = 144,300,128,15
+
+OptionLeft-region = 58,507,59,9
+OptionLeftDecoration-region = 51,503,72,17
+OptionRight-region = 297,507,59,9
+OptionRightDecoration-region = 290,503,72,17
+
+Standard-template = TheLordOfTheRingsLCG/ObjectiveAlly/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Standard.jp2
+
+Ship-template = TheLordOfTheRingsLCG/ObjectiveAlly/Ship-lr.jp2
+Ship-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Ship.jp2
+
+Boon-template = TheLordOfTheRingsLCG/ObjectiveAlly/Boon-lr.jp2
+Boon-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Boon.jp2

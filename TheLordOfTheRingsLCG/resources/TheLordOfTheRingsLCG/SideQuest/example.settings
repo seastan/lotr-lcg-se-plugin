@@ -1,0 +1,10 @@
+Template = Standard
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Caspar David Friedrich - Abtei im Eichwald.jpg
+Progress = 4
+Artist = Caspar David Friedrich
+CollectionNumber = 0
+EncounterSetNumber = 1
+EncounterSetTotal = 9
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+PortraitShadow = false

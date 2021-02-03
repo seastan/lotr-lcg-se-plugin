@@ -1,0 +1,33 @@
+id = CATALOGUEID{eabe956c-f059-4cbc-9861-562bf8f50e68:2021-1-1-17-43-57-78}
+
+priority = HIGH
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, icons
+catalog-name_es_ES = El Señor de los Anillos LCG, iconos
+catalog-name_it_IT = Il Signore degli Anelli LCG, icone
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>This \
+    add-on includes Encounter Set and Collection icons:</p>\n<ul>\n<li><b>Encounter \
+    Set:</b> Up to Vengeance of Mordor cycle included.\n<li><b>Collection:</b> Up to \
+    Vengeance of Mordor cycle included.\n</ul>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.\n<p>Este añadido incluye los iconos de Encuentro y \
+    Colección.\n<ul>\n<li><b>Conjuntos de Encuentro:</b> Hasta Cazador de \
+    Sueños.\n<li><b>Colección:</b> Hasta Cazador de Sueños.\n</ul>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questo add-on include icone del Mazzo \
+    Incontri.</p>\n<ul>\n<li><b>Mazzo Incontri:</b> Da The Dream-chaser cycle \
+    included.\n<li><b>Collection:</b> fino a The Dream-chaser cycle included.\n</ul>
+
+catalog-game = LRL
+catalog-tags = beta, tool
+catalog-minver = 3970
+
+res://TheLordOfTheRingsLCG/LRL-I.js

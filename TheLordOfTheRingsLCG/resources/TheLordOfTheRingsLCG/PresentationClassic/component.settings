@@ -1,0 +1,83 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/PresentationClassic/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack.jp2
+
+Portrait-portrait-clip-region = 0,140,413,285
+BackgroundBack-portrait-clip-region = 0,0,413,563
+
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLwindlass}
+Name-pointsize = 20
+Name-colour = #FFFFFF
+Name-alignment = middle,center
+
+Page-region = 280,528,59,10
+PageDecoration-region = 273,525,73,18
+PageIn-region = 300,495,63,15
+
+Name-region = 50,423,313,102
+Name-portrait-clip-region = 50,423,313,102
+Name-stroke = Medium
+Name-stroke-width = 2
+Name-stroke-colour = #F0000000
+
+GameName-region = 50,38,313,130
+GameName-portrait-clip-region = 50,38,313,130
+GameName-stroke = Medium
+GameName-stroke-width = 2
+GameName-stroke-colour = #F0000000
+
+Body-region = 50,55,313,455
+
+Artist-region = 58,527,85,12
+CollectionInfo-region = 276,527,55,12
+Collection-portrait-clip-region = 332,527,12,12
+CollectionNumber-region = 345,527,15,12
+
+Standard-template = TheLordOfTheRingsLCG/PresentationClassic/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard.jp2
+
+Standard-Blue = TheLordOfTheRingsLCG/PresentationClassic/Standard-Blue-lr.jp2
+Standard-Blue-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Blue.jp2
+
+Standard-Green = TheLordOfTheRingsLCG/PresentationClassic/Standard-Green-lr.jp2
+Standard-Green-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Green.jp2
+
+Standard-Purple = TheLordOfTheRingsLCG/PresentationClassic/Standard-Purple-lr.jp2
+Standard-Purple-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Purple.jp2
+
+Standard-Red = TheLordOfTheRingsLCG/PresentationClassic/Standard-Red-lr.jp2
+Standard-Red-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Red.jp2
+
+Standard-Brown = TheLordOfTheRingsLCG/PresentationClassic/Standard-Brown-lr.jp2
+Standard-Brown-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Brown.jp2
+
+Standard-Custom = TheLordOfTheRingsLCG/PresentationClassic/Standard-Custom-lr.jp2
+Standard-Custom-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Custom.jp2
+
+StandardBack-template = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-lr.jp2
+StandardBack-template-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack.jp2
+
+StandardBack-Blue = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Blue-lr.jp2
+StandardBack-Blue-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Blue.jp2
+
+StandardBack-Green = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Green-lr.jp2
+StandardBack-Green-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Green.jp2
+
+StandardBack-Purple = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Purple-lr.jp2
+StandardBack-Purple-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Purple.jp2
+
+StandardBack-Red = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Red-lr.jp2
+StandardBack-Red-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Red.jp2
+
+StandardBack-Brown = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Brown-lr.jp2
+StandardBack-Brown-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Brown.jp2
+
+StandardBack-Custom = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Custom-lr.jp2
+StandardBack-Custom-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Custom.jp2
+

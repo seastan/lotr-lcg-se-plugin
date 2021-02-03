@@ -1,0 +1,12 @@
+Template = Standard
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Rochelle Green - helm.jpg
+Unique = true
+Type =
+Subtype =
+Artist = Rochelle Green
+EncounterSetNumber = 1
+EncounterSetTotal = 9
+OptionSpecial = Empty
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+Custom-tint = 50.0,0.8,1.0

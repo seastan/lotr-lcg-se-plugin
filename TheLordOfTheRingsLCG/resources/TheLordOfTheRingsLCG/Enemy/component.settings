@@ -1,0 +1,36 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Enemy/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Enemy/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Encounter-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Encounter.jp2
+
+Portrait-portrait-clip-region = 95,0,318,325
+EncounterSet-portrait-clip-region = 324,269,36,36
+
+Difficulty-region = 316,260,52,52
+EncounterSetNumber-region = 330,313,24,12
+
+Engagement-region = 76,48,36,24
+Threat-region = 74,116,15,15
+Attack-region = 74,156,15,15
+Defense-region = 74,199,15,15
+HitPoints-region = 68,270,54,40
+
+Name-region =88,323,238,24
+Body-region = 56,356,301,137
+Type-region = 135,502,144,18
+OptionSpecial-portrait-clip-region = 55,494,24,24
+
+Standard-template = TheLordOfTheRingsLCG/Enemy/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Enemy/Standard.jp2
+
+Nightmare-template = TheLordOfTheRingsLCG/Enemy/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/Enemy/Nightmare.jp2
+Nightmare-Body-region = 114,714,600,272
+
+Ship-template = TheLordOfTheRingsLCG/Enemy/Ship-lr.jp2
+Ship-template-hires = TheLordOfTheRingsLCG/Enemy/Ship.jp2

@@ -1,0 +1,38 @@
+id = CATALOGUEID{2b26413c-480a-4f0d-8e40-8299e3d567f0:2021-1-1-17-44-6-700}
+
+priority = EXPANSION
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-hidden = depends
+catalog-name = The Lord of the Rings LCG, various
+catalog-name_es_ES = El Señor de los Anillos LCG, varios
+catalog-name_it_IT = Il Signore degli Anelli LCG, varie
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>This \
+    expansion includes componets not belonging to player or encounter \
+    decks:</p>\n<ul>\n<li><b>Quest:</b> Standard, \
+    Nightmare\n<li><b>Campaign</b>\n<li><b>Setup:</b> Nightmare\n</ul>\n<p>This \
+    expansion also includes these unofficial \
+    componets:</p>\n<ul>\n<li><b>Gift</b>\n<li><b>Haven</b>\n<li><b>Presence</b>\n<li\
+    ><b>Occurrence</b>\n</ul>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p>\n<p>Esta expansión incluye componentes que no pertenecen al mazo de \
+    jugador o de encuentro.</p>\n<ul>\n<li><b>Misión:</b> Estándar, \
+    Pesadilla\n<li><b>Campaña</b>\n<li><b>Preparación:</b> Pesadilla\n</ul>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Questa espansione include componenti che non appartengono al \
+    mazzo giocatore o al mazzo incontri.</p>\n<ul>\n<li><b>Quest:</b> Standard, \
+    Nightmare\n<li><b>Campagna</b>\n<li><b>Preparazione:</b> Nightmare\n</ul>
+
+catalog-game = LRL
+catalog-tags = beta, component
+catalog-minver = 3970
+catalog-replaces = \
+    CATALOGUEID{a33a8ec6-00cf-4241-a991-b553e4a8fe36:2018-3-24-18-44-47-414}
+
+res://TheLordOfTheRingsLCG/LRL-V.js

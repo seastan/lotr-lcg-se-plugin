@@ -1,0 +1,41 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Objective/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Objective/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Encounter-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Encounter.jp2
+
+Portrait-portrait-clip-region = 0,65,413,258
+EncounterSet-portrait-clip-region = 318,263,36,36
+
+Difficulty-region = 309,254,52,52
+EncounterSetNumber-region = 324,307,24,12
+
+Name-region = 59,36,295,25
+Body-region = 64,323,285,170
+Type-region = 135,502,144,17
+OptionSpecial-portrait-clip-region = 75,494,24,24
+
+Adventure-region = 67,71,276,15
+Subtype-region = 159,300,100,13
+
+OptionLeft-region = 58,507,59,9
+OptionLeftDecoration-region = 51,503,74,18
+OptionRight-region = 297,507,59,9
+OptionRightDecoration-region = 290,503,74,18
+
+Standard-template = TheLordOfTheRingsLCG/Objective/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Objective/Standard.jp2
+
+Ring-template = TheLordOfTheRingsLCG/Objective/Ring-lr.jp2
+Ring-template-hires = TheLordOfTheRingsLCG/Objective/Ring.jp2
+Ring-tintable = TheLordOfTheRingsLCG/Objective/Ring-Background.jp2
+Ring-tint = 50.0,0.8,1.0
+
+Burden-template = TheLordOfTheRingsLCG/Objective/Burden-lr.jp2
+Burden-template-hires = TheLordOfTheRingsLCG/Objective/Burden.jp2
+Burden-Body-region = 63,322,286,169
+Burden-Body-shape = 51,51,344,0,0

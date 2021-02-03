@@ -1,0 +1,29 @@
+Template-region = 0,0,563,413
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Haven/Neutral-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Haven/Neutral.jp2
+
+TemplateBack-region = 0,0,563,413
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/PlayerHorizontal-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/PlayerHorizontal.jp2
+
+Portrait-portrait-clip-region = 0,0,563,413
+
+Type-region = 362,273,139,16
+TraitOut-format = <size 6><width regular>
+TraitOut-region = 214,68,136,14
+Body-region = 54,300,455,68
+Name-region = 90,39,382,26
+
+Artist-region = 38,377,100,12
+Copyright-region = 139,377,287,12
+CollectionInfo-region = 426,377,70,12
+Collection-portrait-clip-region = 497,377,12,12
+CollectionNumber-region = 510,377,15,12
+
+Neutral-template = TheLordOfTheRingsLCG/Haven/Neutral-lr.jp2
+Neutral-template-hires = TheLordOfTheRingsLCG/Haven/Neutral.jp2
+
+Portrait-shadow-tintable = TheLordOfTheRingsLCG/Presence/shadow-tintable.jp2
+Portrait-shadow = TheLordOfTheRingsLCG/Presence/shadow.jp2

@@ -1,0 +1,61 @@
+Template-region = 0,0,563,463
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/DividerHorizontal/Encounter.jp2
+Template-Bleeding = TheLordOfTheRingsLCG/DividerHorizontal/Bleeding.png
+
+TemplateBack-region = 0,0,563,463
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/DividerHorizontal/Encounter.jp2
+
+Portrait-portrait-clip-region = 43,93,478,328
+Collection-portrait-clip-region = 30,405,16,16
+EncounterSet-portrait-clip-region = 480,405,16,16
+
+Adapter-region = 0,0,525,50
+Icon-Left-region = 71,27,28,28
+Icon-LeftMiddle-region = 202,27,28,28
+Icon-RightMiddle-region = 333,27,28,28
+Icon-Right-region = 464,27,28,28
+Icon-TitleLeft-region = 39,29,28,28
+Icon-TitleRight-region = 364,29,28,28
+Icon-TitleLeft-back-region = 170,29,28,28
+Icon-TitleRight-back-region = 496,29,28,28
+
+Name-region = 82,31,266,22
+Name-back-region = 214,31,266,22
+Artist-region = 150,425,225,18
+
+Encounter-template = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-lr.jp2
+Encounter-template-hires = TheLordOfTheRingsLCG/DividerHorizontal/Encounter.jp2
+Encounter-Left = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-Left.jp2
+Encounter-LeftMiddle = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-LeftMiddle.jp2
+Encounter-RightMiddle = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-RightMiddle.jp2
+Encounter-Right = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-Right.jp2
+Encounter-TitleLeft = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-TitleLeft.jp2
+Encounter-TitleRight = TheLordOfTheRingsLCG/DividerHorizontal/Encounter-TitleRight.jp2
+
+Player-template = TheLordOfTheRingsLCG/DividerHorizontal/Player-lr.jp2
+Player-template-hires = TheLordOfTheRingsLCG/DividerHorizontal/Player.jp2
+Player-Left = TheLordOfTheRingsLCG/DividerHorizontal/Player-Left.jp2
+Player-LeftMiddle = TheLordOfTheRingsLCG/DividerHorizontal/Player-LeftMiddle.jp2
+Player-RightMiddle = TheLordOfTheRingsLCG/DividerHorizontal/Player-RightMiddle.jp2
+Player-Right = TheLordOfTheRingsLCG/DividerHorizontal/Player-Right.jp2
+Player-TitleLeft = TheLordOfTheRingsLCG/DividerHorizontal/Player-TitleLeft.jp2
+Player-TitleRight = TheLordOfTheRingsLCG/DividerHorizontal/Player-TitleRight.jp2
+
+Custom = TheLordOfTheRingsLCG/DividerHorizontal/Custom.jp2
+Template-Cut-Left = TheLordOfTheRingsLCG/DividerHorizontal/Cut-Left.png
+Template-Cut-LeftMiddle = TheLordOfTheRingsLCG/DividerHorizontal/Cut-LeftMiddle.png
+Template-Cut-RightMiddle = TheLordOfTheRingsLCG/DividerHorizontal/Cut-RightMiddle.png
+Template-Cut-Right = TheLordOfTheRingsLCG/DividerHorizontal/Cut-Right.png
+Template-Cut-TitleLeft = TheLordOfTheRingsLCG/DividerHorizontal/Cut-TitleLeft.png
+Template-Cut-TitleRight = TheLordOfTheRingsLCG/DividerHorizontal/Cut-TitleRight.png
+Template-CutBig-Left = TheLordOfTheRingsLCG/DividerHorizontal/CutBig-Left.png
+Template-CutBig-LeftMiddle = TheLordOfTheRingsLCG/DividerHorizontal/CutBig-LeftMiddle.png
+Template-CutBig-RightMiddle = TheLordOfTheRingsLCG/DividerHorizontal/CutBig-RightMiddle.png
+Template-CutBig-Right = TheLordOfTheRingsLCG/DividerHorizontal/CutBig-Right.png
+Template-CutBig-TitleLeft = TheLordOfTheRingsLCG/DividerHorizontal/CutBig-TitleLeft.png
+Template-CutBig-TitleRight = TheLordOfTheRingsLCG/DividerHorizontal/CutBig-TitleRight.png
+Template-Bleeding = TheLordOfTheRingsLCG/DividerHorizontal/Bleeding.png

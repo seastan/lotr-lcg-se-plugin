@@ -1,0 +1,26 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Setup/Nightmare-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Setup/Nightmare.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/Setup/NightmareBack-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/Setup/NightmareBack.jp2
+
+Portrait-portrait-clip-region = 0,77,413,245
+
+EncounterSet-portrait-clip-region = 325,266,37,37
+EncounterSetNumber-region = 331,311,24,12
+
+BodyBack-region = 54,55,305,439
+Body-region = 54,325,305,192
+Name-region = 95,40,225,34
+Type-region = 134,501,143,18
+
+Nightmare-template = TheLordOfTheRingsLCG/Setup/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/Setup/Nightmare.jp2
+
+NightmareBack-template = TheLordOfTheRingsLCG/Setup/NightmareBack-lr.jp2
+NightmareBack-template-hires = TheLordOfTheRingsLCG/Setup/NightmareBack.jp2
+

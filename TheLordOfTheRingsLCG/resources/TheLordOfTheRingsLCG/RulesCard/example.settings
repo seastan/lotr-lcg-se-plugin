@@ -1,0 +1,22 @@
+Template = Standard
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Caspar David Friedrich - Abtei im Eichwald.jpg
+Artist = Caspar David Friedrich
+PageNumber = 0
+PageTotal = 0
+PortraitBackSize = Medium
+EncounterSet = Empty
+EncounterSet1 = Empty
+EncounterSet2 = Empty
+EncounterSet3 = Empty
+EncounterSet4 = Empty
+EncounterSet5 = Empty
+
+TemplateLayout = EncounterSet
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+
+EncounterSet1-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet2-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet3-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet4-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet5-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

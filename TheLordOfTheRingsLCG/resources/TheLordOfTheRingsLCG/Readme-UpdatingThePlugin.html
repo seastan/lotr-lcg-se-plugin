@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>The Lord of the Rings: The Card Game plugin for Strange Eons</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1>The Lord of the Rings: The Card Game plugin for Strange Eons</h1>
+<p>This document explains how the plugin is structured and gives some guide lines on how to maintain.</p>
+<h2>Vocabulary</h2>
+<p>Several important concepts that are used in this document and in the official Strange Eons documentation.</p>
+<ul>
+<li><i>Component:</i> Refers to any individualy editable element related to the game, like a card, a rulesheet or a box divider.
+<li><i>Component editor:</li> Refers to the user interface that is created allowing the user to edit and save a component. 
+<li><i>Template:</i> Refers to the base graphics used by game components, excluding anything rules related and the portrait. For example, an Ally card without rules text, stats, portrait and other stuff like artist name, copyright information and colletion number and icon.
+<li><i>Region:</i> Refers to a defined part in the component where some graphics or text is placed. Each text, stat, portrait and icon uses a specific region.
+<li><i>Setting:</i> Settings are used by the plugin code to define each component. For example, regions are settings, and user interface controls defining anything from template variant to card title or rules are stored as settings. Depending on how we use them in code, settings will be user definable through the component editor and stored in the component file created by the user (for example, stats), or will be used internaly only by the code (for example, regions).
+</ul>
+<h2>Plugin structure</h2>
+<p>All the plugin files are divided in different plugin packages:</p>
+<ul>
+<li><b>TheLordOfTheRingsLCG:</b> <u>Code.</u> Includes the scripts and settings files of every component supported by the plugin, and the user interface and game string files used on translations.
+<li><b>TheLordOfTheRingsLCG-B:</b> <u>Base graphics.</u> Includes graphical elements shared among components. This includes stuff like icons, fonts, stat numbers and example portraits. Also includes some user interface graphics.
+<li><b>TheLordOfTheRingsLCG-I:</b> <u>Icons.</u> Includes Collection and Encounter Set icons and lists.
+<li><b>TheLordOfTheRingsLCG-E:</b> <u>Encounter.</u> Includes graphical elements for the Encounter deck components.
+<li><b>TheLordOfTheRingsLCG-P:</b> <u>Player.</u> Includes graphical elements for the Player components.
+<li><b>TheLordOfTheRingsLCG-V:</b> <u>Various.</u> Includes graphical elements for other game components, like quest and campaign cards.
+<li><b>TheLordOfTheRingsLCG-A:</b> <u>Accesories.</u> Includes graphical elements for non-game components, like rulesheets and storage box dividers.
+<li><b>TheLordOfTheRingsLCG-HD:</b> Includes the graphical elements shared by different components in high definition.
+<li><b>TheLordOfTheRingsLCG-PHD:</b> Includes the graphical elements for the Player components in high definition.
+<li><b>TheLordOfTheRingsLCG-EHD:</b> Includes the graphical elements for the Encounter deck components in high definition.
+<li><b>TheLordOfTheRingsLCG-VHD:</b> Includes the graphical elements for other game components in high definition.
+<li><b>TheLordOfTheRingsLCG-AHD:</b> Includes the graphical elements for non-game components in high definition.
+</ul>
+<p>One important feature of Strange Eons is that it uses a virtual filesystem, where it will "mount" each plugin file. This resulting in a filesystem where files added from diffierent plugins will appear in the same folder (if the same folder structure is used within the plugin). Thus, the graphics from TheLordOfTheRingsLCG-P, the high definition graphics from TheLordOfTheRingsLCG-PHD and the settings from TheLordOfTheRingsLCG will appear in the same "Ally" folder.</p>
+<p>All the plugin code and graphics could be included in a single package, but this distribution allows updating the plugin without requiring the user to download everything. For example, if a new Enemy variant is included, only the main plugin, E, and EHD are required to update. Also, to update the Collection and Encounter Set icons, only the I package is updated.</p>
+<p>HD add-ons are there mostly for software performance reasons. While Strange Eons is drawing the preview on the component editor, it will use the 150dpi images, and it will only work with the high resolution 300dpi images when exporting the cards. These packages aren't required to create cards, but are recomended if components will be printed. Note that the non-HD packages include some high resolution images too, maybe because disk space saving are small or because the Strange Eons API won't swap to the high resolution version automatically (this happens mostly on tintable elements).</p>
+<h3>Component files</h3>
+<p>Components use diferent file types to create the editor window and draw the component. Some of these files are specific to each component, like the template, while others are shared among different components, like the font files.</p>
+<p>Each file specific to a component is stored in a dedicated folder, for example "Ally". Here is a list of the files common to each component.</p>
+<ul>
+<li><b>component.classmap:</b> This file adds the component to the Strange Eons component list appearing when File>New is used. It defines the game its related to, asigns a category and defines both the code it will use to create the component and the image it will use in the user interface to represent the component.
+<li><b>component.js:</b> This file is the code used to create the editor window and draw the component.
+<li><b>component.settings:</b> This file includes settings used to define regions, text formats and any other thing needed to draw this specific component.
+<li><b>template.settings:</b> This file includes the path to some of the graphics used to draw the card. Only the graphics that can be swaped by the Strange Eons API for high definition versions are included.
+<li><b>template-hd.settings:</b> This file includes the path to the high definition graphics swaped by the Strange Eons API.
+<li><b>example.settings:</b> This file includes the default user editable values (stats, portrait, ...) loaded on a new component creation.
+<li><b>example.properties:</b> This file includes the default localizable user editable values (rules text, title, ...) loaded on a new component creation. Each localization is included in it's own properties file. For example, "example_es.properties" includes the spanish localization of "example.properties".
+<li><b>ui.png:</b> This is the image file used to represent the component in the user interface.
+<li><b>front.jp2 and back.jp2:</b> This is the main image file used to create the image of the component. It's includes all the image that won't vary regardless of the variant. It may need other graphics dependant of the component variant (like sphereDecoration that shows an Ally belongs to a sphere) to draw a complete component. When a component variant requires it's own template, it will appear as "front-variant.jp2", for example in the Boon variant of the ObjectiveAlly.
+<li><b>front-draft.jp2:</b> This is a variant of the template used for testing designs printing the component using less ink than the official template.
+<li><b>Other graphics files:</b> Other graphic files may be present in the component directory. These graphics will be used in the component as need, for example in the variable size EncounterSet icon list used in the Quest card or the tintable decorations used in the player cards to represent different spheres or the difficulty ring in Encounter cards. They are drawn over the main template.
+</ul>
+<p>Files shared by different components are stored in generic folders, like "font".</p>
+<ul>
+<li><b>font:</b> This folder includes the font files used by the components. One feature of this plugin is that icons that may appear in-text are included in it's own font file, the "LRLsymbols.ttf" file. This method allows for a safer and easier method of including these icons, because it's treated like text and affected by text formatting.
+<li><b>image:</b> Graphics shared by different components, like stat numbers, game logo or special icons.
+<li><b>portrait:</b> Pictures used as portraits on component examples.
+<li><b>template:</b> Template elements shared by components, like card backs and tintable decorations.
+<li><b>icons:</b> Sphere, Collection and Encounter Set icons used in the cards.
+<li><b>text/game.properties:</b> These localizable files include the texts used directly in the game components, showing the card type and other minor things.
+
+</ul>
+<h3>Other plugin files</h3>
+<p>The plugin uses several other files to make everything work:</p>
+<ul>
+<li><b>ui:</b> This folder includes the graphical elements for the user interface. Note that some stuff is created directly from the game files, like the Collection icon list.
+<li><b>text/interface.properties:</b> These localizable files include the texts used in the user interface. Icon names are stored in another file family in text/icon.properties.
+<li><u>library.js</u> Includes the functions I've created to simplify coding the component editor creation and drawing.
+<li><b>eons-plugin</b> One in each plugin. Defines when it will be loaded by Strange Eons, relation to other plugin files, and online catalog information.
+<li><u>LRLxxx.js</u> One in each plugin. Is the initialization code of each plugin, and it loads required setting and text files.
+<li><u>LRLxxx.settings</u> Only in some plugins. Includes the settings specific to a plugin, like the Collection icon lists or shared graphics.
+<li><b>diy:</b> This folder includes stuff required for compatibility with older versions of the plugin.
+</ul>
+<h2>Adding new icons</h2>
+<p>To add new icons, you only have to work with TheLordOfTheRings-I package.</p>
+<h2>Adding new component variants</h2>
+<p>To add new component variants, you only have to work with TheLordOfTheRings and the adequate -P, -E, -V or -A packages (plus HD).</p>
+<h2>Adding new components</h2>
+<p>To add new component variants, you only have to work with TheLordOfTheRings and the adequate -P, -E, -V or -A packages (plus HD).</p>
+</body>
+</html>

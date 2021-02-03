@@ -1,0 +1,22 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Treasure/Neutral-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Treasure/Neutral.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
+
+Portrait-portrait-clip-region = 0,61,413,265
+EncounterSet-portrait-clip-region = 331,482,36,36
+
+ResourceCost-region = 45,61,44,30
+
+Name-region = 124,40,200,24
+Body-region = 51,327,311,167
+Body-shape = 0,0,473,0,38
+Type-region = 139,502,135,18
+
+Neutral-template = TheLordOfTheRingsLCG/Treasure/Neutral-lr.jp2
+Neutral-template-hires = TheLordOfTheRingsLCG/Treasure/Neutral.jp2

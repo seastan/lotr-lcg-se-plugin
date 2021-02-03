@@ -1,0 +1,52 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Ally/CustomSphere-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Ally/CustomSphere.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
+
+Portrait-portrait-clip-region = 85,0,328,325
+CustomSphere-portrait-clip-region = 319,272,40,40
+BodyIcon-portrait-clip-region = 145,364,124,124
+
+ResourceCost-region = 66,39,56,40
+Willpower-region = 74,117,15,15
+Attack-region = 74,157,15,15
+Defense-region = 74,200,15,15
+HitPoints-region = 68,270,54,40
+
+Name-region = 101,325,212,24
+Body-region = 56,358,301,137
+Type-region = 139,500,135,19
+
+Neutral-template = TheLordOfTheRingsLCG/Ally/Neutral-lr.jp2
+Neutral-template-hires = TheLordOfTheRingsLCG/Ally/Neutral.jp2
+
+CustomSphere-template = TheLordOfTheRingsLCG/Ally/CustomSphere-lr.jp2
+CustomSphere-template-hires = TheLordOfTheRingsLCG/Ally/CustomSphere.jp2
+CustomSphere-Body-tintable = TheLordOfTheRingsLCG/Ally/CustomSphere-Body.jp2
+CustomSphere-Sphere-tintable = TheLordOfTheRingsLCG/Ally/CustomSphere-Sphere.jp2
+
+Leadership-template = TheLordOfTheRingsLCG/Ally/Leadership-lr.jp2
+Leadership-template-hires = TheLordOfTheRingsLCG/Ally/Leadership.jp2
+
+Spirit-template = TheLordOfTheRingsLCG/Ally/Spirit-lr.jp2
+Spirit-template-hires = TheLordOfTheRingsLCG/Ally/Spirit.jp2
+
+Tactics-template = TheLordOfTheRingsLCG/Ally/Tactics-lr.jp2
+Tactics-template-hires = TheLordOfTheRingsLCG/Ally/Tactics.jp2
+
+Lore-template = TheLordOfTheRingsLCG/Ally/Lore-lr.jp2
+Lore-template-hires = TheLordOfTheRingsLCG/Ally/Lore.jp2
+
+Baggins-template = TheLordOfTheRingsLCG/Ally/Baggins-lr.jp2
+Baggins-template-hires = TheLordOfTheRingsLCG/Ally/Baggins.jp2
+
+Fellowship-template = TheLordOfTheRingsLCG/Ally/Fellowship-lr.jp2
+Fellowship-template-hires = TheLordOfTheRingsLCG/Ally/Fellowship.jp2
+
+Mastery-template = TheLordOfTheRingsLCG/Ally/Mastery-lr.jp2
+Mastery-template-hires = TheLordOfTheRingsLCG/Ally/Mastery.jp2

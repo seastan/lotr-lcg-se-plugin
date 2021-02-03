@@ -1,0 +1,50 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/RulesCard/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/RulesCard/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/RulesCard/Standard-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/RulesCard/Standard.jp2
+
+PortraitBack-portrait-clip-region = 48,278,316,247
+
+Name-region = 50,38,313,30
+Name-stroke = Medium
+Name-stroke-width = 2
+Name-stroke-colour = #F0000000
+
+Body-region = 60,38,293,487
+
+Page-region = 295,527,59,10
+PageDecoration-region = 288,524,72,18
+
+EncounterSet-portrait-clip-region = 99,77,21,21
+EncounterSet1-portrait-clip-region = 138,77,21,21
+EncounterSet2-portrait-clip-region = 176,77,21,21
+EncounterSet3-portrait-clip-region = 215,77,21,21
+EncounterSet4-portrait-clip-region = 255,77,21,21
+EncounterSet5-portrait-clip-region = 297,77,21,21
+
+EncounterSetM1-region = 119,77,21,21
+EncounterSetM2-region = 157,77,21,21
+EncounterSetM3-region = 197,77,21,21
+EncounterSetM4-region = 236,77,21,21
+EncounterSetM5-region = 275,77,21,21
+
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLwindlass}; WIDTH: SEMICONDENSED
+Name-pointsize = 10
+Name-colour = #FFFFFF
+
+Collection-portrait-clip-region = 108,1054,24,24
+CollectionInfo-region = 134,1054,148,24
+Bottom-style = FAMILY: {Eons.namedObjects.LRL.BodyFont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD 
+Bottom-pointsize = 4.5 
+Bottom-colour = #000000 
+
+ArtistBack-region = 139,527,136,12
+Copyright-region = 139,527,136,12
+
+Standard-template = TheLordOfTheRingsLCG/RulesCard/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/RulesCard/Standard.jp2

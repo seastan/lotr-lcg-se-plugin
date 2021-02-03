@@ -1,0 +1,14 @@
+Template = Standard
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Michael C Hayes - Galadriel.jpg
+Willpower = 2
+Attack = 0
+Defense = 0
+HitPoints = 3
+Unique = 1
+Artist = Michael C. Hayes
+CollectionNumber = 0
+EncounterSetNumber = 1
+EncounterSetTotal = 9
+OptionSpecial = Empty
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

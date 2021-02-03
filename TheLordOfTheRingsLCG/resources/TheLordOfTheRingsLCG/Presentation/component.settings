@@ -1,0 +1,118 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Presentation/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Presentation/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/Presentation/StandardBack-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/Presentation/StandardBack.jp2
+
+Portrait-portrait-clip-region = 0,140,413,285
+BackgroundBack-portrait-clip-region = 0,0,413,563
+
+Name-region = 74,437,265,105
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLwindlass}
+Name-pointsize = 20
+Name-colour = #FFFFFF
+Name-alignment = middle,center
+Name-portrait-clip-region = 74,437,265,105
+Name-stroke = Medium
+Name-stroke-width = 2
+Name-stroke-colour = #F0000000
+
+GameName-region = 62,20,289,105
+GameName-portrait-clip-region = 62,20,289,105
+GameName-stroke = Medium
+GameName-stroke-width = 2
+GameName-stroke-colour = #F0000000
+
+Body-region = 50,68,313,442
+Type-region = 50,50,313,16
+
+Page-region = 295,528,59,10
+PageDecoration-region = 288,526,74,18
+PageIn-region = 300,495,63,15
+
+Standard-template = TheLordOfTheRingsLCG/Presentation/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Presentation/Standard.jp2
+
+StandardBack-template = TheLordOfTheRingsLCG/Presentation/StandardBack-lr.jp2
+StandardBack-template-hires = TheLordOfTheRingsLCG/Presentation/StandardBack.jp2
+
+Custom-template = TheLordOfTheRingsLCG/Presentation/Custom-lr.jp2
+Custom-template-hires = TheLordOfTheRingsLCG/Presentation/Custom.jp2
+
+Custom-out = TheLordOfTheRingsLCG/Presentation/Custom-out-lr.jp2
+Custom-out-hires = TheLordOfTheRingsLCG/Presentation/Custom-out.jp2
+
+Custom-in = TheLordOfTheRingsLCG/Presentation/Custom-in-lr.jp2
+Custom-in-hires = TheLordOfTheRingsLCG/Presentation/Custom-in.jp2
+
+CustomBack-template = TheLordOfTheRingsLCG/Presentation/CustomBack-lr.jp2
+CustomBack-template-hires = TheLordOfTheRingsLCG/Presentation/CustomBack.jp2
+
+CustomBack-out = TheLordOfTheRingsLCG/Presentation/CustomBack-out-lr.jp2
+CustomBack-out-hires = TheLordOfTheRingsLCG/Presentation/CustomBack-out.jp2
+
+CustomBack-in = TheLordOfTheRingsLCG/Presentation/CustomBack-in-lr.jp2
+CustomBack-in-hires = TheLordOfTheRingsLCG/Presentation/CustomBack-in.jp2
+
+Nightmare-template = TheLordOfTheRingsLCG/Presentation/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/Presentation/Nightmare.jp2
+
+NightmareBack-template = TheLordOfTheRingsLCG/Presentation/NightmareBack-lr.jp2
+NightmareBack-template-hires = TheLordOfTheRingsLCG/Presentation/NightmareBack.jp2
+
+Nightmare-Body-region = 56,55,301,443
+Nightmare-Type-region = 140,506,137,16
+
+Classic-Name-region = 50,423,313,102
+Classic-Name-portrait-clip-region = 50,423,313,102
+
+Classic-GameName-region = 50,38,313,130
+Classic-GameName-portrait-clip-region = 50,38,313,130
+
+Classic-Body-region = 50,55,313,455
+
+Classic-Artist-region = 58,527,85,12
+Classic-CollectionInfo-region = 276,527,55,12
+Classic-Collection-portrait-clip-region = 332,527,12,12
+Classic-CollectionNumber-region = 345,527,15,12
+
+Classic-template = TheLordOfTheRingsLCG/Presentation/Classic-lr.jp2
+Classic-template-hires = TheLordOfTheRingsLCG/Presentation/Classic.jp2
+
+Classic-Blue = TheLordOfTheRingsLCG/Presentation/Classic-Blue-lr.jp2
+Classic-Blue-hires = TheLordOfTheRingsLCG/Presentation/Classic-Blue.jp2
+
+Classic-Green = TheLordOfTheRingsLCG/Presentation/Classic-Green-lr.jp2
+Classic-Green-hires = TheLordOfTheRingsLCG/Presentation/Classic-Green.jp2
+
+Classic-Purple = TheLordOfTheRingsLCG/Presentation/Classic-Purple-lr.jp2
+Classic-Purple-hires = TheLordOfTheRingsLCG/Presentation/Classic-Purple.jp2
+
+Classic-Red = TheLordOfTheRingsLCG/Presentation/Classic-Red-lr.jp2
+Classic-Red-hires = TheLordOfTheRingsLCG/Presentation/Classic-Red.jp2
+
+Classic-Custom = TheLordOfTheRingsLCG/Presentation/Classic-Custom-lr.jp2
+Classic-Custom-hires = TheLordOfTheRingsLCG/Presentation/Classic-Custom.jp2
+
+ClassicBack-template = TheLordOfTheRingsLCG/Presentation/ClassicBack-lr.jp2
+ClassicBack-template-hires = TheLordOfTheRingsLCG/Presentation/ClassicBack.jp2
+
+ClassicBack-Blue = TheLordOfTheRingsLCG/Presentation/ClassicBack-Blue-lr.jp2
+ClassicBack-Blue-hires = TheLordOfTheRingsLCG/Presentation/ClassicBack-Blue.jp2
+
+ClassicBack-Green = TheLordOfTheRingsLCG/Presentation/ClassicBack-Green-lr.jp2
+ClassicBack-Green-hires = TheLordOfTheRingsLCG/Presentation/ClassicBack-Green.jp2
+
+ClassicBack-Purple = TheLordOfTheRingsLCG/Presentation/ClassicBack-Purple-lr.jp2
+ClassicBack-Purple-hires = TheLordOfTheRingsLCG/Presentation/ClassicBack-Purple.jp2
+
+ClassicBack-Red = TheLordOfTheRingsLCG/Presentation/ClassicBack-Red-lr.jp2
+ClassicBack-Red-hires = TheLordOfTheRingsLCG/Presentation/ClassicBack-Red.jp2
+
+ClassicBack-Custom = TheLordOfTheRingsLCG/Presentation/ClassicBack-Custom-lr.jp2
+ClassicBack-Custom-hires = TheLordOfTheRingsLCG/Presentation/ClassicBack-Custom.jp2
+

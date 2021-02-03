@@ -1,0 +1,25 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Campaign/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Campaign/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/Campaign/StandardBack-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/Campaign/StandardBack.jp2
+
+Portrait-portrait-clip-region = 0,0,413,245
+
+EncounterSet-portrait-clip-region = 325,191,37,37
+
+Cycle-region = 68,243,274,20
+BodyBack-region = 56,55,301,453
+Body-region = 56,273,301,220
+Name-region = 98,38,216,25
+Type-region = 134,501,143,18
+
+Standard-template = TheLordOfTheRingsLCG/Campaign/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Campaign/Standard.jp2
+
+StandardBack-template = TheLordOfTheRingsLCG/Campaign/StandardBack-lr.jp2
+StandardBack-template-hires = TheLordOfTheRingsLCG/Campaign/StandardBack.jp2

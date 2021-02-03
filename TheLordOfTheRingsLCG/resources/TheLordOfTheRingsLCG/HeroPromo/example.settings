@@ -1,0 +1,10 @@
+Template = Spirit
+HeroPromo-Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Michael C Hayes - Galadriel.jpg
+Unique = true
+ThreatCost = 7
+Willpower = 3
+Attack = 1
+Defense = 1
+HitPoints = 2
+Type =
+Artist = Michael C. Hayes

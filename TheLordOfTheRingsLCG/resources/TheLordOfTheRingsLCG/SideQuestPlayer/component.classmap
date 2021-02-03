@@ -1,0 +1,2 @@
+@cat-rules
+	@LRL-SideQuestPlayer = diy:TheLordOfTheRingsLCG/SideQuestPlayer/component.js | TheLordOfTheRingsLCG/SideQuestPlayer/ui.png | LRL

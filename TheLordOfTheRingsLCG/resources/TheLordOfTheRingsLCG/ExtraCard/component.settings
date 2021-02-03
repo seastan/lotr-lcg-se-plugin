@@ -1,0 +1,47 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack.jp2
+
+Background-portrait-clip-region = 0,0,413,563
+BackgroundBack-portrait-clip-region = 0,0,413,563
+
+Page-region = 280,528,59,10
+PageDecoration-region = 273,525,73,18
+PageIn-region = 300,495,63,15
+
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLwindlass}; WIDTH: SEMICONDENSED;
+Name-pointsize = 10
+Name-colour = #FFFFFF
+
+Collection-portrait-clip-region = 65,527,12,12
+CollectionInfo-region = 78,527,65,12
+
+Copyright-region = 142,527,130,12
+
+Name-region = 50,55,313,30
+Body-region = 50,55,313,454
+
+Standard-template = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack.jp2
+
+Standard-Blue = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Blue-lr.jp2
+Standard-Blue-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Blue.jp2
+
+Standard-Green = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Green-lr.jp2
+Standard-Green-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Green.jp2
+
+Standard-Purple = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Purple-lr.jp2
+Standard-Purple-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Purple.jp2
+
+Standard-Red = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Red-lr.jp2
+Standard-Red-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Red.jp2
+
+Standard-Brown = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Brown-lr.jp2
+Standard-Brown-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Brown.jp2
+
+Standard-Yellow = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Yellow-lr.jp2
+Standard-Yellow-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Yellow.jp2
+
+Standard-Custom = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Custom-lr.jp2
+Standard-Custom-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardBack-Custom.jp2

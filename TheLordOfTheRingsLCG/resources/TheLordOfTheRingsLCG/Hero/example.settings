@@ -1,0 +1,14 @@
+Template = Spirit
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Michael C Hayes - Galadriel.jpg
+Portrait-portrait-pany = 50
+Unique = true
+ThreatCost = 7
+Willpower = 3
+Attack = 1
+Defense = 1
+HitPoints = 2
+Type =
+Artist = Michael C. Hayes
+CustomSphere-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+BodyIcon-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

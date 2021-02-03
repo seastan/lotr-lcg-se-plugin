@@ -1,0 +1,7 @@
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/Caspar David Friedrich - Abtei im Eichwald.jpg
+Template = Standard
+Type =
+Artist = Caspar David Friedrich
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+TraitOut = true
+PortraitShadow = false

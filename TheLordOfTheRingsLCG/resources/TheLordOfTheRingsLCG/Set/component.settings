@@ -1,0 +1,17 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Set/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Set/Standard.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/Set/StandardBack-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/Set/StandardBack.jp2
+
+
+Standard-template = TheLordOfTheRingsLCG/Set/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Set/Standard.jp2
+
+StandardBack-template = TheLordOfTheRingsLCG/Set/StandardBack-lr.jp2
+StandardBack-template-hires = TheLordOfTheRingsLCG/Set/StandardBack.jp2
+

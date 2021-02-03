@@ -1,0 +1,26 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Contract/Neutral-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Contract/Neutral.jp2
+
+TemplateBack-region = 0,0,413,563
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
+
+Portrait-portrait-clip-region = 0,0,413,295
+PortraitBack-portrait-clip-region = 0,0,413,295
+
+Name-region = 57,242,296,27
+Body-region = 56,302,301,192
+Side-region = 142,278,128,14
+Type-region = 139,502,135,17
+
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLfont}
+Name-pointsize = 12
+
+Neutral-template = TheLordOfTheRingsLCG/Contract/Neutral-lr.jp2
+Neutral-template-hires = TheLordOfTheRingsLCG/Contract/Neutral.jp2
+
+SideDecoration = TheLordOfTheRingsLCG/Contract/SideDecoration-lr.jp2
+SideDecoration-hires = TheLordOfTheRingsLCG/Contract/SideDecoration.jp2

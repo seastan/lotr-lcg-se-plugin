@@ -1,0 +1,32 @@
+Template-region = 0,0,413,563
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/DividerCard/Custom-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/DividerCard/Custom.jp2
+
+Portrait-portrait-clip-region = 0,140,413,423
+
+Collection-portrait-clip-region = 49,123,20,20
+Collection-deco-region = 44,118,30,30
+
+Collection-back-region = 344,123,20,20
+Collection-deco-back-region = 339,118,30,30
+
+EncounterSet-portrait-clip-region = 38,38,28,28
+EncounterSet-deco-region = 32,32,40,40
+
+EncounterSet-back-region = 347,38,28,28
+EncounterSet-deco-back-region = 341,32,40,40
+
+Name-region = 72,38,269,87
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLwindlass};
+Name-colour = #F0F0F0
+Name-pointsize = 14
+Name-stroke = Medium
+Name-stroke-width = 2
+Name-stroke-colour = #F0000000
+Artist-region = 139,527,136,12
+
+Custom-template = TheLordOfTheRingsLCG/DividerCard/Custom-lr.jp2
+Custom-template-hires = TheLordOfTheRingsLCG/DividerCard/Custom.jp2
+Custom-in = TheLordOfTheRingsLCG/DividerCard/Custom-in.jp2
+Custom-out = TheLordOfTheRingsLCG/DividerCard/Custom-out.jp2

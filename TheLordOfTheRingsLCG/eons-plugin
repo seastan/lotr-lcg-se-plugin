@@ -1,0 +1,77 @@
+id = CATALOGUEID{a83160cb-5c58-4bf0-83d1-37cda1cd38d1:2021-1-2-19-10-58-242}
+
+priority = GAME
+ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+game-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
+
+catalog-name = The Lord of the Rings LCG
+catalog-name_es_ES = El Señor de los Anillos LCG
+catalog-name_it_IT = Il Signore degli Anelli LCG
+
+catalog-credit = Karagh, GeckoTH
+catalog-description = <p>This plug-in allows creating components for <i><b>The \
+    Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>A \
+    usage guide is available in <a \
+    href="http://susurrosdelbosqueviejo.blogspot.com.es/2014/09/how-to-create-cards-w\
+    ith-strange-eons.html">Susurros del Bosque Viejo</a>.</p>\n<p>This plug-in is \
+    intended to be used by fans of the game, and <b>any commercial use is not \
+    permitted</b>. Note that this plug-in is not produced or endorsed by FFG, nor do \
+    they provide support for it. <i>LCG</i> and <i>The Lord of the Rings: The Card \
+    Game</i> are registered trademarks of <i>Fantasy Flight Publishing, Inc.</i>. \
+    All rights reserved to their respective owners.</p>\n<h2>Credits and \
+    thanks</h2>\n<p>Developed by Daniel Tello (AKA karagh/heavykaragh). Original \
+    templates by GeckoTH (from BoardGameGeek). Polish translation by Andrzej \
+    Owsiejczuk. French translation by banania (@BGG). Italian translation by Marco \
+    Adinolfi.</p>\n<p>Thanks to Christopher G. Jennings for Strange Eons, to \
+    HilariousPete for his original plug-in and font, and to Nate French and FFG for \
+    this great game.</p>
+catalog-description_es_ES = <p>Este complemento permite crear componentes para \
+    <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
+    Games.</p>\n<p>Puedes encontrar una guía de uso en <<a \
+    href="http://susurrosdelbosqueviejo.blogspot.com.es/2014/09/guia-la-creacion-de-c\
+    artas-con-strange.html">Susurros del Bosque Viejo</a>.</p>\n<p>Este complemento \
+    esta concebido para el uso de los aficionados al juego y <b>no esta permitido el \
+    uso comercial del mismo</b>. Este complemento no estan ligado a FFG en modo \
+    alguno, y FFG no presta apoyo al mismo. <i><b>LCG</i></b>, <i><b>El Señor de los \
+    Anillos: El Juego de Cartas</i></b> y <i><b>The Lord of the Rings: The Card \
+    Game</i></b> son marcas registradas por <i><b>Fantasy Flight Publishing, \
+    Inc.</i></b> Todos los derechos de las imágenes y contenido del juego incluidos \
+    en este plugin pertenecen a sus respectivos \
+    propietarios.</p>\n<h2>Reconocimientos y agradecimientos</h2>\n<p>Desarrollado \
+    por Daniel Tello (karagh/heavykaragh). Plantillas originales de GeckoTH \
+    (@BoardGameGeek). Traducción al polaco por Andrzej Owsiejczuk. Traducción al \
+    francés por banania (@BGG). Traducción al italiano por Marco \
+    Adinolfi.</p>\n<p>Gracias a Christopher G. Jennings por desarrollar Strange \
+    Eons, a HilariousPete por el plugin y fuente originales, y a Nate French y a FFG \
+    por crear este estupendo juego.</p>
+catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per \
+    <i><b>Il Signore degli Anelli: il Gioco di Carte</b></i> della Fantasy Flight \
+    Games.</p>\n<p>Una guida d'uso è disponibile al sito <a \
+    href="http://susurrosdelbosqueviejo.blogspot.com.es/2014/09/how-to-create-cards-w\
+    ith-strange-eons.html">Susurros del Bosque Viejo</a>.</p>\n<p>Questo plug-in è \
+    inteso per essere utilizzato dai fan del gioco, e <b>ogni utilizzo commerciale \
+    non è permesso</b>. Si noti che questo plug-in non è stato prodotto o appoggiato \
+    da FFG, e ne questi ultimi provvedono per il suo supporto. <i>LCG</i>, <i>The \
+    Lord of the Rings: The Card Game</i> è un marchio registrato di <i>Fantasy \
+    Flight Publishing, Inc.</i>. Tutti i diritti sono riservati ai legittimi \
+    proprietari.</p>\n<h2>Titoli di coda e ringraziamenti</h2>\n<p>Prodotto da \
+    Daniel Tello (AKA karagh/heavykaragh). Templates originali by GeckoTH (from \
+    BoardGameGeek). Traduzione polacca by Andrzej Owsiejczuk. Traduzione francese by \
+    banania (@BGG). Traduzione italiane by Marco Adinolfi.</p>\n<p>Grazie a \
+    Christopher G. Jennings per Strange Eons, to HilariousPete per i suoi plug-in e \
+    font originali, e a Nate French e FFG per questo gioco magnifico.</p>
+
+catalog-tags = game, beta
+catalog-minver = 3970
+catalog-replaces = \
+    CATALOGUEID{02e01c82-d542-41c0-99e3-ea317005c68c:2013-2-28-7-37-6-309}, \
+    CATALOGUEID{09870b88-3fd0-462e-83e8-25f29028a94a:2018-3-24-18-44-37-852}
+catalog-requires = \
+    CATALOGUEID{550abfcc-2f1c-4493-85cb-b1498c31baf8:2016-8-23-8-51-23-90}, \
+    CATALOGUEID{30d37f1e-825a-41da-ace1-50c04616a254:2016-8-23-8-51-27-6}, \
+    CATALOGUEID{6a986b9f-11a6-4e6e-bec9-c9f60455b979:2016-8-23-8-51-34-344}, \
+    CATALOGUEID{2b26413c-480a-4f0d-8e40-8299e3d567f0:2016-8-23-8-51-38-590}, \
+    CATALOGUEID{eabe956c-f059-4cbc-9861-562bf8f50e68:2016-8-23-8-51-31-80}, \
+    CATALOGUEID{df0d64b1-bbb6-4fa7-afbe-acff34d0e402:2016-8-23-8-51-16-662}
+
+res://TheLordOfTheRingsLCG/LRL.js

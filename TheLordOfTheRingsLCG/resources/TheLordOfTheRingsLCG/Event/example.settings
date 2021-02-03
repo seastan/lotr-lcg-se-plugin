@@ -1,0 +1,9 @@
+Template = Leadership
+Portrait-portrait-template = TheLordOfTheRingsLCG/portrait/John Howe - Black Rider.jpg
+Unique = false
+ResourceCost = 1
+Type =
+Artist = John Howe
+CustomSphere-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+BodyIcon-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

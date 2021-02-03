@@ -1,0 +1,33 @@
+Portrait-portrait-clip-region = 0,0,375,525
+CustomSphere-portrait-clip-region = 300,406,37,37
+BodyIcon-portrait-clip-region = 158,445,60,60
+
+Collection-portrait-clip-region = 322,512,12,12
+
+SphereBody-region = 44,433,290,78
+SphereDecoration-region = 240,390,110,100
+Attack-region = 14,100,27,20
+Body-region = 52,445,272,61
+Body-shape = 0,90,463,0,0
+Defense-region = 14,136,27,20
+HitPoints-region = 31,407,50,37
+Name-region = 85,412,206,24
+OptionRight-region = 612,1014,118,18
+OptionRightDecoration-region = 598,1006,145,35
+ThreatCost-region = 30,25,27,20
+Type-region = 256,442,50,16
+Willpower-region = 14,65,27,20
+
+Artist-region = 19,511,109,14
+CollectionInfo-region = 247,511,72,14
+CollectionNumber-region = 337,511,19,14
+Copyright-region = 130,511,115,14
+
+Collection-inBox-portrait-clip-region = 295,497,10,10
+Body-inBox-region = 52,445,272,52
+Artist-inBox-region = 58,497,90,10
+Copyright-inBox-region = 149,497,90,10
+CollectionInfo-inBox-region = 240,497,54,10
+CollectionNumber-inBox-region = 306,497,12,10
+
+Stat-tint = 180.0,0.0,1.0

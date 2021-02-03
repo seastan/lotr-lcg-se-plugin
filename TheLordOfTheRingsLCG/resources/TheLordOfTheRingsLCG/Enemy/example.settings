@@ -1,0 +1,14 @@
+Portrait-portrait-template =  TheLordOfTheRingsLCG/portrait/John Howe - Black Rider.jpg
+Engagement = 21
+Attack = 4
+Threat = 4
+Defense = 2
+HitPoints = 3
+Artist = John Howe
+EncounterSetNumber = 3
+EncounterSetTotal = 9
+Template = Standard
+Type = 
+OptionSpecial = Empty
+Collection-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png
+EncounterSet-portrait-template = TheLordOfTheRingsLCG/icon/StrangeEonsIcon-Tintable.png

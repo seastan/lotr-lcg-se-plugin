@@ -1,0 +1,55 @@
+Template-region = 0,0,563,413
+Template-ppi = 150
+Template-template = TheLordOfTheRingsLCG/Quest/Standard-lr.jp2
+Template-template-hires = TheLordOfTheRingsLCG/Quest/Standard.jp2
+
+TemplateBack-region = 0,0,563,413
+TemplateBack-ppi = 150
+TemplateBack-template = TheLordOfTheRingsLCG/Quest/StandardBack-lr.jp2
+TemplateBack-template-hires = TheLordOfTheRingsLCG/Quest/StandardBack.jp2
+
+Portrait-portrait-clip-region = 0,0,563,413
+PortraitBack-portrait-clip-region = 0,0,563,413
+EncounterSet-portrait-clip-region = 477,188,36,36
+
+Difficulty-region = 469,180,52,52
+
+Stage-region = 44,43,60,42
+
+Name-region = 135,39,387,29
+Adventure-region = 190,75,275,15
+Progress-region = 55,201,36,24
+Body-region = 46,243,471,125
+
+Option-Body-shape = 0,0,354,0,60
+
+OptionRight-region = 463,358,59,9
+OptionRightDecoration-region = 456,354,72,17
+
+Artist-region = 38,377,100,12
+Copyright-region = 139,377,287,12
+CollectionInfo-region = 426,377,70,12
+Collection-portrait-clip-region = 497,377,12,12
+CollectionNumber-region = 510,377,15,12
+
+EncounterSet1-portrait-clip-region = 448,212,22,22
+EncounterSet2-portrait-clip-region = 423,212,22,22
+EncounterSet3-portrait-clip-region = 398,212,22,22
+EncounterSet4-portrait-clip-region = 373,212,22,22
+EncounterSet5-portrait-clip-region = 348,212,22,22
+
+Name-style = FAMILY: {Eons.namedObjects.LRL.LRLfont}
+Name-pointsize = 12
+Name-colour = #000000
+
+Standard-template = TheLordOfTheRingsLCG/Quest/Standard-lr.jp2
+Standard-template-hires = TheLordOfTheRingsLCG/Quest/Standard.jp2
+
+StandardBack-template = TheLordOfTheRingsLCG/Quest/StandardBack-lr.jp2
+StandardBack-template-hires = TheLordOfTheRingsLCG/Quest/StandardBack.jp2
+
+Nightmare-template = TheLordOfTheRingsLCG/Quest/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/Quest/Nightmare.jp2
+
+Nightmare-template = TheLordOfTheRingsLCG/Quest/NightmareBack-lr.jp2
+NightmareBack-template-hires = TheLordOfTheRingsLCG/Quest/NightmareBack.jp2
