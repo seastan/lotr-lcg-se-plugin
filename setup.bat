@@ -1,5 +1,5 @@
-del TheLordOfTheRingsLCG*.zip
 del TheLordOfTheRingsLCG*.seext
+del TheLordOfTheRingsLCG*.zip
 
 CScript zip.vbs TheLordOfTheRingsLCG TheLordOfTheRingsLCG.zip
 CScript zip.vbs TheLordOfTheRingsLCG-A TheLordOfTheRingsLCG-A.zip
