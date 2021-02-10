@@ -456,7 +456,10 @@ function writeCollectionInfo( g , sheet , diy ){
 }
 function writeCollectionNumber( g , sheet , diy ){
 	if( diy.settings.getInt( 'CollectionNumber' , 0 ) == 0 ) text = '---' ;
-	else text = $CollectionNumber ;
+	else{
+		text = $CollectionNumber ;
+		if( $CollectionNumberSuffix ) text = text + $CollectionNumberSuffix ;
+	}
 	writeTextOutlined( 
 		'<left>'+text , Bottom_writer , 
 		diy.settings.getRegion( 'CollectionNumber' ) , selectStroke( 'Bottom-stroke' , diy ) , 
