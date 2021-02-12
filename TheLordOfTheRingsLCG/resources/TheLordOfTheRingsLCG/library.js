@@ -263,6 +263,7 @@ to $key. Component "sides" will be updated on control edit.
 
 function writeSubtype( g , diy ){
 	if( $Subtype == '' ) text = #('LRL-'+$Template) ;
+	else text = $Subtype ;
 	writeLine( 
 		text , Subtype_writer , 
 		diy.settings.getRegion( 'Subtype' ) , g 
