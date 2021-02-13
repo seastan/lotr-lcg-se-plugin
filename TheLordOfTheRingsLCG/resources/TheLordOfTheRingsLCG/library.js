@@ -314,7 +314,7 @@ function writeEncounterSetNumber( g , diy ){
 	if( $EncounterSetNumber > 0 ){
 		if( $EncounterSetTotal > 0 ) text = $EncounterSetNumber+$EncounterSetNumberOf+$EncounterSetTotal ;
 		else text = $EncounterSetNumber ;
-	}else{ text = '---' ; }
+	}else{ text = '' ; }
 	writeLine( 
 		text , EncounterSetNumber_writer , 
 		diy.settings.getRegion( 'EncounterSetNumber' ) , g 
