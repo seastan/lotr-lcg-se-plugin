@@ -263,6 +263,7 @@ to $key. Component "sides" will be updated on control edit.
 
 function writeSubtype( g , diy ){
 	if( $Subtype == '' ) text = #('LRL-'+$Template) ;
+	else text = $Subtype ;
 	writeLine( 
 		text , Subtype_writer , 
 		diy.settings.getRegion( 'Subtype' ) , g 
@@ -313,7 +314,7 @@ function writeEncounterSetNumber( g , diy ){
 	if( $EncounterSetNumber > 0 ){
 		if( $EncounterSetTotal > 0 ) text = $EncounterSetNumber+$EncounterSetNumberOf+$EncounterSetTotal ;
 		else text = $EncounterSetNumber ;
-	}else{ text = '---' ; }
+	}else{ text = '' ; }
 	writeLine( 
 		text , EncounterSetNumber_writer , 
 		diy.settings.getRegion( 'EncounterSetNumber' ) , g 
@@ -455,7 +456,7 @@ function writeCollectionInfo( g , sheet , diy ){
 	) ;
 }
 function writeCollectionNumber( g , sheet , diy ){
-	if( diy.settings.getInt( 'CollectionNumber' , 0 ) == 0 ) text = '---' ;
+	if( $CollectionNumberCustom ) text = $CollectionNumberCustom ;
 	else text = $CollectionNumber ;
 	writeTextOutlined( 
 		'<left>'+text , Bottom_writer , 

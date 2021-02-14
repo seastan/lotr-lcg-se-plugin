@@ -266,8 +266,11 @@ function paintFront( g , diy , sheet ){
 //		region = diy.settings.getRegion( 'Body' ) ;
 //		Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
 //	}
-	writeEncounterSetNumber( g , diy ) ;
-	
+	switch( $Template ){
+	case 'Burden' : break ;
+	default: writeEncounterSetNumber( g , diy ) ;
+	}
+
 	writeType( g , diy ) ;
 	writeOptionLeft( g , sheet , diy ) ;
 	writeOptionRight( g , sheet , diy ) ;
