@@ -396,11 +396,13 @@ function gameObject(){// GAME ){
 	var pathLRLsymbols = 'TheLordOfTheRingsLCG/font/LRLsymbols.ttf' ;
 	var pathLRLwindlass = 'TheLordOfTheRingsLCG/font/LRLwindlass.ttf' ;
 	var pathVafthaurdir = 'TheLordOfTheRingsLCG/font/Vafthaurdir.ttf' ;
+	var pathVafthrudnir = 'TheLordOfTheRingsLCG/font/VAFTHRUD.TTF' ;
 	this.BodyFont = ResourceKit.getBodyFamily() ;
 	this.LRLfont = FontUtils.registerFontFamilyFromResources.apply( this , [pathLRLfont] ) ;
 	this.LRLsymbols = FontUtils.registerFontFamilyFromResources.apply( this , [pathLRLsymbols] ) ;
 	this.LRLwindlass = FontUtils.registerFontFamilyFromResources.apply( this , [pathLRLwindlass] ) ;
 	this.Vafthaurdir = FontUtils.registerFontFamilyFromResources.apply( this , [pathVafthaurdir] ) ;
+	this.Vafthrudnir = FontUtils.registerFontFamilyFromResources.apply( this , [pathVafthrudnir] ) ;
 
 //	this.DumbFont = FontUtils.registerFontFamilyFromResources.apply(this,['TheLordOfTheRingsLCG/font/Dumbledor.ttf']);
 //	this.UnicodeFont = registerFont( 'Sun-ExtA.ttf' );
@@ -411,6 +413,7 @@ function gameObject(){// GAME ){
 		'LRLsymbols' ,
 		'LRLtitle' ,
 		'Vafthaurdir' ,
+		'Vafthrudnir' ,
 		'Trait' ,
 		'Section'
 	) ;
