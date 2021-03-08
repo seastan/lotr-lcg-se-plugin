@@ -1,6 +1,6 @@
 **Setup**
 
-1. Clone this repo to a local folder.
+1. Clone this repo to a local folder (you can click `Code` and then `Download ZIP`).
 
 2. Run `setup.bat` (Windows only) to generate the `.seext` files.  If needed, a Mac version will be added too.
 
