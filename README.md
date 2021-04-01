@@ -7,10 +7,13 @@ and put `VAFTHRUD.TTF` into `TheLordOfTheRingsLCG-B/resources/TheLordOfTheRingsL
 
 3. Run `setup.bat` (Windows) or `setup.sh` (Mac/Linux) to generate the `.seext` files.
 
-4. Install Strange Eons from https://strangeeons.cgjennings.ca/download.html, choose `Build 3970`.
+4. Make sure that `Times New Roman` font is installed.  If you have Mac or Linux, it may be not
+installed by default.
 
-5. Run Strange Eons and install `The Lord of the Rings LCG` plugin.
+5. Install Strange Eons from https://strangeeons.cgjennings.ca/download.html, choose `Build 3970`.
 
-5. Go to plugins folder (run Strange Eons, then click `Toolbox` -> `Manage Plug-ins` -> `Open Plug-in Folder`),
+6. Run Strange Eons and install `The Lord of the Rings LCG` plugin.
+
+7. Go to plugins folder (run Strange Eons, then click `Toolbox` -> `Manage Plug-ins` -> `Open Plug-in Folder`),
 close Strange Eons and delete or move all files, which names start with `TheLordOfTheRingsLCG`.  Instead of them,
 copy all generated `.seext` files from the root folder of this repo.
