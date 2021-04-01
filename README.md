@@ -5,7 +5,7 @@
 2. Download `Vafthrudnir` font from https://www.wfonts.com/font/vafthrudnir, extract the archive
 and put `VAFTHRUD.TTF` into `TheLordOfTheRingsLCG-B/resources/TheLordOfTheRingsLCG/font/` folder.
 
-3. Run `setup.bat` (Windows only) to generate the `.seext` files.  If needed, a Mac version will be added too.
+3. Run `setup.bat` (Windows) or `setup.sh` (Mac/Linux) to generate the `.seext` files.
 
 4. Install Strange Eons from https://strangeeons.cgjennings.ca/download.html, choose `Build 3970`.
 
