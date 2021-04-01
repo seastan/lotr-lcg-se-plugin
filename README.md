@@ -8,7 +8,7 @@ and put `VAFTHRUD.TTF` into `TheLordOfTheRingsLCG-B/resources/TheLordOfTheRingsL
 3. Run `setup.bat` (Windows) or `setup.sh` (Mac/Linux) to generate the `.seext` files.
 
 4. Make sure that `Times New Roman` font is installed.  If you have Mac or Linux, it may be not
-installed by default.
+installed by default (make sure you have a correct "Windows" version of the font).
 
 5. Install Strange Eons from https://strangeeons.cgjennings.ca/download.html, choose `Build 3970`.
 
