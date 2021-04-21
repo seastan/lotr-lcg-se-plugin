@@ -534,7 +534,7 @@ function paintBack( g, diy, sheet ){
 	
 	writeCopyright( g , sheet , diy ) ;
 	writeCollectionInfo( g , sheet , diy ) ;
-	writeCollectionNumber( g , sheet , diy ) ;
+	writeCollectionNumberBack( g , sheet , diy ) ;
 
 	paintCut( g , diy , sheet ) ;
 }

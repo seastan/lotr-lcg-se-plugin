@@ -456,12 +456,23 @@ function writeCollectionInfo( g , sheet , diy ){
 	) ;
 }
 function writeCollectionNumber( g , sheet , diy ){
-	if( $CollectionNumberCustom ) text = $CollectionNumberCustom ;
+	if( $CollectionNumberCustomOverwrite ) text = $CollectionNumberCustomOverwrite ;
+	else if( $CollectionNumberCustom ) text = $CollectionNumberCustom ;
 	else text = $CollectionNumber ;
-	writeTextOutlined( 
-		'<left>'+text , Bottom_writer , 
-		diy.settings.getRegion( 'CollectionNumber' ) , selectStroke( 'Bottom-stroke' , diy ) , 
-		g , sheet , diy 
+	writeTextOutlined(
+		'<left>'+text , Bottom_writer ,
+		diy.settings.getRegion( 'CollectionNumber' ) , selectStroke( 'Bottom-stroke' , diy ) ,
+		g , sheet , diy
+	) ;
+}
+function writeCollectionNumberBack( g , sheet , diy ){
+	if( $CollectionNumberCustomOverwriteBack ) text = $CollectionNumberCustomOverwriteBack ;
+	else if( $CollectionNumberCustom ) text = $CollectionNumberCustom ;
+	else text = $CollectionNumber ;
+	writeTextOutlined(
+		'<left>'+text , Bottom_writer ,
+		diy.settings.getRegion( 'CollectionNumber' ) , selectStroke( 'Bottom-stroke' , diy ) ,
+		g , sheet , diy
 	) ;
 }
 
