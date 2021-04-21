@@ -286,11 +286,21 @@ function paintBack( g, diy, sheet ){
 		g , sheet , diy 
 	) ;
 	writeCopyright( g , sheet , diy ) ;
-	if ( Number( $PageNumber ) != 0 ){
+
+	var pageNumber = $PageNumber ;
+	if( $PageNumberBack ){
+		pageNumber = $PageNumberBack ;
+	}
+	var pageTotal = $PageTotal ;
+	if( $PageTotalBack ){
+		pageTotal = $PageTotalBack ;
+	}
+
+	if ( Number( pageNumber ) != 0 ){
 		var page = #LRL-Page ;
 		if( ($LRL-Page != '') && ($LRL-Page != 'null') ) page = $LRL-Page ;
-		page = page+' '+Number( $PageNumber ) ;
-		if ( $PageTotal != 0 ) page = page+$LRL-PageOf+$PageTotal ;
+		page = page+' '+Number( pageNumber ) ;
+		if ( pageTotal != 0 ) page = page+$LRL-PageOf+pageTotal ;
 		if( diy.settings.getBoolean( 'PageIn' ) ){ 
 			if( diy.settings.getBoolean( 'PageBackShow' ,true ) ) writeLine( $PageIn-format+page , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
 		}else{
