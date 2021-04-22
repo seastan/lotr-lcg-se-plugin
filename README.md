@@ -14,6 +14,9 @@ installed by default.
 
 6. Run Strange Eons and install `The Lord of the Rings LCG` plugin.
 
-7. Go to plugins folder (run Strange Eons, then click `Toolbox` -> `Manage Plug-ins` -> `Open Plug-in Folder`),
+7. Click `Edit` -> `Preferences` -> `Language`.  Make sure that "English-United States" is chosen
+for both `Game Language` and `User Interface Language`.
+
+8. Go to plugins folder (run Strange Eons, then click `Toolbox` -> `Manage Plug-ins` -> `Open Plug-in Folder`),
 close Strange Eons and delete or move all files, which names start with `TheLordOfTheRingsLCG`.  Instead of them,
 copy all generated `.seext` files from the root folder of this repo.
