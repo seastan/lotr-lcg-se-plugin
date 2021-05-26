@@ -17,7 +17,7 @@ installed by default.
 
   - Windows (64-bit): https://drive.google.com/file/d/19vuP5QFKrjuilJbuFh10NPIn6i_FZZI9/view?usp=sharing
   - Windows (32-bit): https://drive.google.com/file/d/1lZ6h7OQBvZdh2hOlAiZMYivzeooTqWhW/view?usp=sharing
-  - macOS: https://drive.google.com/file/d/1TkWEjB71fdxxq_gHzhI-WfRXaRrJcGZg/view?usp=sharing
+  - Mac: https://drive.google.com/file/d/1TkWEjB71fdxxq_gHzhI-WfRXaRrJcGZg/view?usp=sharing
   - Linux: https://drive.google.com/file/d/1ZC-uSOVKqU7XGZUip3I6OvUT7mPOLLoN/view?usp=sharing
 
 Please note that the latest Strange Eons version from the site
