@@ -1,5 +1,8 @@
 **Setup**
 
+Please note that to generate final image outputs, you need a Windows platform,
+because each platform renders the fonts differently.
+
 1. Clone this repo to a local folder (you can click `Code` and then `Download ZIP`).
 
 2. Download `Vafthrudnir` font from https://www.wfonts.com/font/vafthrudnir, extract the archive
@@ -10,7 +13,15 @@ and put `VAFTHRUD.TTF` into `TheLordOfTheRingsLCG-B/resources/TheLordOfTheRingsL
 4. Make sure that `Times New Roman` font is installed.  If you have Mac or Linux, it may be not
 installed by default.
 
-5. Install Strange Eons from https://strangeeons.cgjennings.ca/download.html, choose `Build 3970`.
+5. Install Strange Eons, `Build 3970`.  Use the following links:
+
+  - Windows (64-bit): https://drive.google.com/file/d/19vuP5QFKrjuilJbuFh10NPIn6i_FZZI9/view?usp=sharing
+  - Windows (32-bit): https://drive.google.com/file/d/1lZ6h7OQBvZdh2hOlAiZMYivzeooTqWhW/view?usp=sharing
+  - macOS: https://drive.google.com/file/d/1TkWEjB71fdxxq_gHzhI-WfRXaRrJcGZg/view?usp=sharing
+  - Linux: https://drive.google.com/file/d/1ZC-uSOVKqU7XGZUip3I6OvUT7mPOLLoN/view?usp=sharing
+
+Please note that the latest Strange Eons version from the site
+(https://strangeeons.cgjennings.ca/download.html) may not work as expected.
 
 6. Run Strange Eons and install `The Lord of the Rings LCG` plugin.
 
