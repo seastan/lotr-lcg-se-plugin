@@ -23,7 +23,8 @@ installed by default.
 Please note that the latest Strange Eons version from the site
 (https://strangeeons.cgjennings.ca/download.html) may not work as expected.
 
-6. Run Strange Eons and install `The Lord of the Rings LCG` plugin.
+6. Run Strange Eons and install `The Lord of the Rings LCG` plugin.  For debugging purposes
+you may also install `Developer Tools` plugin.
 
 7. Click `Edit` -> `Preferences` -> `Language`.  Make sure that "English-United States" is chosen
 for both `Game Language` and `User Interface Language`.  Click `Drawing`.  Make sure that
