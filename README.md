@@ -20,8 +20,8 @@ installed by default.
   - Mac: https://drive.google.com/file/d/1TkWEjB71fdxxq_gHzhI-WfRXaRrJcGZg/view?usp=sharing
   - Linux: https://drive.google.com/file/d/1ZC-uSOVKqU7XGZUip3I6OvUT7mPOLLoN/view?usp=sharing
 
-Please note that the latest Strange Eons version from the site
-(https://strangeeons.cgjennings.ca/download.html) may not work as expected.
+    Please note that the latest Strange Eons version from the site
+    (https://strangeeons.cgjennings.ca/download.html) may not work as expected.
 
 6. Run Strange Eons and install `The Lord of the Rings LCG` plugin.  For debugging purposes
 you may also install `Developer Tools` plugin.
