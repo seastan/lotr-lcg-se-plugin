@@ -278,7 +278,7 @@ function paintFront( g , diy , sheet ){
 	}else{
 		Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
 	}
-	writeBody( [ 'Story' , 'Rules' , 'Condition' ] , g , diy ) ;
+	writeBody( [ 'Trait', 'Story' , 'Rules' , 'Condition' ] , g , diy ) ;
 
 	writeArtist( g , sheet , diy ) ;
 	writeCopyright( g , sheet , diy ) ;
