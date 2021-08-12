@@ -11,6 +11,11 @@ const TemplateList = new Array(
 	, 'Baggins'
 	, 'Fellowship'
 	, 'Mastery'
+	, 'PromoNeutral'
+	, 'PromoLeadership'
+	, 'PromoLore'
+	, 'PromoSpirit'
+	, 'PromoTactics'
 	, 'CustomSphere'
 ) ;
 

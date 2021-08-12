@@ -503,7 +503,7 @@ the back side of the component too: paintBack.
 
 // TEXTS
 	writeName( g , diy ) ;
-	writeBody( [ 'Trait' , 'Rules' , 'Flavour' ] , g , diy ) ;
+	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 
 	writeType( g , diy ) ;
 	writeOptionLeft( g , sheet , diy ) ;

@@ -259,7 +259,7 @@ function paintFront( g , diy , sheet ){
 
 // TEXTS
 	writeName( g , diy ) ;
-	writeBody( [ 'Trait' , 'Rules' , 'Flavour' ] , g , diy ) ;
+	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 //	switch( $Template ){
 //	case 'Neutral':
 //	case 'Boon':

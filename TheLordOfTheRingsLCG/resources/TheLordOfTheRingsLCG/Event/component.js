@@ -257,7 +257,7 @@ function paintFront( g , diy , sheet ){
 
 // TEXTS
 	writeNameRotated( g , diy ) ;
-	writeBody( [ 'Trait' , 'Rules' , 'Flavour' ] , g , diy ) ;
+	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 
 	writeType( g , diy ) ;
 	if( $Template == 'Boon' ){ writeSubtype( g , diy ) ; }
