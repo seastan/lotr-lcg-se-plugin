@@ -16,6 +16,8 @@ const TemplateList = new Array(
 	, 'PromoLore'
 	, 'PromoSpirit'
 	, 'PromoTactics'
+	, 'PromoBaggins'
+	, 'PromoFellowship'
 	, 'CustomSphere'
 ) ;
 
