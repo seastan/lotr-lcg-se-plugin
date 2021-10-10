@@ -2,7 +2,7 @@ Open Strange Eons
 
 Do File>New project
 
-Enter a name for the project (For example: LRL-AleP)
+Enter a name for the project
 Choose path for the project
 Leave "As project folder"
 
