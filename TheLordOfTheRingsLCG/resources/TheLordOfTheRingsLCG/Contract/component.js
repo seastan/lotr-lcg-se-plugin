@@ -273,7 +273,15 @@ function paintBack( g, diy, sheet ){
 		paintIcon( 'Collection' , g , diy , sheet ) ;
 
 		// TEXTS
-		writeName( g , diy ) ;
+		if( $NameBack == '' ){
+			writeName( g , diy ) ;
+		}else{
+			writeLine(
+				$NameBack , Name_writer ,
+				diy.settings.getRegion( 'Name' ) , g
+			) ;
+		}
+
 		writeBody( [ 'RulesBack' , 'FlavourBack' ] , g , diy ) ;
 
 		writeType( g , diy ) ;
