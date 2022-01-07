@@ -35,3 +35,6 @@ Name-colour = #000000
 
 Standard-template = TheLordOfTheRingsLCG/SideQuest/Standard-lr.jp2
 Standard-template-hires = TheLordOfTheRingsLCG/SideQuest/Standard.jp2
+
+SmallTextArea-template = TheLordOfTheRingsLCG/SideQuest/SmallTextArea-lr.jp2
+SmallTextArea-template-hires = TheLordOfTheRingsLCG/SideQuest/SmallTextArea.jp2

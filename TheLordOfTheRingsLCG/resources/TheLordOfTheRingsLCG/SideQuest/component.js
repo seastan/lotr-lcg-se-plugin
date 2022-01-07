@@ -3,6 +3,7 @@ const CardVersion = 1 ;
 // 1: rewrite using new 2020 library
 const TemplateList = new Array(
 	'Standard'
+	, 'SmallTextArea'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
 
@@ -239,7 +240,7 @@ function paintFront( g , diy , sheet ){
 
 // TEMPLATE
 	// sombra opcional
-	sheet.paintTemplateImage( g ) ;
+	paintTemplate( g , sheet ) ;
 	switch( $Difficulty ) {
 	case 'Standard' : break ;
 	case 'Custom' :
