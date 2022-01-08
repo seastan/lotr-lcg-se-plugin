@@ -4,6 +4,7 @@ const CardVersion = 1 ;
 const TemplateList = new Array(
 	'Standard'
 	, 'SmallTextArea'
+	, 'FullArt'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
 
@@ -240,7 +241,9 @@ function paintFront( g , diy , sheet ){
 
 // TEMPLATE
 	// sombra opcional
-	paintTemplate( g , sheet ) ;
+	if( $Template != 'FullArt' ){
+		paintTemplate( g , sheet ) ;
+	}
 	switch( $Difficulty ) {
 	case 'Standard' : break ;
 	case 'Custom' :
@@ -262,32 +265,40 @@ function paintFront( g , diy , sheet ){
 	}
 	
 // ICONS
-	paintIcon( 'Collection' , g , diy , sheet ) ;
-	paintIcon( 'EncounterSet' , g , diy , sheet ) ;
+	if( $Template != 'FullArt' ){
+		paintIcon( 'Collection' , g , diy , sheet ) ;
+		paintIcon( 'EncounterSet' , g , diy , sheet ) ;
+	}
 
 // STATS
-	paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
+	if( $Template != 'FullArt' ){
+		paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
+	}
 
 // TEXTS
-	writeName( g , diy ) ;
-	if ( $OptionRight != '' ){
-		writeLineDecorated(
-			$OptionRight , Option_writer , diy.settings.getRegion( 'OptionRight' ) ,
-			ImageUtils.get( ImagePath+'VictoryDecoration.jp2' ) , diy.settings.getRegion( 'OptionRightDecoration' ) ,
-			g , sheet 
-		) ;
-		Body_writer.setPageShape( diy.settings.getCupShape( 'Option-Body-shape' ) ) ;
-	}else{
-		Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
+	if( $Template != 'FullArt' ){
+		writeName( g , diy ) ;
+		if ( $OptionRight != '' ){
+			writeLineDecorated(
+				$OptionRight , Option_writer , diy.settings.getRegion( 'OptionRight' ) ,
+				ImageUtils.get( ImagePath+'VictoryDecoration.jp2' ) , diy.settings.getRegion( 'OptionRightDecoration' ) ,
+				g , sheet 
+			) ;
+			Body_writer.setPageShape( diy.settings.getCupShape( 'Option-Body-shape' ) ) ;
+		}else{
+			Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
+		}
+		writeBody( [ 'Trait', 'Story' , 'Rules' , 'Condition' ] , g , diy ) ;
+		writeEncounterSetNumber( g , diy ) ;
 	}
-	writeBody( [ 'Trait', 'Story' , 'Rules' , 'Condition' ] , g , diy ) ;
-
-	writeEncounterSetNumber( g , diy ) ;
 
 	writeArtist( g , sheet , diy ) ;
 	writeCopyright( g , sheet , diy ) ;
-	writeCollectionInfo( g , sheet , diy ) ;
-	writeCollectionNumber( g , sheet , diy ) ;
+
+	if( $Template != 'FullArt' ){
+		writeCollectionInfo( g , sheet , diy ) ;
+		writeCollectionNumber( g , sheet , diy ) ;
+	}
 
 	paintCut( g , diy , sheet ) ;
 }

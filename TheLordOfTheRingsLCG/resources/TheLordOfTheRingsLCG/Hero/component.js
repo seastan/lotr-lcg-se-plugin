@@ -19,6 +19,7 @@ const TemplateList = new Array(
 	, 'PromoBaggins'
 	, 'PromoFellowship'
 	, 'CustomSphere'
+	, 'FullArt'
 ) ;
 
 function create( diy ){
@@ -257,34 +258,43 @@ function paintFront( g , diy , sheet ){
 		
 		sheet.paintTemplateImage( g ) ;
 		
-	}else{ 
+	}else if( $Template != 'FullArt' ){
 		paintTemplate( g , sheet ) ; // this will draw the selected $Template
 	}
 
 // ICONS
-	paintIcon( 'Collection' , g , diy , sheet ) ;
-	if( $Template == 'CustomSphere' ) paintIcon( 'CustomSphere' , g , diy , sheet ) ;
+	if( $Template != 'FullArt' ){
+		paintIcon( 'Collection' , g , diy , sheet ) ;
+		if( $Template == 'CustomSphere' ) paintIcon( 'CustomSphere' , g , diy , sheet ) ;
+	}
 
 // STATS
-	paintStatTinted( 'ThreatCost' , ThreatCost_tinter , g , sheet ) ;
-	paintStatTinted( 'HitPoints' , HitPoints_tinter , g , sheet ) ;
-	paintStat( 'Willpower' , g , sheet ) ;
-	paintStat( 'Attack' , g , sheet ) ;
-	paintStat( 'Defense' , g , sheet ) ;
+	if( $Template != 'FullArt' ){
+		paintStatTinted( 'ThreatCost' , ThreatCost_tinter , g , sheet ) ;
+		paintStatTinted( 'HitPoints' , HitPoints_tinter , g , sheet ) ;
+		paintStat( 'Willpower' , g , sheet ) ;
+		paintStat( 'Attack' , g , sheet ) ;
+		paintStat( 'Defense' , g , sheet ) ;
+	}
 
 // TEXTS
-	writeName( g , diy ) ;
-	if( $Template == 'Neutral' ) Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
-	else Body_writer.setPageShape( diy.settings.getCupShape( 'Sphere-Body-shape' ) ) ;
-	writeBody( [ 'Trait' , 'Rules' , 'Flavour' ] , g , diy ) ;
+	if( $Template != 'FullArt' ){
+		writeName( g , diy ) ;
+		if( $Template == 'Neutral' ) Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
+		else Body_writer.setPageShape( diy.settings.getCupShape( 'Sphere-Body-shape' ) ) ;
+		writeBody( [ 'Trait' , 'Rules' , 'Flavour' ] , g , diy ) ;
 	
-	writeType( g , diy ) ;
-	writeOptionRight( g , sheet , diy ) ;
+		writeType( g , diy ) ;
+		writeOptionRight( g , sheet , diy ) ;
+	}
 
 	writeArtist( g , sheet , diy ) ;
 	writeCopyright( g , sheet , diy ) ;
-	writeCollectionInfo( g , sheet , diy ) ;
-	writeCollectionNumber( g , sheet , diy ) ;
+
+	if( $Template != 'FullArt' ){
+		writeCollectionInfo( g , sheet , diy ) ;
+		writeCollectionNumber( g , sheet , diy ) ;
+	}
 
 	paintCut( g , diy , sheet ) ;
 }
