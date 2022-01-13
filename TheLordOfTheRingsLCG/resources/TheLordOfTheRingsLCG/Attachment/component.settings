@@ -54,3 +54,6 @@ Boon-template = TheLordOfTheRingsLCG/Attachment/Boon-lr.jp2
 Boon-template-hires = TheLordOfTheRingsLCG/Attachment/Boon.jp2
 Boon-Name-region = 122,34,200,24
 Boon-ResourceCost-region = 37,44,50,35
+
+PlayerObjective-template = TheLordOfTheRingsLCG/Attachment/PlayerObjective-lr.jp2
+PlayerObjective-template-hires = TheLordOfTheRingsLCG/Attachment/PlayerObjective.jp2

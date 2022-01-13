@@ -13,6 +13,7 @@ const TemplateList = new Array(
 	, 'Mastery'
 	, 'CustomSphere'
 	, 'Boon'
+	, 'PlayerObjective'
 ) ;
 
 function create( diy ){
