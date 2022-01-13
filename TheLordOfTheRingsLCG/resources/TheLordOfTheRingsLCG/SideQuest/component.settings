@@ -38,3 +38,6 @@ Standard-template-hires = TheLordOfTheRingsLCG/SideQuest/Standard.jp2
 
 SmallTextArea-template = TheLordOfTheRingsLCG/SideQuest/SmallTextArea-lr.jp2
 SmallTextArea-template-hires = TheLordOfTheRingsLCG/SideQuest/SmallTextArea.jp2
+
+SmallTextAreaDark-template = TheLordOfTheRingsLCG/SideQuest/SmallTextAreaDark-lr.jp2
+SmallTextAreaDark-template-hires = TheLordOfTheRingsLCG/SideQuest/SmallTextAreaDark.jp2
