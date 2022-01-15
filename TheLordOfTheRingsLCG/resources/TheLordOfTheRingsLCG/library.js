@@ -423,6 +423,7 @@ function writeOptionRight( g , sheet , diy ){
 	}
 }
 function writeArtist( g , sheet , diy ){
+	if( diy.settings.getBoolean( 'NoArtist' , false ) === true ) return;
 	switch( $Artist ){
 	case 'no' :
 		text = '' ; 
@@ -441,7 +442,56 @@ function writeArtist( g , sheet , diy ){
 		g , sheet , diy 
 	) ;
 }
+function writeArtistBack( g , sheet , diy ){
+	if( diy.settings.getBoolean( 'NoArtistBack' , false ) === true ) return;
+	if( diy.settings.getBoolean( 'PortraitShare' , true ) === true ){
+		switch( $Artist ){
+		case 'no' :
+			text = '' ; 
+			break ;
+		case '' : 
+			if( diy.settings.get( 'LRL-IllustratorUnknown' , '' ) != '' ) text = $LRL-IllustratorUnknown ; 
+			else text = #LRL-IllustratorUnknown ; 
+			break ;
+		default : 
+			if( diy.settings.get( 'LRL-IllustratorShort' , '' ) != '' ) text = $LRL-IllustratorShort+' '+$Artist ;
+			else text = #LRL-IllustratorShort+' '+$Artist ;
+		}
+		writeTextOutlined( 
+			'<left>'+text , Bottom_writer , 
+			diy.settings.getRegion( 'Artist' ) , selectStroke( 'Bottom-stroke' , diy ) , 
+			g , sheet , diy 
+		) ;
+	}else{
+		switch( $ArtistBack ){
+		case 'no' :
+			text = '' ; 
+			break ;
+		case '' : 
+			if( diy.settings.get( 'LRL-IllustratorUnknown' , '' ) != '' ) text = $LRL-IllustratorUnknown ; 
+			else text = #LRL-IllustratorUnknown ; 
+			break ;
+		default : 
+			if( diy.settings.get( 'LRL-IllustratorShort' , '' ) != '' ) text = $LRL-IllustratorShort+' '+$ArtistBack ;
+			else text = #LRL-IllustratorShort+' '+$ArtistBack ;
+		}
+		writeTextOutlined( 
+			'<left>'+text , Bottom_writer , 
+			diy.settings.getRegion( 'Artist' ) , selectStroke( 'Bottom-stroke' , diy ) , 
+			g , sheet , diy 
+		) ;
+	}
+}
 function writeCopyright( g , sheet , diy ){
+	if( diy.settings.getBoolean( 'NoCopyright' , false ) === true ) return;
+	writeTextOutlined( 
+		diy.settings.get( 'Copyright' , '' ) , Bottom_writer , 
+		diy.settings.getRegion( 'Copyright' ) , selectStroke( 'Bottom-stroke' , diy ) , 
+		g , sheet , diy 
+	) ;
+}
+function writeCopyrightBack( g , sheet , diy ){
+	if( diy.settings.getBoolean( 'NoCopyrightBack' , false ) === true ) return;
 	writeTextOutlined( 
 		diy.settings.get( 'Copyright' , '' ) , Bottom_writer , 
 		diy.settings.getRegion( 'Copyright' ) , selectStroke( 'Bottom-stroke' , diy ) , 

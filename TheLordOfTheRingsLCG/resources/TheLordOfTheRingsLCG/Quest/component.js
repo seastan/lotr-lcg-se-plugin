@@ -512,27 +512,8 @@ function paintBack( g, diy, sheet ){
 	}
 	writeBody( [ 'StoryBack' , 'RulesBack' , 'ConditionBack' ] , g , diy ) ;
 
-	if( diy.settings.getBoolean( 'PortraitShare' , true ) === true ){
-		writeArtist( g , sheet , diy ) ;
-	}else{
-		switch( $ArtistBack ){
-		case 'no' : text = '' ; break ;
-		case '' : 
-			if( diy.settings.get( 'LRL-IllustratorUnknown' , '' ) != '' ) text = $LRL-IllustratorUnknown ; 
-			else text = #LRL-IllustratorUnknown ; 
-			break ;
-		default : 
-			if( diy.settings.get( 'LRL-IllustratorShort' , '' ) != '' ) text = $LRL-IllustratorShort+' '+$ArtistBack ;
-			else text = #LRL-IllustratorShort+' '+$ArtistBack ;
-		}
-		writeTextOutlined( 
-			'<left>'+text , Bottom_writer , 
-			diy.settings.getRegion( 'Artist' ) , selectStroke( 'Bottom-stroke' , diy ) , 
-			g , sheet , diy 
-		) ;
-	}
-	
-	writeCopyright( g , sheet , diy ) ;
+	writeArtistBack( g , sheet , diy ) ;
+	writeCopyrightBack( g , sheet , diy ) ;
 	writeCollectionInfo( g , sheet , diy ) ;
 	writeCollectionNumberBack( g , sheet , diy ) ;
 

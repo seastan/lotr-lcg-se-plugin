@@ -4,7 +4,7 @@ const CardVersion = 1 ;
 const TemplateList = new Array(
 	'Standard'
 	, 'SmallTextArea'
-	, 'SmallTextAreaDark'
+	, 'Cave'
 	, 'FullArt'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
@@ -294,9 +294,7 @@ function paintFront( g , diy , sheet ){
 	}
 
 	writeArtist( g , sheet , diy ) ;
-	if( $Template != 'SmallTextAreaDark' ){
-		writeCopyright( g , sheet , diy ) ;
-	}
+	writeCopyright( g , sheet , diy ) ;
 
 	if( $Template != 'FullArt' ){
 		writeCollectionInfo( g , sheet , diy ) ;
