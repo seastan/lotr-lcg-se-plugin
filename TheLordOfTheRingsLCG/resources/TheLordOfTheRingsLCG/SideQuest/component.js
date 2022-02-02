@@ -272,7 +272,7 @@ function paintFront( g , diy , sheet ){
 	}
 
 // STATS
-	if( $Template != 'FullArt' ){
+	if( ($Template != 'FullArt') && ($Template != 'Cave') ){
 		paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
 	}
 
