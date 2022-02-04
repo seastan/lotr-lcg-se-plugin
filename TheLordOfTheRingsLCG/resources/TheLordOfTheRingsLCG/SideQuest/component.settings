@@ -17,6 +17,7 @@ EncounterSetNumber-region = 487,229,24,12
 Name-region = 90,39,381,27
 Progress-region = 52,203,36,24
 Body-region = 49,244,463,123
+BodyRight-region = 49,244,463,123
 
 Option-Body-shape = 0,0,354,0,58
 

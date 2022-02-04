@@ -207,6 +207,10 @@ function createFrontPainter( diy , sheet ){
 // TEXT
 	Name_writer = new createTextBox( 'Name' , diy , sheet ) ;
 	Body_writer = new createTextBox( 'Body' , diy , sheet ) ;
+	if( $Template == 'Cave' ){
+		BodyRight_writer = new createTextBox( 'BodyRight' , diy , sheet ) ;
+	}
+
 	Option_writer = new createTextBox( 'Option' , diy , sheet ) ;
 	Bottom_writer = new createTextBox( 'Bottom' , diy , sheet ) ;
 	EncounterSetNumber_writer = new createTextBox( 'EncounterSetNumber' , diy , sheet ) ;
@@ -289,7 +293,10 @@ function paintFront( g , diy , sheet ){
 		}else{
 			Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
 		}
-		writeBody( [ 'Trait', 'Story' , 'Rules' , 'Condition' ] , g , diy ) ;
+		writeBody( [ 'Trait' , 'Story' , 'Rules' , 'Condition' ] , g , diy ) ;
+		if( $Template == 'Cave' ){
+			writeParagraph( [ 'RulesRight' ] , BodyRight_writer , diy.settings.getRegion( 'BodyRight' ) , g , diy ) ;
+		}
 		writeEncounterSetNumber( g , diy ) ;
 	}
 
