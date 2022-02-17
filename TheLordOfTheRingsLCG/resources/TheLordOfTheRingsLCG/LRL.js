@@ -404,7 +404,9 @@ function gameObject(){// GAME ){
 	this.LRLwindlass = FontUtils.registerFontFamilyFromResources.apply( this , [pathLRLwindlass] ) ;
 	this.LOTRHeader = FontUtils.registerFontFamilyFromResources.apply( this , [pathLOTRHeader] ) ;
 	this.Vafthaurdir = FontUtils.registerFontFamilyFromResources.apply( this , [pathVafthaurdir] ) ;
-	this.Vafthrudnir = FontUtils.registerFontFamilyFromResources.apply( this , [pathVafthrudnir] ) ;
+	try{
+		this.Vafthrudnir = FontUtils.registerFontFamilyFromResources.apply( this , [pathVafthrudnir] ) ;
+	}catch( ex ){ throw "Missing resource file" ; }
 
 //	this.DumbFont = FontUtils.registerFontFamilyFromResources.apply(this,['TheLordOfTheRingsLCG/font/Dumbledor.ttf']);
 //	this.UnicodeFont = registerFont( 'Sun-ExtA.ttf' );

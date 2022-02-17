@@ -1,0 +1,1 @@
+Custom version of the plugin.
