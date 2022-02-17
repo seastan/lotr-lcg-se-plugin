@@ -1,4 +1,0 @@
-What to look for
-
-Text size on different elements. use <size X> tag to test.
-Text regions' size. does the text go too much to the border?
