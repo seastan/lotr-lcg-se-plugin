@@ -16,7 +16,7 @@ const LibraryVersion = 20 ;
 var GO = Eons.namedObjects.LRL ;
 const ResourcesPath = 'TheLordOfTheRingsLCG/' ;
 // "CardPath" is the path to the component specific files
-// in the Strange Eons virtual file system.
+// in the virtual file system.
 var CardPath = ResourcesPath+Card+'/' ;
 var TextPath = ResourcesPath+'text/' ;
 var UiPath = ResourcesPath+'ui/' ;
@@ -1081,7 +1081,6 @@ Use only the key without the "Card" type.
 function paintPortrait( key , g , diy , sheet ){
 	debug( 1 , 'paintPortrait: '+key ) ;
 	if( ( typeof( SE2CARD ) != 'undefined' ) && ( key == 'Main' ) ){
-		// support for Strange Eons 2 card portrait
 		debug( 0 , 'paintPortrait: SE2CARD' ) ;
 		sheet.paintPortrait( g ) ;
 	}else{ 
@@ -1358,7 +1357,7 @@ Then, it loads the settings from the plugin preferences.
 
 // Default values from preferences
 	if( $LRL-Copyright != '' ) $Copyright = diy.settings.get( 'LRL-Copyright' , '\u00a9FFG \u00a9Middle-earth' ) ;
-	if( $LRL-CollectionInfo != '' ) $CollectionInfo = diy.settings.get( 'LRL-CollectionInfo' , 'Strange Eons' ) ;
+	if( $LRL-CollectionInfo != '' ) $CollectionInfo = diy.settings.get( 'LRL-CollectionInfo' , '' ) ;
 	
 	if( $LRL-Collection != '' ) $Collection = diy.settings.get( 'LRL-Collection' , 'StrangeEonsIcon' ) ;
 	if( $LRL-Collection == 'CustomIcon' ) diy.settings.set( 'Collection-portrait-template' , diy.settings.get( '$LRL-CollectionUser' , 'TheLordOfTheRingsLCG/ui/Empty.png' ) ) ;
@@ -1533,11 +1532,11 @@ function updateExternalPortrait( key , diy ){
 	}
 }
 
-/* Strange Eons main functions */
+/* main functions */
 function onRead( diy , ois ){
 /*
 This is one of the main functions on scripted components.
-This function is called by Strange Eons on component file loading.
+This function is called on component file loading.
 When using custom portrait handling, Portraits must be loaded
 explicitly.
 */
@@ -1564,7 +1563,7 @@ explicitly.
 function onWrite( diy , oos ){
 /*
 This is one of the main functions on scripted components.
-This function is called by Strange Eons on component file save.
+This function is called on component file save.
 When using custom portrait handling, Portraits must be saved
 explicitly.
 */
@@ -1575,7 +1574,7 @@ explicitly.
 function onClear( diy ){
 /*
 This is one of the main functions on scripted components.
-This function is called by the Strange Eons user interface on
+This function is called by the user interface on
 Edit>Clear menu. Should be used only to initialize the component
 settings and controls.
 In my code, I use the Localizable list defined in the game object

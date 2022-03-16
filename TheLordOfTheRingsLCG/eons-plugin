@@ -22,7 +22,7 @@ catalog-description = <p>This plug-in allows creating components for <i><b>The \
     thanks</h2>\n<p>Developed by Daniel Tello (AKA karagh/heavykaragh). Original \
     templates by GeckoTH (from BoardGameGeek). Polish translation by Andrzej \
     Owsiejczuk. French translation by banania (@BGG). Italian translation by Marco \
-    Adinolfi.</p>\n<p>Thanks to Christopher G. Jennings for Strange Eons, to \
+    Adinolfi.</p>\n<p>Thanks to Christopher G. Jennings, to \
     HilariousPete for his original plug-in and font, and to Nate French and FFG for \
     this great game.</p>
 catalog-description_es_ES = <p>Este complemento permite crear componentes para \
@@ -58,7 +58,7 @@ catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per 
     Daniel Tello (AKA karagh/heavykaragh). Templates originali by GeckoTH (from \
     BoardGameGeek). Traduzione polacca by Andrzej Owsiejczuk. Traduzione francese by \
     banania (@BGG). Traduzione italiane by Marco Adinolfi.</p>\n<p>Grazie a \
-    Christopher G. Jennings per Strange Eons, to HilariousPete per i suoi plug-in e \
+    Christopher G. Jennings, to HilariousPete per i suoi plug-in e \
     font originali, e a Nate French e FFG per questo gioco magnifico.</p>
 
 catalog-tags = game, beta

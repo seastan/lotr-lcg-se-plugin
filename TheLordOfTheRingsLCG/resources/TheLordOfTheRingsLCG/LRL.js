@@ -1,4 +1,4 @@
-// Strange Eons 3 plug-in initialization script
+// Plug-in initialization script
 // The Lord of the Rings: The Card Game
 
 // libraries
@@ -59,7 +59,7 @@ function initialize(){
 	InterfaceLanguage.addStrings( TextPath+'icons' ) ;
 	GameLanguage.addStrings( TextPath+'game' ) ;
 	
-	// create plugin/game environment (identity within Strange Eons, settings scope, ...) 
+	// create plugin/game environment (identity, settings scope, ...) 
 	const GAME = Game.register(
 		'LRL' , 'LRL-TheLordOfTheRingsLCG' ,
 		ImageUtils.get( UiPath+'LRL.png' )
@@ -208,7 +208,7 @@ function initialize(){
 //	pc.addCheckBox( 'LRL-HeroPromo-outOfBox' , @LRL-HeroPromo-outOfBox , false ) ;
 //
 //	pc.subheading( @LRL-default ) ;
-//	if( $LRL-CollectionInfo == null ) $LRL-CollectionInfo = 'Strange Eons' ; 
+//	if( $LRL-CollectionInfo == null ) $LRL-CollectionInfo = '' ; 
 //	pc.addField( 'LRL-CollectionInfo' , @LRL-CollectionInfo , 20 ) ;
 //	pc.join(); 
 //	pc.addTip( @LRL-CollectionInfo-tip ) ;
@@ -315,7 +315,7 @@ function gameObject(){// GAME ){
 	this.DefaultIconList = new Array(
 		'Custom' , // used to include icons through a Portrait_panel
 		'Empty' , // used to not draw the icon
-		'StrangeEonsIcon' // used to show the Strange Eons feather icon
+		'StrangeEonsIcon' // used to show the feather icon
 	) ;
 	
 	this.ProductGroupList = new Array() ;

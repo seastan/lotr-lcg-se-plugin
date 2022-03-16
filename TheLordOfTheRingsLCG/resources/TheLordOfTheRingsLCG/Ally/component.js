@@ -21,7 +21,7 @@ const TemplateList = new Array(
 
 /*
 All the plugin code revolves around the concept of the component "settings"
-explained in the Strange Eons developer manual. "Settings" (defined in the
+explained in the developer manual. "Settings" (defined in the
 code by the $ simbol) store everything the user can define in a component,
 like it's title, stats or portraits.
 I've created a library that creates user interface controls, drawing methods
@@ -108,7 +108,7 @@ function createInterface( diy , editor , sheet ){
 /*
 "createInterface" is one of the main functions on scripted components.
 It's called only when a component is going to be edited. It fills an
-Strange Eons editor tab with user controls, allowing component editing.
+editor tab with user controls, allowing component editing.
 I create a tab on the component editor tab for different groups of 
 controls. The Main_tab contains the main controls, like card title, 
 stats and effect text. The Portrait_tab is used only for Main and 
@@ -223,7 +223,7 @@ but all text is in this tab.
 	Flavour_control = new uiParagraph( 'Flavour' , bindings ) ;
 	
 	Effect_panel.place(
-		// "@LRL-Title" writes a text localized depending on the Strange Eons
+		// "@LRL-Title" writes a text localized depending on the
 		// "User interface language" defined in the Preferences. Placement
 		// options are defined simply with "split", used to share the available
 		// horizontal space with other controls until "newline" is found.
@@ -399,7 +399,7 @@ function createFrontPainter( diy , sheet ){
 /*
 "createFrontPainter" is one of the main functions on scripted 
 components. It's called only once when a component is going to be 
-drawn by the Strange Eons preview or exported to a file. Several 
+drawn by the preview or exported to a file. Several 
 editable stuff that depends on user controls or graphical effects 
 must be defined before actually drawing the component. Further 
 drawings will take less time once these elements are defined. Thus, 
@@ -460,8 +460,8 @@ Because
 function paintFront( g , diy , sheet ){ 
 /*
 "paintFront" is one of the main functions on scripted components. It's 
-called whenever a component is actually going to be drawn by Strange 
-Eons preview or exported to a file. There is a "sister" function for 
+called whenever a component is actually going to be drawn by
+preview or exported to a file. There is a "sister" function for 
 the back side of the component too: paintBack. 
 */
 // PORTRAIT
