@@ -30,7 +30,12 @@ Standard-template-hires = TheLordOfTheRingsLCG/Enemy/Standard.jp2
 
 Nightmare-template = TheLordOfTheRingsLCG/Enemy/Nightmare-lr.jp2
 Nightmare-template-hires = TheLordOfTheRingsLCG/Enemy/Nightmare.jp2
-Nightmare-Body-region = 114,714,600,272
+
+Burden-template = TheLordOfTheRingsLCG/Enemy/Burden-lr.jp2
+Burden-template-hires = TheLordOfTheRingsLCG/Enemy/Burden.jp2
 
 Ship-template = TheLordOfTheRingsLCG/Enemy/Ship-lr.jp2
 Ship-template-hires = TheLordOfTheRingsLCG/Enemy/Ship.jp2
+
+ShipNightmare-template = TheLordOfTheRingsLCG/Enemy/ShipNightmare-lr.jp2
+ShipNightmare-template-hires = TheLordOfTheRingsLCG/Enemy/ShipNightmare.jp2

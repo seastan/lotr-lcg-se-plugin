@@ -5,7 +5,9 @@ const CardVersion = 1 ;
 const TemplateList = new Array(
 	'Standard'
 	, 'Nightmare'
+	, 'Burden'
 	, 'Ship'
+	, 'ShipNightmare'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
 
@@ -290,7 +292,10 @@ function paintFront( g , diy , sheet ){
 //	default:
 //		region = diy.settings.getRegion( 'Body' ) ;
 //	}
-	writeEncounterSetNumber( g , diy ) ;
+	switch( $Template ){
+	case 'Burden' : break ;
+	default: writeEncounterSetNumber( g , diy ) ;
+	}
 	
 	writeType( g , diy ) ;
 	writeOptionLeft( g , sheet , diy ) ;
@@ -300,6 +305,7 @@ function paintFront( g , diy , sheet ){
 	writeCopyright( g , sheet , diy ) ;
 	writeCollectionInfo( g , sheet , diy ) ;
 	writeCollectionNumber( g , sheet , diy ) ;
+	if( $Template == 'Burden' ) writeSubtype( g , diy ) ;
 	
 	paintCut( g , diy , sheet ) ;
 }
