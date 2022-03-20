@@ -37,8 +37,14 @@ Name-colour = #000000
 Standard-template = TheLordOfTheRingsLCG/SideQuest/Standard-lr.jp2
 Standard-template-hires = TheLordOfTheRingsLCG/SideQuest/Standard.jp2
 
+NoProgress-template = TheLordOfTheRingsLCG/SideQuest/NoProgress-lr.jp2
+NoProgress-template-hires = TheLordOfTheRingsLCG/SideQuest/NoProgress.jp2
+
 SmallTextArea-template = TheLordOfTheRingsLCG/SideQuest/SmallTextArea-lr.jp2
 SmallTextArea-template-hires = TheLordOfTheRingsLCG/SideQuest/SmallTextArea.jp2
 
 Cave-template = TheLordOfTheRingsLCG/SideQuest/Cave-lr.jp2
 Cave-template-hires = TheLordOfTheRingsLCG/SideQuest/Cave.jp2
+
+Nightmare-template = TheLordOfTheRingsLCG/SideQuest/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/SideQuest/Nightmare.jp2

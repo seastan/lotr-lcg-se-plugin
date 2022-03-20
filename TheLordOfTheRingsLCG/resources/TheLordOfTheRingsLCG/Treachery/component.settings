@@ -21,9 +21,6 @@ OptionSpecial-portrait-clip-region = 55,494,24,24
 
 Subtype-region = 159,304,100,13
 
-Burden-Body-region = 63,322,286,169
-Burden-Body-shape = 51,51,344,0,0
-
 Standard-template = TheLordOfTheRingsLCG/Treachery/Standard-lr.jp2
 Standard-template-hires = TheLordOfTheRingsLCG/Treachery/Standard.jp2
 

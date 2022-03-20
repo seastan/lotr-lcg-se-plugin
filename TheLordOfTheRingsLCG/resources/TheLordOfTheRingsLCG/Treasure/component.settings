@@ -15,7 +15,6 @@ ResourceCost-region = 45,61,44,30
 
 Name-region = 124,40,200,24
 Body-region = 51,327,311,167
-Body-shape = 0,0,473,0,38
 Type-region = 139,502,135,18
 
 Neutral-template = TheLordOfTheRingsLCG/Treasure/Neutral-lr.jp2

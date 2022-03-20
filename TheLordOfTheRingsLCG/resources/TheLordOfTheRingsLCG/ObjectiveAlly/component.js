@@ -3,9 +3,11 @@ const CardVersion = 1 ;
 // 1: rewrite using new 2020 library
 
 const TemplateList = new Array(
-	'Standard' 
-	, 'Ship' 
-	, 'Boon' 
+	'Standard'
+	, 'Hero'
+	, 'Ship'
+	, 'Upgraded'
+	, 'Boon'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
 
@@ -282,8 +284,7 @@ function paintFront( g , diy , sheet ){
 
 // TEXTS
 	writeName( g , diy ) ;
-	if( $Template == 'Burden' ) Body_writer.setPageShape( diy.settings.getCupShape( 'Burden-Body-shape' ) ) ;
-	else Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
+	Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
 	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 	
 	writeAdventure( g , diy ) ;

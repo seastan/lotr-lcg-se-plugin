@@ -22,6 +22,8 @@ OptionSpecial-portrait-clip-region = 75,494,24,24
 Adventure-region = 67,71,276,15
 Subtype-region = 159,300,100,13
 
+Progress-region = 55,283,36,24
+
 OptionLeft-region = 58,507,59,9
 OptionLeftDecoration-region = 51,503,74,18
 OptionRight-region = 297,507,59,9
@@ -37,5 +39,9 @@ Ring-tint = 50.0,0.8,1.0
 
 Burden-template = TheLordOfTheRingsLCG/Objective/Burden-lr.jp2
 Burden-template-hires = TheLordOfTheRingsLCG/Objective/Burden.jp2
-Burden-Body-region = 63,322,286,169
-Burden-Body-shape = 51,51,344,0,0
+
+Nightmare-template = TheLordOfTheRingsLCG/Objective/Nightmare-lr.jp2
+Nightmare-template-hires = TheLordOfTheRingsLCG/Objective/Nightmare.jp2
+
+Location-template = TheLordOfTheRingsLCG/Objective/Location-lr.jp2
+Location-template-hires = TheLordOfTheRingsLCG/Objective/Location.jp2

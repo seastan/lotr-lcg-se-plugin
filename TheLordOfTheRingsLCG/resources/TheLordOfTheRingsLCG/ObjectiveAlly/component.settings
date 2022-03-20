@@ -35,8 +35,14 @@ OptionRightDecoration-region = 290,503,72,17
 Standard-template = TheLordOfTheRingsLCG/ObjectiveAlly/Standard-lr.jp2
 Standard-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Standard.jp2
 
+Hero-template = TheLordOfTheRingsLCG/ObjectiveAlly/Hero-lr.jp2
+Hero-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Hero.jp2
+
 Ship-template = TheLordOfTheRingsLCG/ObjectiveAlly/Ship-lr.jp2
 Ship-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Ship.jp2
 
 Boon-template = TheLordOfTheRingsLCG/ObjectiveAlly/Boon-lr.jp2
 Boon-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Boon.jp2
+
+Upgraded-template = TheLordOfTheRingsLCG/ObjectiveAlly/Upgraded-lr.jp2
+Upgraded-template-hires = TheLordOfTheRingsLCG/ObjectiveAlly/Upgraded.jp2

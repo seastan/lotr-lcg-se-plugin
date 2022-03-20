@@ -23,7 +23,6 @@ ResourceCost-region = 45,38,50,36
 
 Name-region = 133,39,389,29
 Body-region = 49,244,465,124
-Body-shape = 0,35,255,0,0
 OptionRight-region = 463,358,59,9
 OptionRightDecoration-region = 456,354,72,17
 
