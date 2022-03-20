@@ -3,6 +3,8 @@ const CardVersion = 1 ;
 // 1: rewrite using new 2020 library
 const TemplateList = new Array(
 	'Standard'
+	, 'Nightmare'
+	, 'NoProgress'
 	, 'SmallTextArea'
 	, 'Cave'
 	, 'FullArt'
@@ -276,7 +278,7 @@ function paintFront( g , diy , sheet ){
 	}
 
 // STATS
-	if( ($Template != 'FullArt') && ($Template != 'Cave') ){
+	if( ($Template != 'FullArt') && ($Template != 'Cave') && ($Template != 'NoProgress') ){
 		paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
 	}
 

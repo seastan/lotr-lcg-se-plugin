@@ -392,7 +392,7 @@ Draws $key on the component template $key-region adding an image as background.
 
 function writeType( g , diy ){
 	if(  diy.settings.get( 'Type' , '' ) == '' ){
-		if(( $Template == 'Ship' ) || ( $Template == 'ShipNightmare' )){
+		if(( $Template == 'Ship' ) || ( $Template == 'ShipNightmare' ) || ( $Template == 'Upgraded' )){
 			switch( Card ){
 			case 'Enemy' : text = #LRL-ShipEnemy ; break ;
 			case 'ObjectiveAlly' : text = #LRL-ShipObjective ; break ;

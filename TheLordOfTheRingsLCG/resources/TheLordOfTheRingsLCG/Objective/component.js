@@ -4,8 +4,10 @@ const CardVersion = 1 ;
 
 const TemplateList = new Array(
 	'Standard'
-	, 'Burden' 
-	, 'Ring' 
+	, 'Nightmare'
+	, 'Location'
+	, 'Burden'
+	, 'Ring'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
 
@@ -203,6 +205,9 @@ function createFrontPainter( diy , sheet ){
 // TEMPLATE
 	Difficulty_tinter = new createTinter( 'Difficulty' , diy ) ;
 
+// STATS
+	Progress_tinter = new createTinter( 'Progress' , diy ) ;
+
 // TEXT
 	Name_writer = new createTextBox( 'Name' , diy , sheet ) ;
 	Body_writer = new createTextBox( 'Body' , diy , sheet ) ;
@@ -226,6 +231,9 @@ function paintFront( g , diy , sheet ){
 
 // PORTRAIT
 	paintPortrait( 'Portrait' , g , diy , sheet ) ;
+
+// STATS
+	if( $Template == 'Location' ) paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
 
 // TEMPLATE
 	switch( $Template ) {
@@ -267,8 +275,9 @@ function paintFront( g , diy , sheet ){
 
 // TEXTS
 	writeName( g , diy ) ;
-	if( $Template == 'Burden' ) Body_writer.setPageShape( diy.settings.getCupShape( 'Burden-Body-shape' ) ) ;
-	else Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
+	// if( $Template == 'Burden' ) Body_writer.setPageShape( diy.settings.getCupShape( 'Burden-Body-shape' ) ) ;
+	// else Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
+	Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
 	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 	
 	if( $Template != 'Ring' ) writeAdventure( g , diy ) ;
