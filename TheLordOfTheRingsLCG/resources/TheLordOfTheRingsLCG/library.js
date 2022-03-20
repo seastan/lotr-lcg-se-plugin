@@ -311,7 +311,8 @@ Draws $key on the component template $key-region.
 
 
 function writeEncounterSetNumber( g , diy ){
-	if( $EncounterSetNumber > 0 ){
+	if( $EncounterSetNumberOverwrite ) text = $EncounterSetNumberOverwrite ;
+	else if( $EncounterSetNumber > 0 ){
 		if( $EncounterSetTotal > 0 ) text = $EncounterSetNumber+$EncounterSetNumberOf+$EncounterSetTotal ;
 		else text = $EncounterSetNumber ;
 	}else{ text = '' ; }
