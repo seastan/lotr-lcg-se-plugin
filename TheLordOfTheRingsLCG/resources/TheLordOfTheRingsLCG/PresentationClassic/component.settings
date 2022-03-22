@@ -42,6 +42,9 @@ CollectionNumber-region = 345,527,15,12
 Standard-template = TheLordOfTheRingsLCG/PresentationClassic/Standard-lr.jp2
 Standard-template-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard.jp2
 
+StandardNightmare-template = TheLordOfTheRingsLCG/PresentationClassic/StandardNightmare-lr.jp2
+StandardNightmare-template-hires = TheLordOfTheRingsLCG/PresentationClassic/StandardNightmare.jp2
+
 Standard-Blue = TheLordOfTheRingsLCG/PresentationClassic/Standard-Blue-lr.jp2
 Standard-Blue-hires = TheLordOfTheRingsLCG/PresentationClassic/Standard-Blue.jp2
 

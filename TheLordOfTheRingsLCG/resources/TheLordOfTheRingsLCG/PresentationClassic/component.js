@@ -2,13 +2,19 @@ const Card = 'PresentationClassic';
 const CardVersion = 1 ;
 // 1: rewrite using new 2020 library
 const TemplateList = new Array( 
-	'Blue' 
-	, 'Green' 
-	, 'Purple' 
-	, 'Red' 
+	'Blue'
+	, 'Green'
+	, 'Purple'
+	, 'Red'
 	, 'Brown'
 	, 'Yellow'
-	, 'Custom' 
+	, 'BlueNightmare'
+	, 'GreenNightmare'
+	, 'PurpleNightmare'
+	, 'RedNightmare'
+	, 'BrownNightmare'
+	, 'YellowNightmare'
+	, 'Custom'
 ) ;
 
 function create( diy ){
@@ -187,10 +193,10 @@ function createFrontPainter( diy, sheet ){
 	Name_writer = new createTextBox( 'Name' , diy , sheet ) ;
 	//Name_writer.setLineTightness( 10 ) ;
 	
+	updateExternalPortrait( 'Collection' , diy ) ;	
 	updateExternalPortrait( 'Portrait' , diy ) ;
 	updateExternalPortrait( 'GameName' , diy ) ;
 	updateExternalPortrait( 'Name' , diy ) ;
-	
 }
 
 function createBackPainter( diy, sheet ){
@@ -198,7 +204,6 @@ function createBackPainter( diy, sheet ){
 	Bottom_writer = new createTextBox( 'Bottom' , diy , sheet ) ;
 	Type_writer = new createTextBox( 'Type' , diy , sheet ) ;
 	Page_writer = new createTextBox( 'Page' , diy , sheet ) ;
-	updateExternalPortrait( 'Collection' , diy ) ;
 	updateExternalPortrait( 'BackgroundBack' , diy ) ;
 }
 
@@ -224,7 +229,7 @@ function paintFront( g, diy, sheet ){
 		break ;
 	case 'Blue' :
 		sheet.paintImage( 
-			g , ImageUtils.get( CardPath+'Standard-'+$Template+'.jp2' ) ,   
+			g , ImageUtils.get( CardPath+'Standard-Blue.jp2' ) ,   
 			'Template'
 		) ; 
 		sheet.paintImage( 
@@ -234,7 +239,7 @@ function paintFront( g, diy, sheet ){
 		break ;
 	case 'Green' :
 		sheet.paintImage( 
-			g , ImageUtils.get( CardPath+'Standard-'+$Template+'.jp2' ) ,   
+			g , ImageUtils.get( CardPath+'Standard-Green.jp2' ) ,   
 			'Template'
 		) ; 
 		sheet.paintImage( 
@@ -244,7 +249,7 @@ function paintFront( g, diy, sheet ){
 		break ;
 	case 'Yellow' :
 		sheet.paintImage( 
-			g , ImageUtils.get( CardPath+'Standard-'+$Template+'.jp2' ) ,   
+			g , ImageUtils.get( CardPath+'Standard-Yellow.jp2' ) ,   
 			'Template'
 		) ; 
 		sheet.paintImage( 
@@ -254,7 +259,7 @@ function paintFront( g, diy, sheet ){
 		break ;
 	case 'Purple' :
 		sheet.paintImage( 
-			g , ImageUtils.get( CardPath+'Standard-'+$Template+'.jp2' ) ,  
+			g , ImageUtils.get( CardPath+'Standard-Purple.jp2' ) ,  
 			'Template'
 		) ; 
 		sheet.paintImage( 
@@ -264,7 +269,7 @@ function paintFront( g, diy, sheet ){
 		break ;
 	case 'Red' :
 		sheet.paintImage( 
-			g , ImageUtils.get( CardPath+'Standard-'+$Template+'.jp2' ) ,  
+			g , ImageUtils.get( CardPath+'Standard-Red.jp2' ) ,  
 			'Template'
 		) ; 
 		sheet.paintImage( 
@@ -274,7 +279,7 @@ function paintFront( g, diy, sheet ){
 		break ;
 	case 'Brown' :
 		sheet.paintImage( 
-			g , ImageUtils.get( CardPath+'Standard-'+$Template+'.jp2' ) ,  
+			g , ImageUtils.get( CardPath+'Standard-Brown.jp2' ) ,  
 			'Template'
 		) ; 
 		sheet.paintImage( 
@@ -282,9 +287,72 @@ function paintFront( g, diy, sheet ){
 			'Template'
 		) ; 
 		break ;
+	case 'BlueNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'Standard-Blue.jp2' ) ,   
+			'Template'
+		) ; 
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardNightmare.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
+	case 'GreenNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'Standard-Green.jp2' ) ,   
+			'Template'
+		) ; 
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardNightmare.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
+	case 'YellowNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'Standard-Yellow.jp2' ) ,   
+			'Template'
+		) ; 
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardNightmare.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
+	case 'PurpleNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'Standard-Purple.jp2' ) ,  
+			'Template'
+		) ; 
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardNightmare.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
+	case 'RedNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'Standard-Red.jp2' ) ,  
+			'Template'
+		) ; 
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardNightmare.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
+	case 'BrownNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'Standard-Brown.jp2' ) ,  
+			'Template'
+		) ; 
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardNightmare.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
 	default :
 		paintTemplate( g , sheet ) ;
 	}
+
+// ICONS
+	paintIcon( 'Collection' , g , diy , sheet ) ;
 
 // TEXTS
 	switch( $Template ){
@@ -293,6 +361,11 @@ function paintFront( g, diy, sheet ){
 	case 'Purple' :
 	case 'Red' :
 	case 'Brown' :
+	case 'BlueNightmare' :
+	case 'GreenNightmare' :
+	case 'PurpleNightmare' :
+	case 'RedNightmare' :
+	case 'BrownNightmare' :
 	case 'Custom' :
 		sheet.paintImage( 
 			g , PortraitList[ portraitIndexOf( 'Name' ) ].getImage() ,
@@ -320,6 +393,12 @@ function paintFront( g, diy, sheet ){
 	case 'Purple' :
 	case 'Red' :
 	case 'Brown' :
+	case 'BlueNightmare' :
+	case 'YellowNightmare' :
+	case 'GreenNightmare' :
+	case 'PurpleNightmare' :
+	case 'RedNightmare' :
+	case 'BrownNightmare' :
 	case 'Custom' :
 		sheet.paintImage( 
 			g , PortraitList[ portraitIndexOf( 'GameName' ) ].getImage() ,
@@ -375,6 +454,17 @@ function paintBack( g, diy, sheet ){
 			'Template'
 		) ; 
 		break ;
+	case 'BlueNightmare' :
+	case 'GreenNightmare' :
+	case 'YellowNightmare' :
+	case 'PurpleNightmare' :
+	case 'BrownNightmare' :
+	case 'RedNightmare' :
+		sheet.paintImage( 
+			g , ImageUtils.get( CardPath+'StandardBack.jp2' ) , 
+			'Template'
+		) ; 
+		break ;
 	default :
 		sheet.paintImage( 
 			g , ImageUtils.get( CardPath+'StandardBack-'+$Template+'.jp2' ) , 
@@ -382,13 +472,6 @@ function paintBack( g, diy, sheet ){
 		) ; 
 	}
 	paintPortrait( 'BackgroundBack' , g , diy , sheet ) ;
-
-// ICONS
-	if( diy.settings.getBoolean( 'PageIn' ) ){
-		paintIcon( 'Collection' , g , diy , sheet ) ;
-	}else{
-		if( Number( $Page ) == 0 ) paintIcon( 'Collection' , g , diy , sheet ) ;
-	}
 
 // TEXTS
 	writeParagraph( 
