@@ -415,7 +415,11 @@ function paintFront( g, diy, sheet ){
 	paintIcon( 'EncounterSet5' , g , diy , sheet ) ;
 
 // STATS
-	Stage_tinter.setImage( ImageUtils.get( NumberTintablePath+$Stage+'a.png' ) ) ;
+	if( $StageLetter ){
+		Stage_tinter.setImage( ImageUtils.get( NumberTintablePath+$Stage+$StageLetter.toLowerCase()+'.png' ) ) ;
+	}else{
+		Stage_tinter.setImage( ImageUtils.get( NumberTintablePath+$Stage+'a.png' ) ) ;
+	}
 	sheet.paintImage( g , Stage_tinter.getTintedImage() , 'Stage' ) ;
 	
 // TEXTS
@@ -486,7 +490,11 @@ function paintBack( g, diy, sheet ){
 	paintIcon( 'EncounterSet' , g , diy , sheet ) ;
 
 // STATS
-	Stage_tinter.setImage( ImageUtils.get( NumberTintablePath+$Stage+'b.png' ) ) ;
+	if( $StageLetterBack ){
+		Stage_tinter.setImage( ImageUtils.get( NumberTintablePath+$Stage+$StageLetterBack.toLowerCase()+'.png' ) ) ;
+	}else{
+		Stage_tinter.setImage( ImageUtils.get( NumberTintablePath+$Stage+'b.png' ) ) ;
+	}
 	sheet.paintImage( g , Stage_tinter.getTintedImage() , 'Stage' ) ;
 	paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
 	
