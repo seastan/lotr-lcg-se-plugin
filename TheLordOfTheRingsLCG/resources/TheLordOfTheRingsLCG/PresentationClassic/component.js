@@ -494,7 +494,7 @@ function paintBack( g, diy, sheet ){
 		diy.settings.getRegion( 'Artist' ) , selectStroke( 'Bottom-stroke' , diy ) , 
 		g , sheet , diy 
 	) ;
-	writeCopyright( g , sheet , diy ) ;
+//	writeCopyright( g , sheet , diy ) ;
 	
 	if( diy.settings.getBoolean( 'PageIn' ) ){
 		writeTextOutlined( 

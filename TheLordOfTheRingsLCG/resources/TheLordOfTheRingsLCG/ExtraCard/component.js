@@ -239,7 +239,7 @@ function paintFront( g, diy, sheet ){
 		diy.settings.getRegion( 'CollectionInfo' ) , selectStroke( 'Bottom-stroke' , diy ) , 
 		g , sheet , diy 
 	) ;
-	writeCopyright( g , sheet , diy ) ;
+//	writeCopyright( g , sheet , diy ) ;
 	if ( Number( $PageNumber ) != 0 ){
 		var page = #LRL-Page ;
 		if( ($LRL-Page != '') && ($LRL-Page != 'null') ) page = $LRL-Page ;
@@ -285,7 +285,7 @@ function paintBack( g, diy, sheet ){
 		diy.settings.getRegion( 'CollectionInfo' ) , selectStroke( 'Bottom-stroke' , diy ) , 
 		g , sheet , diy 
 	) ;
-	writeCopyright( g , sheet , diy ) ;
+//	writeCopyright( g , sheet , diy ) ;
 
 	var pageNumber = $PageNumber ;
 	if( $PageNumberBack ){
