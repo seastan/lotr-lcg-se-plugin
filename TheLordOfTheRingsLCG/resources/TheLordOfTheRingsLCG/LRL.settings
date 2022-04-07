@@ -153,6 +153,7 @@ EncounterSetNumber-colour = #FFFFFF
 EncounterSetNumberOf = <bs>/<bs>
 LRL-PageOf = <bs>/<bs>
 PageIn-format = <b><right><size 6>
+PageIn-formatEnd = 
 Page-style = FAMILY: {Eons.namedObjects.LRL.LRLfont}; WIDTH: SEMICONDENSED; WEIGHT: BOLD
 Page-alignment = middle,center
 Page-pointsize = 5

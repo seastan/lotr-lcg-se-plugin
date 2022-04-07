@@ -517,7 +517,7 @@ function paintBack( g, diy, sheet ){
 		page = page+' '+Number( $PageNumber ) ;
 		if ( $PageTotal != 0 ) page = page+$LRL-PageOf+$PageTotal ;
 		if( diy.settings.getBoolean( 'PageIn' ) ){ 
-			writeLine( $PageIn-format+page , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
+			writeLine( $PageIn-format+page+$PageIn-formatEnd , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
 		}else{
 			writeLineDecorated(
 				page , Page_writer , diy.settings.getRegion( 'Page' ) ,

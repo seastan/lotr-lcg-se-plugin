@@ -246,7 +246,7 @@ function paintFront( g, diy, sheet ){
 		page = page+' '+Number( $PageNumber ) ;
 		if ( $PageTotal != 0 ) page = page+$LRL-PageOf+$PageTotal ;
 		if( diy.settings.getBoolean( 'PageIn' ) ){ 
-			if( diy.settings.getBoolean( 'PageFrontShow' , true ) ) writeLine( $PageIn-format+page , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
+			if( diy.settings.getBoolean( 'PageFrontShow' , true ) ) writeLine( $PageIn-format+page+$PageIn-formatEnd , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
 		}else{
 			writeLineDecorated(
 				page , Page_writer , diy.settings.getRegion( 'Page' ) ,
@@ -302,7 +302,7 @@ function paintBack( g, diy, sheet ){
 		page = page+' '+Number( pageNumber ) ;
 		if ( pageTotal != 0 ) page = page+$LRL-PageOf+pageTotal ;
 		if( diy.settings.getBoolean( 'PageIn' ) ){ 
-			if( diy.settings.getBoolean( 'PageBackShow' ,true ) ) writeLine( $PageIn-format+page , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
+			if( diy.settings.getBoolean( 'PageBackShow' ,true ) ) writeLine( $PageIn-format+page+$PageIn-formatEnd , Body_writer , diy.settings.getRegion( 'PageIn' ) , g ) ;
 		}else{
 			writeLineDecorated(
 				page , Page_writer , diy.settings.getRegion( 'Page' ) ,
