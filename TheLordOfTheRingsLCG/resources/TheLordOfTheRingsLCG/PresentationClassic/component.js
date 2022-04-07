@@ -371,11 +371,11 @@ function paintFront( g, diy, sheet ){
 			g , PortraitList[ portraitIndexOf( 'Name' ) ].getImage() ,
 			diy.settings.getRegion( 'Name-portrait-clip' )
 		) ; 
-		writeTextOutlined( 
-			$Name , Name_writer , 
-			diy.settings.getRegion( 'Name' ) , selectStroke( 'Name-stroke' , diy ) ,
-			g , sheet , diy
-		) ;
+//		writeTextOutlined( 
+//			$Name , Name_writer , 
+//			diy.settings.getRegion( 'Name' ) , selectStroke( 'Name-stroke' , diy ) ,
+//			g , sheet , diy
+//		) ;
 		break ;
 	default :
 		paintPortrait( 'Name' , g , diy , sheet ) ;
@@ -479,21 +479,21 @@ function paintBack( g, diy, sheet ){
 		 diy.settings.getRegion( 'Body' ) , g , diy 
 	) ;
 
-	switch( diy.settings.get( 'Artist' , '' ) ){
-	case 'no' : text = '' ; break ;
-	case '' : 
-		if( diy.settings.get( 'LRL-IllustratorUnknown' , '' ) != '' ) text = $LRL-IllustratorUnknown ; 
-		else text = #LRL-IllustratorUnknown ; 
-		break ;
-	default : 
-		if( diy.settings.get( 'LRL-IllustratorShort' , '' ) != '' ) text = $LRL-IllustratorShort+' '+$Artist ;
-		else text = #LRL-IllustratorShort+' '+$Artist ;
-	}
-	writeTextOutlined( 
-		'<left>'+text , Bottom_writer , 
-		diy.settings.getRegion( 'Artist' ) , selectStroke( 'Bottom-stroke' , diy ) , 
-		g , sheet , diy 
-	) ;
+//	switch( diy.settings.get( 'Artist' , '' ) ){
+//	case 'no' : text = '' ; break ;
+//	case '' : 
+//		if( diy.settings.get( 'LRL-IllustratorUnknown' , '' ) != '' ) text = $LRL-IllustratorUnknown ; 
+//		else text = #LRL-IllustratorUnknown ; 
+//		break ;
+//	default : 
+//		if( diy.settings.get( 'LRL-IllustratorShort' , '' ) != '' ) text = $LRL-IllustratorShort+' '+$Artist ;
+//		else text = #LRL-IllustratorShort+' '+$Artist ;
+//	}
+//	writeTextOutlined( 
+//		'<left>'+text , Bottom_writer , 
+//		diy.settings.getRegion( 'Artist' ) , selectStroke( 'Bottom-stroke' , diy ) , 
+//		g , sheet , diy 
+//	) ;
 //	writeCopyright( g , sheet , diy ) ;
 	
 	if( diy.settings.getBoolean( 'PageIn' ) ){
