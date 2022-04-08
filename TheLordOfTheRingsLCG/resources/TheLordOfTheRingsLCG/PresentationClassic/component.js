@@ -57,13 +57,13 @@ function createInterface( diy, editor, sheet ){
 	let Effect_panel = new Grid() ;
 	Effect_panel.setTitle( @LRL-Effect-panel ) ;
 	Story_control = new uiParagraph( 'Story' , bindings, 'medium' , [BACK] ) ;
-	Description_control = new uiParagraph( 'Description' , bindings , 'big' , [BACK] ) ;
+	Rules_control = new uiParagraph( 'Rules' , bindings , 'big' , [BACK] ) ;
 	Flavour_control = new uiParagraph( 'Flavour' , bindings , 'medium' , [BACK] ) ;
 	Effect_panel.place(
 		@LRL-Story , 'center' , 
 		Story_control , 'newline,growx' ,
-		@LRL-Description , 'newline,center' , 
-		Description_control , 'newline,growx' ,
+		@LRL-Rules , 'newline,center' , 
+		Rules_control , 'newline,growx' ,
 		@LRL-Flavour , 'newline,center' , 
 		Flavour_control  , 'newline,growx' 
 	) ;
@@ -475,7 +475,7 @@ function paintBack( g, diy, sheet ){
 
 // TEXTS
 	writeParagraph( 
-		[ 'Story' , 'Description' , 'Flavour' ] , Body_writer , 
+		[ 'Story' , 'Rules' , 'Flavour' ] , Body_writer , 
 		 diy.settings.getRegion( 'Body' ) , g , diy 
 	) ;
 
