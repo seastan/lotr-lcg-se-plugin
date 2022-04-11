@@ -184,7 +184,7 @@ function createFrontPainter( diy , sheet ){
 // TEXT
 	Name_writer = new createTextBox( 'Name' , diy , sheet ) ;
 	Body_writer = new createTextBox( 'Body' , diy , sheet ) ;
-	Body_writer.setPageShape( diy.settings.getCupShape( 'Body-shape' ) ) ;
+	Body_writer.setPageShape( diy.settings.getCupShape( 'Sphere-Body-shape' ) ) ;
 	Option_writer = new createTextBox( 'Option' , diy , sheet ) ;
 	Type_writer = new createTextBox( 'Type' , diy , sheet ) ;
 	Bottom_writer = new createTextBox( 'Bottom' , diy , sheet ) ;

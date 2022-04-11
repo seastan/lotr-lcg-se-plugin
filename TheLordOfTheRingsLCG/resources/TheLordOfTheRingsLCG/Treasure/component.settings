@@ -17,7 +17,7 @@ Name-region = 124,40,200,24
 Body-region = 51,327,311,167
 Type-region = 139,502,135,18
 
-Body-shape = 0,0,477,40,0
+Sphere-Body-shape = 0,0,477,40,0
 
 Neutral-template = TheLordOfTheRingsLCG/Treasure/Neutral-lr.jp2
 Neutral-template-hires = TheLordOfTheRingsLCG/Treasure/Neutral.jp2
