@@ -484,6 +484,10 @@ function writeArtistBack( g , sheet , diy ){
 	}
 }
 function writeCopyright( g , sheet , diy ){
+	if( diy.settings.getBoolean( 'Asterisk' , false ) === true ) {
+		sheet.paintImage( g , diy.settings.getImageResource( 'AsteriskImage' ) , checkKey( 'Asterisk-region' ) ) ;
+	}
+
 	if( diy.settings.getBoolean( 'NoCopyright' , false ) === true ) return;
 	writeTextOutlined( 
 		diy.settings.get( 'Copyright' , '' ) , Bottom_writer , 
@@ -492,6 +496,10 @@ function writeCopyright( g , sheet , diy ){
 	) ;
 }
 function writeCopyrightBack( g , sheet , diy ){
+	if( diy.settings.getBoolean( 'AsteriskBack' , false ) === true ) {
+		sheet.paintImage( g , diy.settings.getImageResource( 'AsteriskImage' ) , checkKey( 'Asterisk-region' ) ) ;
+	}
+
 	if( diy.settings.getBoolean( 'NoCopyrightBack' , false ) === true ) return;
 	writeTextOutlined( 
 		diy.settings.get( 'Copyright' , '' ) , Bottom_writer , 

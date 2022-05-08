@@ -13,6 +13,8 @@ LRL-IllustratorUnknown =
 LRL-IllustratorShort = 
 LRL-Page = 
 
+AsteriskImage = TheLordOfTheRingsLCG/image/Asterisk.png
+
 Portrait-shadow-tintable = TheLordOfTheRingsLCG/image/PokerCardHorizontal-shadow-tintable.jp2
 Portrait-shadow = TheLordOfTheRingsLCG/image/PokerCardHorizontal-shadow.jp2
 Portrait-shadow-tint = 0.0,1.0,1.0
