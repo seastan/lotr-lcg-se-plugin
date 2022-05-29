@@ -46,5 +46,8 @@ SmallTextArea-template-hires = TheLordOfTheRingsLCG/SideQuest/SmallTextArea.jp2
 Cave-template = TheLordOfTheRingsLCG/SideQuest/Cave-lr.jp2
 Cave-template-hires = TheLordOfTheRingsLCG/SideQuest/Cave.jp2
 
+Region-template = TheLordOfTheRingsLCG/SideQuest/Region-lr.jp2
+Region-template-hires = TheLordOfTheRingsLCG/SideQuest/Region.jp2
+
 Nightmare-template = TheLordOfTheRingsLCG/SideQuest/Nightmare-lr.jp2
 Nightmare-template-hires = TheLordOfTheRingsLCG/SideQuest/Nightmare.jp2

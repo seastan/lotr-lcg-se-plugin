@@ -7,6 +7,7 @@ const TemplateList = new Array(
 	, 'NoProgress'
 	, 'SmallTextArea'
 	, 'Cave'
+	, 'Region'
 	, 'FullArt'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
@@ -278,7 +279,7 @@ function paintFront( g , diy , sheet ){
 	}
 
 // STATS
-	if( ($Template != 'FullArt') && ($Template != 'Cave') && ($Template != 'NoProgress') ){
+	if( ($Template != 'FullArt') && ($Template != 'Cave') && ($Template != 'Region') && ($Template != 'NoProgress') ){
 		paintStatTinted( 'Progress' , Progress_tinter , g , sheet ) ;
 	}
 
