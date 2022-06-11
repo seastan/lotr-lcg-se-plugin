@@ -1237,6 +1237,15 @@ Used for plain black stats like Attack.
 	sheet.paintImage( g , image , key+'-region' ) ;
 }
 
+function paintDifficulty( color, template, g , sheet ){
+/*
+This function paints a difficulty ring using an image.
+*/
+	debug( 1 , 'paintDifficulty: ' + template + ' - ' + color ) ;
+	var image = ImageUtils.get( ImagePath + 'custom-difficulty/Custom-Difficulty-' + template + '-' + color + '.png' ) ;
+	sheet.paintImage( g , image , 'Difficulty-region' ) ;
+}
+
 /* OTHER GRAPHIC STUFF */
 
 function paintTemplate( g , sheet ){

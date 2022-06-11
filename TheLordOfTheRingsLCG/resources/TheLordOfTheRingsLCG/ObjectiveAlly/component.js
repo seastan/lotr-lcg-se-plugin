@@ -222,7 +222,6 @@ function createInterface( diy , editor , sheet ){
 function createFrontPainter( diy , sheet ){
 	
 // TEMPLATE
-	Difficulty_tinter = new createTinter( 'Difficulty' , diy ) ;
 	HitPoints_tinter = new createTinter( 'HitPoints' , diy ) ;
 
 // TEXT
@@ -254,20 +253,10 @@ function paintFront( g , diy , sheet ){
 	switch( $Difficulty ) {
 	case 'Standard' : break ;
 	case 'Custom' :
-		hsb = diy.settings.getTint( 'Difficulty' ) ; //mover a listener
-		Difficulty_tinter.setFactors( hsb[0] , hsb[1] , hsb[2] ) ;
-		sheet.paintImage( 
-			g , Difficulty_tinter.getTintedImage() , 
-			'Difficulty' 
-		) ;
+		paintDifficulty( $Difficulty , 'Objective-Ally' , g , sheet ) ;
 		break ;
 	default :
-		hsb = diy.settings.getTint( $Difficulty ) ;
-		Difficulty_tinter.setFactors( hsb[0] , hsb[1] , hsb[2] ) ;
-		sheet.paintImage( 
-			g , Difficulty_tinter.getTintedImage() , 
-			'Difficulty' 
-		) ;
+		paintDifficulty( $Difficulty , 'Objective-Ally' , g , sheet ) ;
 		break ;
 	}
 

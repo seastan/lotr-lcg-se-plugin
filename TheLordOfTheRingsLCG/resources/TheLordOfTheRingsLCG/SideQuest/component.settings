@@ -11,7 +11,7 @@ TemplateBack-template-hires = TheLordOfTheRingsLCG/image/EncounterHorizontal.jp2
 Portrait-portrait-clip-region = 0,0,563,413
 EncounterSet-portrait-clip-region = 481,189,36,36
 
-Difficulty-region = 473,180,52,52
+Difficulty-region = 0,0,563,413
 EncounterSetNumber-region = 487,229,24,12
 
 Name-region = 90,39,381,27

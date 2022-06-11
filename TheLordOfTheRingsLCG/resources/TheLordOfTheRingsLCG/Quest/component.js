@@ -308,9 +308,6 @@ function createFrontPainter( diy, sheet ){
 	
 	PortraitShadow_tinter = new createTinter( 'Portrait-shadow' , diy ) ;
 
-// TEMPLATE
-	Difficulty_tinter = new createTinter( 'Difficulty' , diy ) ;
-
 // STATS
 	Stage_tinter = new createTinter( 'Stage' , diy ) ;
 
