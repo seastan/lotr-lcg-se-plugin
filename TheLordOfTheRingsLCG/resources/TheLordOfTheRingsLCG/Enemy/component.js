@@ -5,6 +5,7 @@ const CardVersion = 1 ;
 const TemplateList = new Array(
 	'Standard'
 	, 'Nightmare'
+	, 'NoStat'
 	, 'Burden'
 	, 'Ship'
 	, 'ShipNightmare'
@@ -259,14 +260,18 @@ function paintFront( g , diy , sheet ){
 // ICONS
 	paintIcon( 'Collection' , g , diy , sheet ) ;
 	paintIcon( 'EncounterSet' , g , diy , sheet ) ;
-	paintIcon( 'OptionSpecial' , g , diy , sheet ) ;
+	if( $Template != 'NoStat' ){
+		paintIcon( 'OptionSpecial' , g , diy , sheet ) ;
+	}
 
 // STATS
-	paintStatTinted( 'Engagement' , Engagement_tinter , g , sheet ) ;
-	paintStatTinted( 'HitPoints' , HitPoints_tinter , g , sheet ) ;
-	paintStat( 'Threat' , g , sheet ) ;
-	paintStat( 'Attack' , g , sheet ) ;
-	paintStat( 'Defense' , g , sheet ) ;
+	if( $Template != 'NoStat' ){
+		paintStatTinted( 'Engagement' , Engagement_tinter , g , sheet ) ;
+		paintStatTinted( 'HitPoints' , HitPoints_tinter , g , sheet ) ;
+		paintStat( 'Threat' , g , sheet ) ;
+		paintStat( 'Attack' , g , sheet ) ;
+		paintStat( 'Defense' , g , sheet ) ;
+	}
 
 // TEXTS
 	writeName( g , diy ) ;
@@ -284,9 +289,11 @@ function paintFront( g , diy , sheet ){
 	default: writeEncounterSetNumber( g , diy ) ;
 	}
 	
-	writeType( g , diy ) ;
-	writeOptionLeft( g , sheet , diy ) ;
-	writeOptionRight( g , sheet , diy ) ;
+	if( $Template != 'NoStat' ){
+		writeType( g , diy ) ;
+		writeOptionLeft( g , sheet , diy ) ;
+		writeOptionRight( g , sheet , diy ) ;
+	}
 	
 	writeArtist( g , sheet , diy ) ;
 	writeCopyright( g , sheet , diy ) ;

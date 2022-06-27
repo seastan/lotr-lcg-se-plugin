@@ -31,6 +31,9 @@ Standard-template-hires = TheLordOfTheRingsLCG/Enemy/Standard.jp2
 Nightmare-template = TheLordOfTheRingsLCG/Enemy/Nightmare-lr.jp2
 Nightmare-template-hires = TheLordOfTheRingsLCG/Enemy/Nightmare.jp2
 
+NoStat-template = TheLordOfTheRingsLCG/Enemy/NoStat-lr.jp2
+NoStat-template-hires = TheLordOfTheRingsLCG/Enemy/NoStat.jp2
+
 Burden-template = TheLordOfTheRingsLCG/Enemy/Burden-lr.jp2
 Burden-template-hires = TheLordOfTheRingsLCG/Enemy/Burden.jp2
 
