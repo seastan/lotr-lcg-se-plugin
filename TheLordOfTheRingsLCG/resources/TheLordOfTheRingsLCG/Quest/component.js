@@ -501,7 +501,7 @@ function paintBack( g, diy, sheet ){
 	}else{
 		writeLine( 
 			$NameBack , Name_writer , 
-			diy.settings.getRegion( 'Name' ) , g 
+			diy.settings.getRegion( 'NameBack' ) , g
 		) ;
 	}
 	writeAdventure( g , diy	) ;

@@ -15,6 +15,7 @@ EncounterSet-portrait-clip-region = 477,188,36,36
 Stage-region = 44,43,60,42
 
 Name-region = 135,39,387,29
+NameBack-region = 135,39,387,29
 Adventure-region = 190,75,275,15
 Progress-region = 55,201,36,24
 Body-region = 46,243,471,125
