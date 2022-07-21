@@ -21,6 +21,7 @@ HitPoints-region = 68,270,54,40
 Name-region = 101,325,212,24
 Body-region = 56,358,301,137
 Type-region = 139,500,135,19
+Subtype-region = 146,301,124,14
 
 Neutral-template = TheLordOfTheRingsLCG/Ally/Neutral-lr.jp2
 Neutral-template-hires = TheLordOfTheRingsLCG/Ally/Neutral.jp2
@@ -47,6 +48,9 @@ Baggins-template-hires = TheLordOfTheRingsLCG/Ally/Baggins.jp2
 
 Fellowship-template = TheLordOfTheRingsLCG/Ally/Fellowship-lr.jp2
 Fellowship-template-hires = TheLordOfTheRingsLCG/Ally/Fellowship.jp2
+
+Boon-template = TheLordOfTheRingsLCG/Ally/Boon-lr.jp2
+Boon-template-hires = TheLordOfTheRingsLCG/Ally/Boon.jp2
 
 Mastery-template = TheLordOfTheRingsLCG/Ally/Mastery-lr.jp2
 Mastery-template-hires = TheLordOfTheRingsLCG/Ally/Mastery.jp2

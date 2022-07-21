@@ -17,6 +17,7 @@ const TemplateList = new Array(
 	, 'Fellowship'
 	, 'Mastery'
 	, 'CustomSphere'
+	, 'Boon'
 ) ;
 
 /*
@@ -440,6 +441,7 @@ defined as var or const) so they can be accesed in paintFront.
 	Option_writer = new createTextBox( 'Option' , diy , sheet ) ;
 	Type_writer = new createTextBox( 'Type' , diy , sheet ) ;
 	Bottom_writer = new createTextBox( 'Bottom' , diy , sheet ) ;
+	Subtype_writer = new createTextBox( 'Subtype' , diy , sheet ) ;
 	
 	updateExternalPortrait( 'Portrait' , diy ) ;
 	updateExternalPortrait( 'Collection' , diy ) ;
@@ -506,6 +508,7 @@ the back side of the component too: paintBack.
 	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 
 	writeType( g , diy ) ;
+	if( $Template == 'Boon' ) writeSubtype( g , diy ) ;
 	writeOptionLeft( g , sheet , diy ) ;
 	writeOptionRight( g , sheet , diy ) ;
 	

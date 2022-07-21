@@ -4,6 +4,7 @@ const CardVersion = 1 ;
 const TemplateList = new Array(
 	'Standard'
 	, 'Nightmare'
+	, 'Burden'
 	, 'NoProgress'
 	, 'SmallTextArea'
 	, 'Cave'
@@ -287,7 +288,10 @@ function paintFront( g , diy , sheet ){
 		if( $Template == 'Cave' ){
 			writeParagraph( [ 'RulesRight' ] , BodyRight_writer , diy.settings.getRegion( 'BodyRight' ) , g , diy ) ;
 		}
-		writeEncounterSetNumber( g , diy ) ;
+		switch( $Template ){
+		case 'Burden' : break ;
+		default: writeEncounterSetNumber( g , diy ) ;
+		}
 	}
 
 	writeArtist( g , sheet , diy ) ;
