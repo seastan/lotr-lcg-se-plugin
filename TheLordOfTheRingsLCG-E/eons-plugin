@@ -1,4 +1,4 @@
-id = CATALOGUEID{30d37f1e-825a-41da-ace1-50c04616a254:2021-1-1-17-43-55-495}
+id = CATALOGUEID{30d37f1e-825a-41da-ace1-50c04616a254:2022-9-25-13-17-37-451}
 
 priority = EXPANSION
 ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
@@ -10,9 +10,10 @@ catalog-name_es_ES = El Señor de los Anillos LCG, encuentro
 catalog-name_it_IT = Il Signore degli Anelli LCG, Incontri
 
 catalog-credit = Karagh, GeckoTH
-catalog-description = <p>This plug-in allows creating components for <i><b>The \
+catalog-description = <p><b><big>Custom version for A Long-extended \
+    Party.</big></b></p>\n<p>This plug-in allows creating components for <i><b>The \
     Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.\n<p>This \
-    expansion includes these Encounter deck components:\n<ul>\n<li><b>Enemy:</b> \
+    expansion includes these Encounter deck components:</p>\n<ul>\n<li><b>Enemy:</b> \
     Standard, Easy, Nightmare, Ship, custom\n<li><b>Location:</b> Standard, Easy, \
     Nightmare, custom\n<li><b>Treachery:</b> Standard, Easy, Nightmare, Burden, \
     custom\n<li><b>Objective:</b> Standard, Easy, Burden, \

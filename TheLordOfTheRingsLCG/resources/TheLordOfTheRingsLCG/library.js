@@ -584,6 +584,9 @@ written.
 	}
 	writer.setMarkupText( text ) ;
 	updateNameTags( writer , diy ) ;
+	let array = String(region).split(',') ;
+	debug( 1 , 'Paragraph region height: '+array[3] ) ;
+	debug( 1 , 'Paragraph write measure: '+writer.measure( g , region ) ) ;
 	writer.draw( g , region ) ;
 	
 }

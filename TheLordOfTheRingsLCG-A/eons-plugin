@@ -1,4 +1,4 @@
-id = CATALOGUEID{df0d64b1-bbb6-4fa7-afbe-acff34d0e402:2021-1-1-17-43-42-221}
+id = CATALOGUEID{df0d64b1-bbb6-4fa7-afbe-acff34d0e402:2022-9-25-13-17-30-383}
 
 priority = EXPANSION
 ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
@@ -10,7 +10,8 @@ catalog-name_es_ES = El Señor de los Anillos LCG, accesorios
 catalog-name_it_IT = Il Signore degli Anelli LCG, accessori
 
 catalog-credit = Karagh, GeckoTH
-catalog-description = <p>This plug-in allows creating components for <i><b>The \
+catalog-description = <p><b><big>Custom version for A Long-extended \
+    Party.</big></b></p>\n<p>This plug-in allows creating components for <i><b>The \
     Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>This \
     expansion includes non-gaming accesories:</p>\n<ul>\n<li><b>Presentation:</b> \
     Standard, Nightmare\n<li><b>Quest sheet</b>\n</ul>\n<p>Also these unofficial \

@@ -1,4 +1,4 @@
-id = CATALOGUEID{a83160cb-5c58-4bf0-83d1-37cda1cd38d1:2021-1-2-19-10-58-242}
+id = CATALOGUEID{a83160cb-5c58-4bf0-83d1-37cda1cd38d1:2022-9-25-13-24-27-346}
 
 priority = GAME
 ui-languages = en_US,es_ES,de_DE,fr_FR,pl_PL,it_IT
@@ -9,7 +9,8 @@ catalog-name_es_ES = El Señor de los Anillos LCG
 catalog-name_it_IT = Il Signore degli Anelli LCG
 
 catalog-credit = Karagh, GeckoTH
-catalog-description = <p>This plug-in allows creating components for <i><b>The \
+catalog-description = <p><b><big>Custom version for A Long-extended \
+    Party.</big></b></p>\n<p>This plug-in allows creating components for <i><b>The \
     Lord of the Rings: The Card Game</b></i> by Fantasy Flight Games.</p>\n<p>A \
     usage guide is available in <a \
     href="http://susurrosdelbosqueviejo.blogspot.com.es/2014/09/how-to-create-cards-w\
@@ -22,9 +23,8 @@ catalog-description = <p>This plug-in allows creating components for <i><b>The \
     thanks</h2>\n<p>Developed by Daniel Tello (AKA karagh/heavykaragh). Original \
     templates by GeckoTH (from BoardGameGeek). Polish translation by Andrzej \
     Owsiejczuk. French translation by banania (@BGG). Italian translation by Marco \
-    Adinolfi.</p>\n<p>Thanks to Christopher G. Jennings, to \
-    HilariousPete for his original plug-in and font, and to Nate French and FFG for \
-    this great game.</p>
+    Adinolfi.</p>\n<p>Thanks to Christopher G. Jennings, to HilariousPete for his \
+    original plug-in and font, and to Nate French and FFG for this great game.</p>
 catalog-description_es_ES = <p>Este complemento permite crear componentes para \
     <i><b>El Señor de los Anillos: El Juego de Cartas</b></i> de Fantasy Flight \
     Games.</p>\n<p>Puedes encontrar una guía de uso en <<a \
@@ -58,8 +58,8 @@ catalog-description_it_IT = <p>Questo plug-in permette di creare componenti per 
     Daniel Tello (AKA karagh/heavykaragh). Templates originali by GeckoTH (from \
     BoardGameGeek). Traduzione polacca by Andrzej Owsiejczuk. Traduzione francese by \
     banania (@BGG). Traduzione italiane by Marco Adinolfi.</p>\n<p>Grazie a \
-    Christopher G. Jennings, to HilariousPete per i suoi plug-in e \
-    font originali, e a Nate French e FFG per questo gioco magnifico.</p>
+    Christopher G. Jennings, to HilariousPete per i suoi plug-in e font originali, e \
+    a Nate French e FFG per questo gioco magnifico.</p>
 
 catalog-tags = game, beta
 catalog-minver = 3970
