@@ -584,9 +584,13 @@ written.
 	}
 	writer.setMarkupText( text ) ;
 	updateNameTags( writer , diy ) ;
+	let measuredHeight = writer.measure( g , region ) ;
 	let array = String(region).split(',') ;
 	debug( 1 , 'Paragraph region height: '+array[3] ) ;
-	debug( 1 , 'Paragraph write measure: '+writer.measure( g , region ) ) ;
+	debug( 1 , 'Paragraph write measure: '+measuredHeight ) ;
+	if( parseFloat(measuredHeight) > parseFloat(array[3]) ){
+		diy.settings.set('TextOverflow', 1);
+	}
 	writer.draw( g , region ) ;
 	
 }
