@@ -40,5 +40,8 @@ Burden-template-hires = TheLordOfTheRingsLCG/Enemy/Burden.jp2
 Ship-template = TheLordOfTheRingsLCG/Enemy/Ship-lr.jp2
 Ship-template-hires = TheLordOfTheRingsLCG/Enemy/Ship.jp2
 
+ShipBurden-template = TheLordOfTheRingsLCG/Enemy/ShipBurden-lr.jp2
+ShipBurden-template-hires = TheLordOfTheRingsLCG/Enemy/ShipBurden.jp2
+
 ShipNightmare-template = TheLordOfTheRingsLCG/Enemy/ShipNightmare-lr.jp2
 ShipNightmare-template-hires = TheLordOfTheRingsLCG/Enemy/ShipNightmare.jp2

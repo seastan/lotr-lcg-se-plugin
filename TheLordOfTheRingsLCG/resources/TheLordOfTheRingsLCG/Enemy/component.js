@@ -9,6 +9,8 @@ const TemplateList = new Array(
 	, 'Burden'
 	, 'Ship'
 	, 'ShipNightmare'
+	, 'ShipBurden'
+
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
 
@@ -286,6 +288,7 @@ function paintFront( g , diy , sheet ){
 //	}
 	switch( $Template ){
 	case 'Burden' : break ;
+	case 'ShipBurden' : break ;
 	default: writeEncounterSetNumber( g , diy ) ;
 	}
 	
@@ -299,7 +302,7 @@ function paintFront( g , diy , sheet ){
 	writeCopyright( g , sheet , diy ) ;
 	writeCollectionInfo( g , sheet , diy ) ;
 	writeCollectionNumber( g , sheet , diy ) ;
-	if( $Template == 'Burden' ) writeSubtype( g , diy ) ;
+	if(( $Template == 'Burden' ) || ( $Template == 'ShipBurden' )) writeSubtype( g , diy ) ;
 	
 	paintCut( g , diy , sheet ) ;
 }
