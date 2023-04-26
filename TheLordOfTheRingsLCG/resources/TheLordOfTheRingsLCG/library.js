@@ -310,6 +310,16 @@ Draws $key on the component template $key-region.
 }
 
 
+function writeBreakableLine( text , writer , region , g ){
+/*
+Draws $key on the component template $key-region.
+*/
+	debug( 1 , 'writeBreakableLine' ) ;
+	writer.markupText = text ; 
+	writer.draw( g , region ) ;
+}
+
+
 function writeEncounterSetNumber( g , diy ){
 	if( $EncounterSetNumberOverwrite ) text = $EncounterSetNumberOverwrite ;
 	else if( $EncounterSetNumber > 0 ){
@@ -322,9 +332,9 @@ function writeEncounterSetNumber( g , diy ){
 	) ;
 }
 function writeName( g , diy ){
-	if( diy.settings.getBoolean( 'Unique' , false ) ) text = '<lrs>u</lrs><size 50%> <size 200%>'+$Name ;
+	if( diy.settings.getBoolean( 'Unique' , false ) ) text = '<lrs>u</lrs><size 50%>\u00a0<size 200%>'+$Name ;
 	else text = $Name ;
-	writeLine( 
+	writeBreakableLine( 
 		text , Name_writer , 
 		diy.settings.getRegion( 'Name' ) , g 
 	) ;
@@ -333,7 +343,7 @@ function writeNameRotated( g , diy ){
 /*
 Draws $key on the component template $key-region rotated.
 */
-	if( diy.settings.getBoolean( 'Unique' , false ) ) text = '<lrs>u</lrs><size 50%> <size 200%>'+$Name ;
+	if( diy.settings.getBoolean( 'Unique' , false ) ) text = '<lrs>u</lrs><size 50%>\u00a0<size 200%>'+$Name ;
 	else text = $Name ;
 	Name_writer.markupText = text ; 
 	

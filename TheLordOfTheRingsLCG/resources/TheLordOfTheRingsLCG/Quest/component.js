@@ -499,7 +499,7 @@ function paintBack( g, diy, sheet ){
 	if( $NameBack == '' ){
 		writeName( g , diy ) ;
 	}else{
-		writeLine( 
+		writeBreakableLine( 
 			$NameBack , Name_writer , 
 			diy.settings.getRegion( 'NameBack' ) , g
 		) ;
