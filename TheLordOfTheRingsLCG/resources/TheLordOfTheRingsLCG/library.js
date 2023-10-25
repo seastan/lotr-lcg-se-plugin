@@ -495,7 +495,11 @@ function writeArtistBack( g , sheet , diy ){
 }
 function writeCopyright( g , sheet , diy ){
 	if( diy.settings.getBoolean( 'Asterisk' , false ) === true ) {
-		sheet.paintImage( g , diy.settings.getImageResource( 'AsteriskImage' ) , checkKey( 'Asterisk-region' ) ) ;
+		Asterisk_writer = new createTextBox( 'Asterisk' , diy , sheet ) ;
+		writeLine( 
+			'<family><u+2736></family>' , Asterisk_writer , 
+			diy.settings.getRegion( 'Asterisk-region' ) , g
+		) ;
 	}
 
 	if( diy.settings.getBoolean( 'NoCopyright' , false ) === true ) return;
@@ -507,7 +511,11 @@ function writeCopyright( g , sheet , diy ){
 }
 function writeCopyrightBack( g , sheet , diy ){
 	if( diy.settings.getBoolean( 'AsteriskBack' , false ) === true ) {
-		sheet.paintImage( g , diy.settings.getImageResource( 'AsteriskImage' ) , checkKey( 'Asterisk-region' ) ) ;
+		Asterisk_writer = new createTextBox( 'Asterisk' , diy , sheet ) ;
+		writeLine( 
+			'<family><u+2736></family>' , Asterisk_writer , 
+			diy.settings.getRegion( 'Asterisk-region' ) , g
+		) ;
 	}
 
 	if( diy.settings.getBoolean( 'NoCopyrightBack' , false ) === true ) return;
