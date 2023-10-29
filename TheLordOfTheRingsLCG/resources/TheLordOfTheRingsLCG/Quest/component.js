@@ -519,7 +519,7 @@ function paintBack( g, diy, sheet ){
 
 	writeArtistBack( g , sheet , diy ) ;
 	writeCopyrightBack( g , sheet , diy ) ;
-	writeCollectionInfo( g , sheet , diy ) ;
+	writeCollectionInfoBack( g , sheet , diy ) ;
 	writeCollectionNumberBack( g , sheet , diy ) ;
 
 	paintCut( g , diy , sheet ) ;

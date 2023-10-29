@@ -527,7 +527,14 @@ function writeCopyrightBack( g , sheet , diy ){
 }
 function writeCollectionInfo( g , sheet , diy ){
 	writeTextOutlined( 
-		'<right>'+diy.settings.get( 'CollectionInfo' , '' ) , Bottom_writer , 
+		'<left>'+diy.settings.get( 'CollectionInfo' , '' ) , Bottom_writer , 
+		diy.settings.getRegion( 'CollectionInfo' ) , selectStroke( 'Bottom-stroke' , diy ) , 
+		g , sheet , diy 
+	) ;
+}
+function writeCollectionInfoBack( g , sheet , diy ){
+	writeTextOutlined( 
+		'<left>'+diy.settings.get( 'CollectionInfoBack' , '' ) , Bottom_writer , 
 		diy.settings.getRegion( 'CollectionInfo' ) , selectStroke( 'Bottom-stroke' , diy ) , 
 		g , sheet , diy 
 	) ;
