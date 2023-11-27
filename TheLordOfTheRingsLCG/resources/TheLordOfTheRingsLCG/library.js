@@ -415,13 +415,17 @@ function writeType( g , diy ){
 	) ;
 }
 function writeOptionLeft( g , sheet , diy ){
-//usar getRegion(d(parent, dx, dy, dw, dh))
 	if ( $OptionLeft != '' ){
-		writeLineDecorated(
-			$OptionLeft , Option_writer , diy.settings.getRegion( 'OptionLeft' ) ,
-			ImageUtils.get( ImagePath+'VictoryDecoration.jp2' ) , diy.settings.getRegion( 'OptionLeftDecoration' ) ,
-			g , sheet 
+		OptionLeft_writer = new createTextBox( 'OptionLeft' , diy , sheet ) ;
+		writeLine(
+			$OptionLeft , OptionLeft_writer ,
+			diy.settings.getRegion( 'OptionLeft' ) , g
 		) ;
+//		writeLineDecorated(
+//			$OptionLeft , Option_writer , diy.settings.getRegion( 'OptionLeft' ) ,
+//			ImageUtils.get( ImagePath+'VictoryDecoration.jp2' ) , diy.settings.getRegion( 'OptionLeftDecoration' ) ,
+//			g , sheet
+//		) ;
 	}
 }
 function writeOptionRight( g , sheet , diy ){
