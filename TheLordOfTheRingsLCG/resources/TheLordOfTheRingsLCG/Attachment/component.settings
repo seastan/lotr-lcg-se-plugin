@@ -51,8 +51,18 @@ Mastery-template-hires = TheLordOfTheRingsLCG/Attachment/Mastery.jp2
 
 Boon-template = TheLordOfTheRingsLCG/Attachment/Boon-lr.jp2
 Boon-template-hires = TheLordOfTheRingsLCG/Attachment/Boon.jp2
-Boon-Name-region = 122,34,200,24
-Boon-ResourceCost-region = 37,44,50,35
+
+BoonLeadership-template = TheLordOfTheRingsLCG/Attachment/BoonLeadership-lr.jp2
+BoonLeadership-template-hires = TheLordOfTheRingsLCG/Attachment/BoonLeadership.jp2
+
+BoonLore-template = TheLordOfTheRingsLCG/Attachment/BoonLore-lr.jp2
+BoonLore-template-hires = TheLordOfTheRingsLCG/Attachment/BoonLore.jp2
+
+BoonSpirit-template = TheLordOfTheRingsLCG/Attachment/BoonSpirit-lr.jp2
+BoonSpirit-template-hires = TheLordOfTheRingsLCG/Attachment/BoonSpirit.jp2
+
+BoonTactics-template = TheLordOfTheRingsLCG/Attachment/BoonTactics-lr.jp2
+BoonTactics-template-hires = TheLordOfTheRingsLCG/Attachment/BoonTactics.jp2
 
 PlayerObjective-template = TheLordOfTheRingsLCG/Attachment/PlayerObjective-lr.jp2
 PlayerObjective-template-hires = TheLordOfTheRingsLCG/Attachment/PlayerObjective.jp2

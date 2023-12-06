@@ -13,6 +13,10 @@ const TemplateList = new Array(
 	, 'Mastery'
 	, 'CustomSphere'
 	, 'Boon'
+	, 'BoonLeadership'
+	, 'BoonLore'
+	, 'BoonSpirit'
+	, 'BoonTactics'
 	, 'PlayerObjective'
 ) ;
 
@@ -271,7 +275,7 @@ function paintFront( g , diy , sheet ){
 //	}
 	
 	writeType( g , diy ) ;
-	if( $Template == 'Boon' ) writeSubtype( g , diy ) ; 
+	if( ($Template == 'Boon') || ($Template == 'BoonLeadership') || ($Template == 'BoonLore') || ($Template == 'BoonSpirit') || ($Template == 'BoonTactics') ) writeSubtype( g , diy ) ;
 	writeOptionLeft( g , sheet , diy ) ;
 	writeOptionRight( g , sheet , diy ) ;
 
