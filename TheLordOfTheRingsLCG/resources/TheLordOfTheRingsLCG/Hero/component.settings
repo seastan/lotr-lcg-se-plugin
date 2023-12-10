@@ -8,7 +8,7 @@ TemplateBack-ppi = 150
 TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
 TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
 
-Portrait-portrait-clip-region = 89,0,319,324
+Portrait-portrait-clip-region = 1,1,1,1
 CustomSphere-portrait-clip-region = 46,481,36,36
 BodyIcon-portrait-clip-region = 145,363,124,124
 
@@ -20,7 +20,7 @@ HitPoints-region = 67,269,54,40
 
 Name-region = 100,324,224,24
 Body-region = 56,357,301,137
-Type-region = 139,501,135,18
+Type-region = 1,1,1,1
 
 Sphere-Body-shape = 0,0,477,40,0
 

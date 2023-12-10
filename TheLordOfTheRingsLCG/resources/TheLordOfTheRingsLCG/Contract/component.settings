@@ -8,14 +8,14 @@ TemplateBack-ppi = 150
 TemplateBack-template = TheLordOfTheRingsLCG/image/Player-lr.jp2
 TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Player.jp2
 
-Portrait-portrait-clip-region = 0,0,413,295
+Portrait-portrait-clip-region = 1,1,1,1
 PortraitBack-portrait-clip-region = 0,0,413,295
 
 Name-region = 57,242,296,27
 NameBack-region = 57,242,296,27
 Body-region = 56,302,301,192
 Side-region = 142,278,128,14
-Type-region = 139,502,135,17
+Type-region = 1,1,1,1
 
 Name-style = FAMILY: {Eons.namedObjects.LRL.LRLfont}
 Name-pointsize = 12

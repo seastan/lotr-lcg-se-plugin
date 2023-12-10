@@ -8,7 +8,7 @@ TemplateBack-ppi = 150
 TemplateBack-template = TheLordOfTheRingsLCG/image/Encounter-lr.jp2
 TemplateBack-template-hires = TheLordOfTheRingsLCG/image/Encounter.jp2
 
-Portrait-portrait-clip-region = 0,65,413,258
+Portrait-portrait-clip-region = 1,1,1,1
 EncounterSet-portrait-clip-region = 323,269,36,36
 
 Difficulty-region = 0,0,413,563
@@ -19,7 +19,7 @@ Threat-region = 59,92,15,15
 
 Name-region = 97,38,215,24
 Body-region = 56,325,301,168
-Type-region = 135,502,144,18
+Type-region = 1,1,1,1
 OptionSpecial-portrait-clip-region = 55,494,24,24
 
 Standard-template = TheLordOfTheRingsLCG/Location/Standard-lr.jp2

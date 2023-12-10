@@ -8,7 +8,7 @@ TemplateBack-ppi = 150
 TemplateBack-template = TheLordOfTheRingsLCG/Setup/NightmareBack-lr.jp2
 TemplateBack-template-hires = TheLordOfTheRingsLCG/Setup/NightmareBack.jp2
 
-Portrait-portrait-clip-region = 0,77,413,245
+Portrait-portrait-clip-region = 1,1,1,1
 
 EncounterSet-portrait-clip-region = 325,266,37,37
 EncounterSetNumber-region = 331,311,24,12
@@ -16,7 +16,7 @@ EncounterSetNumber-region = 331,311,24,12
 BodyBack-region = 54,55,305,439
 Body-region = 54,325,305,192
 Name-region = 95,40,225,34
-Type-region = 134,501,143,18
+Type-region = 1,1,1,1
 
 Nightmare-template = TheLordOfTheRingsLCG/Setup/Nightmare-lr.jp2
 Nightmare-template-hires = TheLordOfTheRingsLCG/Setup/Nightmare.jp2

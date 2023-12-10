@@ -7,6 +7,7 @@ const TemplateList = new Array(
 	, 'Nightmare'
 	, 'Location'
 	, 'Burden'
+	, 'NoIcon'
 	, 'Ring'
 ) ;
 const DifficultyList = new Array( 'Standard' , 'Gold' , 'Red' , 'Green' , 'Blue' , 'Purple' ) ;
@@ -257,7 +258,7 @@ function paintFront( g , diy , sheet ){
 	
 // ICONS
 	paintIcon( 'Collection' , g , diy , sheet ) ;
-	if( $Template != 'Ring' ) paintIcon( 'EncounterSet' , g , diy , sheet ) ;
+	if(( $Template != 'Ring' ) && ( $Template != 'NoIcon' )) paintIcon( 'EncounterSet' , g , diy , sheet ) ;
 	paintIcon( 'OptionSpecial' , g , diy , sheet ) ;
 
 // TEXTS
@@ -267,9 +268,9 @@ function paintFront( g , diy , sheet ){
 	Body_writer.setPageShape( PageShape.RECTANGLE_SHAPE ) ;
 	writeBody( [ 'Trait' , 'Rules' , 'Shadow' , 'Flavour' ] , g , diy ) ;
 	
-	if( $Template != 'Ring' ) writeAdventure( g , diy ) ;
+	if(( $Template != 'Ring' ) && ( $Template != 'NoIcon' )) writeAdventure( g , diy ) ;
 	switch( $Template ){
-	case 'Burden' : case 'Ring' : break ;
+	case 'Burden' : case 'NoIcon' : case 'Ring' : break ;
 	default: writeEncounterSetNumber( g , diy ) ;
 	}
 	
