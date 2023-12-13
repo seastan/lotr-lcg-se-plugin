@@ -31,6 +31,7 @@ function create( diy ){
 	createPortrait( 'EncounterSet3' , diy ) ;
 	createPortrait( 'EncounterSet4' , diy ) ;
 	createPortrait( 'EncounterSet5' , diy ) ;
+	createPortrait( 'EncounterSet6' , diy ) ;
 	$PortraitListCount = getPortraitCount() ;
 }
 
@@ -194,6 +195,16 @@ function createInterface( diy , editor , sheet ){
 	) ;
 	EncounterSet_tab.place( EncounterSet5_panel , 'newline,growx' ) ;
 	
+	let EncounterSet6_panel = new Grid() ;
+	EncounterSet6_panel.setTitle( @LRL-EncounterSet6-panel ) ;
+	EncounterSet6_control = new uiIconList( 'EncounterSet6' , GO.DefaultIconList.concat( GO.EncounterSetList ) , bindings ) ;
+	EncounterSet6Portrait_control = new uiPortrait( 'EncounterSet6' , diy ) ;
+	EncounterSet6_panel.place(
+		EncounterSet6_control , 'growx' ,
+		EncounterSet6Portrait_control , 'newline,growx'
+	) ;
+	EncounterSet_tab.place( EncounterSet6_panel , 'newline,growx' ) ;
+	
 	EncounterSet_tab.addToEditor( editor , @LRL-EncounterSet-tab ) ;
 
 // TEMPLATE TAB
@@ -327,6 +338,7 @@ function createFrontPainter( diy, sheet ){
 	updateExternalPortrait( 'EncounterSet3' , diy ) ;
 	updateExternalPortrait( 'EncounterSet4' , diy ) ;
 	updateExternalPortrait( 'EncounterSet5' , diy ) ;
+	updateExternalPortrait( 'EncounterSet6' , diy ) ;
 }
 
 function createBackPainter( diy, sheet ){
@@ -395,7 +407,7 @@ function paintFront( g, diy, sheet ){
 	}
 	
 // TEMPLATE
-	let adapterList = new Array( 'EncounterSet1' , 'EncounterSet2' , 'EncounterSet3' , 'EncounterSet4' , 'EncounterSet5' ) ;
+	let adapterList = new Array( 'EncounterSet1' , 'EncounterSet2' , 'EncounterSet3' , 'EncounterSet4' , 'EncounterSet5' , 'EncounterSet6' ) ;
 	let adapterSelector = 0;
 	for( let index=0 ; index<adapterList.length ; index++ ) if( $(adapterList[index]) != 'Empty' ) adapterSelector=index+1 ;
 	
@@ -410,6 +422,7 @@ function paintFront( g, diy, sheet ){
 	paintIcon( 'EncounterSet3' , g , diy , sheet ) ;
 	paintIcon( 'EncounterSet4' , g , diy , sheet ) ;
 	paintIcon( 'EncounterSet5' , g , diy , sheet ) ;
+	paintIcon( 'EncounterSet6' , g , diy , sheet ) ;
 
 // STATS
 	if( $StageLetter ){

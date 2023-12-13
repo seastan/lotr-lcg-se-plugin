@@ -36,6 +36,7 @@ EncounterSet2-portrait-clip-region = 423,212,22,22
 EncounterSet3-portrait-clip-region = 398,212,22,22
 EncounterSet4-portrait-clip-region = 373,212,22,22
 EncounterSet5-portrait-clip-region = 348,212,22,22
+EncounterSet6-portrait-clip-region = 323,212,22,22
 
 Name-style = FAMILY: {Eons.namedObjects.LRL.LRLfont}
 Name-pointsize = 12
