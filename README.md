@@ -1,1 +1,1 @@
-Custom version of the plugin.
+This is a private tool not intended for use by anyone else.
