@@ -281,6 +281,12 @@ function writeAdventure( g , diy ){
 		diy.settings.getRegion( 'Adventure' ) , g 
 	) ;
 }
+function writeSide( g , diy ){
+	writeLine(
+		$Side , Side_writer ,
+		diy.settings.getRegion( 'Side' ) , g
+	) ;
+}
 function writeSideA( g , diy ){
 	let text ;
 	if( $SideA == '' ) text = #LRL-SideA ;

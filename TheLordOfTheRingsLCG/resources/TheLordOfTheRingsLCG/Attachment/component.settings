@@ -18,6 +18,7 @@ Name-region = 124,35,200,24
 
 Body-region = 56,324,301,170
 Type-region = 1,1,1,1
+Side-region = 142,278,128,14
 Subtype-region = 146,301,124,14
 
 Neutral-template = TheLordOfTheRingsLCG/Attachment/Neutral-lr.jp2

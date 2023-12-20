@@ -216,6 +216,7 @@ function createFrontPainter( diy , sheet ){
 	Type_writer = new createTextBox( 'Type' , diy , sheet ) ;
 	Bottom_writer = new createTextBox( 'Bottom' , diy , sheet ) ;
 	Subtype_writer = new createTextBox( 'Subtype' , diy , sheet ) ;
+	Side_writer = new createTextBox( 'Side' , diy , sheet ) ;
 
 	updateExternalPortrait( 'Portrait' , diy ) ;
 	updateExternalPortrait( 'Collection' , diy ) ;
@@ -260,7 +261,7 @@ function paintFront( g , diy , sheet ){
 	if( $Template == 'CustomSphere' ) paintIcon( 'CustomSphere' , g , diy , sheet ) ;
 
 // STATS
-	paintStatTinted( 'ResourceCost' , ResourceCost_tinter , g , sheet ) ;
+	if( $Template != 'PlayerObjective' ) paintStatTinted( 'ResourceCost' , ResourceCost_tinter , g , sheet ) ;
 
 // TEXTS
 	writeName( g , diy ) ;
@@ -278,6 +279,7 @@ function paintFront( g , diy , sheet ){
 	if( ($Template == 'Boon') || ($Template == 'BoonLeadership') || ($Template == 'BoonLore') || ($Template == 'BoonSpirit') || ($Template == 'BoonTactics') ) writeSubtype( g , diy ) ;
 	writeOptionLeft( g , sheet , diy ) ;
 	writeOptionRight( g , sheet , diy ) ;
+	if( $Template == 'PlayerObjective' ) writeSide( g , diy ) ;
 
 	writeArtist( g , sheet , diy ) ;
 	writeCopyright( g , sheet , diy ) ;
