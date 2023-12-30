@@ -276,8 +276,10 @@ function paintBack( g, diy, sheet ){
 		if( $NameBack == '' ){
 			writeName( g , diy ) ;
 		}else{
+			var BackName = $NameBack;
+			if( diy.settings.getBoolean( 'UniqueBack' , false ) ) BackName = '<lrs>u</lrs><size 50%>\u00a0<size 200%>'+BackName ;
 			writeBreakableLine(
-				$NameBack , Name_writer ,
+				BackName , Name_writer ,
 				diy.settings.getRegion( 'NameBack' ) , g
 			) ;
 		}
